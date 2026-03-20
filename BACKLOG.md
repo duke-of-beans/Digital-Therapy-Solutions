@@ -3,30 +3,11 @@ Last Updated: 2026-03-19
 
 ## Completed Sprints
 - PS-PROP-01 ✅ | PS-PROP-01-FIX ✅ | PS-HUB-01 ✅ | PS-CONDITIONS-01 ✅
-- PS-INSURANCE-01 ✅ | PS-DESIGN-QA-01 ✅ | PS-CONDITIONS-02 ✅
+- PS-INSURANCE-01 ✅ | PS-DESIGN-QA-01 ✅ | PS-CONDITIONS-02 ✅ | PS-SEO-01 ✅
 
 ---
 
 ## Queued Sprints
-
-### PS-SEO-01 — SEO Hardening
-**Status:** READY — next sprint, no blockers
-**Dependencies:** All content sprints ✅ complete
-**Summary:**
-Full inventory is live (65 pages). Now is the right time to harden the SEO layer.
-
-Tasks:
-- Meta description audit + optimization across all 65 pages
-- Canonical tag implementation (prevent duplicate content penalties)
-- Structured data: Schema.org Review on platform pages, FAQPage on condition/insurance
-  pages, BreadcrumbList on all pages
-- sitemap.xml generation script (automated, not manual)
-- robots.txt — confirm Allow: / across all pages
-- Internal link density audit — every page should link to its hub + 2-3 related pages
-- Title tag pattern audit and enforcement
-- Missing logo: add inclusive-therapists.webp to assets/logos/ (Clearbit grab)
-
----
 
 ### PS-PLATFORMS-01 — All 31 Remaining Platform Review Pages
 **Status:** QUEUED — blocked on affiliate applications
@@ -43,9 +24,25 @@ psychology-today, regain, simplepractice, talkiatry, teen-counseling, therapyden
 ---
 
 ### PS-DESIGN-01 — MORPH-26 Design Intelligence Pass
-**Status:** QUEUED
-**Dependencies:** MORPH-26 ✅ complete in ContentStudio. PS-DESIGN-QA-01 ✅ complete.
+**Status:** READY — no blockers
+**Dependencies:** MORPH-26 ✅ | PS-DESIGN-QA-01 ✅ | PS-SEO-01 ✅
 **Summary:**
 Extract DTS design patterns into DESIGN_DNA.yaml for ContentStudio fleet.
 Apply motion registry, photography registry, anti-pattern enforcement.
-Also: grab inclusive-therapists.webp if not already done in PS-SEO-01.
+DTS is one of the 5 reference sites for MORPH-26. Running post-PS-SEO-01 ensures
+extracted patterns reflect the fully complete, hardened site.
+Also: grab inclusive-therapists.webp if not done manually before this sprint.
+
+---
+
+### PS-LAUNCH-01 — Domain Activation + GSC Setup
+**Status:** QUEUED — blocked on domain repurchase (Gavin)
+**Dependencies:** Domain repurchased, DNS pointed to Vercel
+**Summary:**
+- Point domain DNS to Vercel (A record + CNAME per Vercel docs)
+- Add custom domain in Vercel project settings
+- Verify SSL certificate auto-provisioned
+- Create Google Search Console property for digitaltherapysolutions.com
+- Submit sitemap.xml to GSC
+- Verify robots.txt accessible at live domain
+- Monitor first crawl and indexation

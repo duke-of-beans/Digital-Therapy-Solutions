@@ -1,5 +1,5 @@
-﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-03-20
+# Digital Therapy Solutions — STATUS.md
+Last Updated: 2026-03-19
 
 ## Sprints
 
@@ -12,37 +12,32 @@ Last Updated: 2026-03-20
 | PS-INSURANCE-01 | 17 insurer logos + 17 stub pages + insurance.html all live | ✅ COMPLETE | b90b345 |
 | PS-DESIGN-QA-01 | Design quality pass — icons, logos, typography, layout variants | ✅ COMPLETE | 682bb37 |
 | PS-CONDITIONS-02 | 4 remaining condition pages — conditions vertical 28/28 | ✅ COMPLETE | 16ad1e8 |
-| PS-SEO-01 | Meta, schema, sitemap, robots, internal links | ✅ COMPLETE | 1094e09 |
+| PS-SEO-01 | Canonicals, structured data, sitemap, robots, meta audit | ✅ COMPLETE | 1094e09 |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
 
 ## PS-SEO-01 Notes
-- Meta descriptions: all 65 pages at 120–160 chars (23 fixed from LONG/SHORT)
-- Canonicals: all 65 pages — `<link rel="canonical">` in `<head>`
-- BreadcrumbList JSON-LD: all 65 pages
-- FAQPage JSON-LD: 28 condition pages + 23 insurance pages (51 total)
-- Review JSON-LD: betterhelp-review.html, talkspace-review.html, online-therapy-com-review.html
-- sitemap.xml: output/sitemap.xml ✅ — 65 URLs, priority tiers, valid XML
-- robots.txt: output/robots.txt ✅ — Allow: /, Sitemap directive
-- Internal links: all 65 pages at ≥3 body content links (4 pages patched: privacy-policy, about, affiliate-disclosure, editorial-policy)
-- Quality gate: 65 pages, 0 failures
-- Logo grab (inclusive-therapists.webp): BLOCKED — Cowork VM has no outbound DNS. Deferred to PS-DESIGN-01 or manual grab via browser.
+- Meta descriptions: 65/65 at 120-160 chars (23 were flagged, all fixed)
+- Canonicals: 65/65 pages
+- BreadcrumbList JSON-LD: 65/65 pages
+- FAQPage JSON-LD: 28 condition + 23 insurance pages
+- Review JSON-LD: BetterHelp (4.5★), Talkspace (4.3★), Online-Therapy.com (4.1★)
+- sitemap.xml: 65 URLs, priority tiers, valid XML
+- robots.txt: Allow: /, Sitemap directive
+- Internal links: 65/65 pages ≥3 body links (4 pages patched: privacy-policy, about, affiliate-disclosure, editorial-policy)
+- Quality gate: 0 failures
 
-## PS-CONDITIONS-02 Notes
-- mens-mental-health.html, womens-mental-health.html, life-transitions.html, autism.html — all 3 cards each
-- conditions.html — all 28 cards live-linked, hub-card--stub removed, div → a href, SVG icons added
-- inclusive-therapists.webp referenced in autism.html but not in original 34-logo set — onerror fallback
-  shows initials "IT" until logo added. Flag for next logo regrab or PS-DESIGN-01.
-- Quality gate: 65 pages, 0 failures
+## Open Items
+- inclusive-therapists.webp: Clearbit DNS blocked on host machine — grab manually from
+  browser at https://logo.clearbit.com/inclusivetherapists.com or from site source.
+  Save to assets/logos/inclusive-therapists.webp and commit.
 
 ## Known Technical Patterns
 - Python inline commands via cmd fail at ~500+ chars — always write to file first
 - sys.stdout.reconfigure(encoding='utf-8') is correct UTF-8 fix; PYTHONUTF8=1 via set does not persist
 - git commit -m with parens/dashes gets tokenized wrong by Desktop Commander — always use commit-msg.txt + git commit -F
 - Emoji permanently banned — all icons must be cohesive inline SVG, stroke-based (see icons-ban.md)
-- `python` not on PATH in Cowork shell — use `py` launcher
-- Cowork VM has no outbound DNS — Python `requests` cannot hit external APIs. Pre-fetch assets on host or use Claude in Chrome.
-- bs4 (BeautifulSoup) not pre-installed — run `py -m pip install beautifulsoup4 lxml` at sprint start
+- Clearbit logo.clearbit.com blocked by DNS on host — use browser save or alternative source
 
 ## Page Inventory
 
@@ -73,18 +68,14 @@ Last Updated: 2026-03-20
 - [x] index.html, about.html, editorial-policy.html, affiliate-disclosure.html
 - [x] privacy-policy.html, crisis-resources.html, how-online-therapy-works.html, do-i-need-therapy.html
 
+### SEO Files
+- [x] output/sitemap.xml ✅
+- [x] output/robots.txt ✅
+
 ## Launch Blockers
 - [ ] Domain repurchase (Gavin)
 - [ ] Editorial reviewer onboarded
 - [ ] Affiliate applications submitted + accepted
-- [ ] inclusive-therapists.webp missing from assets/logos/ (autism.html showing fallback) — grab via browser, not Cowork VM
-- [x] All content sprints complete ✅ (conditions 28/28, insurance 23/23, hubs 3/3)
-- [x] SEO layer complete ✅ (PS-SEO-01)
-
-## Assets
-- Platform logos: 34 WebPs in assets/logos/ (inclusive-therapists.webp missing — needs grab)
-- Insurance logos: 17 WebPs in assets/logos/insurer-*.webp ✅
-- Hero images: 3 WebPs ✅
-- Branding: favicon, logo-icon, logo-wordmark ✅
-- sitemap.xml: output/sitemap.xml ✅
-- robots.txt: output/robots.txt ✅
+- [ ] inclusive-therapists.webp — grab manually via browser (Clearbit DNS blocked)
+- [x] All content sprints complete ✅
+- [x] SEO hardening complete ✅

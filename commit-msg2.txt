@@ -1,1 +1,1 @@
-chore: log commit hash PS-CONDITIONS-02  
+chore: add PS-SEO-01 commit hash to STATUS.md
