@@ -28,9 +28,7 @@ Last Updated: 2026-03-19
 - Quality gate: 0 failures
 
 ## Open Items
-- inclusive-therapists.webp: Clearbit DNS blocked on host machine — grab manually from
-  browser at https://logo.clearbit.com/inclusivetherapists.com or from site source.
-  Save to assets/logos/inclusive-therapists.webp and commit.
+- None.
 
 ## Known Technical Patterns
 - Python inline commands via cmd fail at ~500+ chars — always write to file first
@@ -76,6 +74,6 @@ Last Updated: 2026-03-19
 - [ ] Domain repurchase (Gavin)
 - [ ] Editorial reviewer onboarded
 - [ ] Affiliate applications submitted + accepted
-- [ ] inclusive-therapists.webp — grab manually via browser (Clearbit DNS blocked)
+- [x] inclusive-therapists.webp ✅ converted and committed
 - [x] All content sprints complete ✅
 - [x] SEO hardening complete ✅
