@@ -10,7 +10,7 @@ Last Updated: 2026-03-20
 | PS-HUB-01 | Hub pages + nav update + breadcrumbs | ✅ COMPLETE | e4a7211 |
 | PS-CONDITIONS-01 | 20 condition pages + conditions.html fully live (24 cards) | ✅ COMPLETE | 889f7dc |
 | PS-INSURANCE-01 | 17 insurer logos + 17 stub pages + insurance.html all live | ✅ COMPLETE | b90b345 |
-| PS-DESIGN-QA-01 | Design quality + visual consistency pass — icon system, logo audit, typography, layout variants | ✅ COMPLETE | TBD |
+| PS-DESIGN-QA-01 | Design quality + visual consistency pass — icon system, logo audit, typography, layout variants | ✅ COMPLETE | 5f99e0c |
 | PS-CONDITIONS-02 | 4 remaining stub condition pages (slugs TBD) | ⬜ QUEUED | — |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-SEO-01 | Meta, schema, sitemap, internal links | ⬜ QUEUED | — |
