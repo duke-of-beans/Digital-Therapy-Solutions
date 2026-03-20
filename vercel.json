@@ -1,5 +1,9 @@
 {
-  "outputDirectory": "output",
+  "rewrites": [
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/templates/(.*)", "destination": "/templates/$1" },
+    { "source": "/(.*)", "destination": "/output/$1" }
+  ],
   "cleanUrls": true,
   "trailingSlash": false
 }
