@@ -1,41 +1,70 @@
 # Digital Therapy Solutions — BACKLOG.md
 Last Updated: 2026-03-19
 
+## Completed Sprints
+- PS-PROP-01 ✅ | PS-PROP-01-FIX ✅ | PS-HUB-01 ✅ | PS-CONDITIONS-01 ✅ | PS-INSURANCE-01 ✅
+
+---
+
 ## Queued Sprints
 
-### PS-PLATFORMS-01
-Build all 31 remaining platform review pages as full content pages.
-One page per logo in assets/logos/ that does not yet have an output/ page.
-Each page follows the platform-review.html template.
-Affiliate links activated per accepted application.
-Pages are togglable (live vs stub CTA) without structural changes.
-Dependencies: Affiliate applications accepted.
+### PS-CONDITIONS-02 — 4 Remaining Stub Condition Pages
+**Status:** READY
+**Dependencies:** PS-CONDITIONS-01 ✅
+**Summary:**
+Build the 4 condition pages currently stubbed on conditions.html hub.
+Confirm slugs before running:
+- mens-mental-health.html ← confirmed slug
+- womens-mental-health.html ← confirmed slug
+- life-transitions.html ← confirmed slug
+- autism.html ← confirmed slug
+Stress + Burnout split confirmed intentional — both pages stay.
+Follow condition-guide.html template. Same pattern as PS-CONDITIONS-01.
 
-### PS-CONDITIONS-01
-Build all 20 stub condition pages from conditions.html hub.
-Each page follows the condition-guide.html template.
-Content: condition overview, who it affects, what to look for in a platform,
-top 3 platform recommendations with affiliate links.
-Dependencies: None — can start immediately after PS-HUB-01.
+---
 
-### PS-INSURANCE-01
-Define full insurer list (17 stubs + 6 live = 23 total).
-Write grab script for insurance company logos (pattern: assets/grab-logos.py).
-Build all 17 stub insurer pages following insurance-guide.html template.
-Apply logos to insurance.html hub and individual insurer pages.
-Dependencies: PS-HUB-01 (hub must exist first).
+### PS-DESIGN-QA-01 — Design Quality + Visual Consistency Pass
+**Status:** READY — sprint prompt written at sprints/PS-DESIGN-QA-01.md
+**Dependencies:** PS-INSURANCE-01 ✅
+**Issues addressed (8 total):**
+1. affordable.html — unstyled .alternative-item and .insurance-links sections
+2. Emoji permanently banned — replace all condition card icons with cohesive SVG system
+3. Insurance logos added to homepage tiles + all contextual placements
+4. Privacy Policy — Fraunces heading + full layout upgrade
+5. Affiliate Disclosure page — create output/affiliate-disclosure.html, link from footer
+6. Logo authenticity — verify-logos.py audit, Clearbit re-grab for flagged logos,
+   object-fit: contain enforced everywhere
+7. Detail page body — pull quotes, stat callouts, verdict box components
+8. Repetitive card grids — feature-list, split-section, timeline-list layout variants
 
-### PS-SEO-01
-Meta description audit across all pages.
-Canonical tag implementation.
-Structured data (Schema.org Review, FAQPage, BreadcrumbList).
-Sitemap.xml generation.
-robots.txt.
-Internal link density audit — ensure every page links to hub + 2–3 related pages.
-Dependencies: PS-HUB-01, PS-PLATFORMS-01, PS-CONDITIONS-01, PS-INSURANCE-01.
+---
 
-### PS-DESIGN-01
-MORPH-26 design intelligence pass on DTS.
-Extract DTS patterns into DESIGN_DNA.yaml for ContentStudio fleet.
+### PS-PLATFORMS-01 — All 31 Remaining Platform Review Pages
+**Status:** QUEUED — blocked on affiliate applications
+**Dependencies:** Affiliate applications accepted
+**Platform list:**
+adhd-online, amwell, bend-health, brightline, brightside, calmerry, cerebral,
+circle-medical, doctor-on-demand, done-adhd, faithful-counseling, gay-therapy-center,
+grow-therapy, headspace, headway, inclusive-therapists, klarity, lunajoy, manatee-health,
+mindful-care, nocd, open-path, our-relationship, our-ritual, pride-counseling,
+psychology-today, regain, simplepractice, talkiatry, teen-counseling, therapyden
+
+---
+
+### PS-SEO-01 — SEO Hardening
+**Status:** QUEUED (after all content sprints)
+**Dependencies:** PS-PLATFORMS-01, PS-CONDITIONS-02, PS-INSURANCE-01 ✅
+**Summary:**
+Meta description audit + optimization. Canonical tags. Structured data (Schema.org
+Review, FAQPage, BreadcrumbList). sitemap.xml generation script. robots.txt.
+Internal link density audit — every page links to hub + 2-3 related pages.
+Title tag pattern enforcement.
+
+---
+
+### PS-DESIGN-01 — MORPH-26 Design Intelligence Pass
+**Status:** QUEUED (MORPH-26 ✅ complete in ContentStudio)
+**Summary:**
+Extract DTS design patterns into DESIGN_DNA.yaml for ContentStudio fleet.
 Apply motion registry, photography registry, anti-pattern enforcement.
-Dependencies: MORPH-26 spec complete.
+Note: Run after PS-DESIGN-QA-01 so extracted patterns reflect the improved design state.

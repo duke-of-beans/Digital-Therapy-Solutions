@@ -1,5 +1,5 @@
 # Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-03-19
+Last Updated: 2026-03-20
 
 ## Sprints
 
@@ -9,28 +9,19 @@ Last Updated: 2026-03-19
 | PS-PROP-01-FIX | Nav/CSS unification — 9 pages fixed | ✅ COMPLETE | 590a427 |
 | PS-HUB-01 | Hub pages + nav update + breadcrumbs | ✅ COMPLETE | e4a7211 |
 | PS-CONDITIONS-01 | 20 condition pages + conditions.html fully live (24 cards) | ✅ COMPLETE | 889f7dc |
-| PS-INSURANCE-01 | Logo grab + 17 stub insurer pages | ✅ COMPLETE | 3c92ead / 7e1c5a9 |
+| PS-INSURANCE-01 | 17 insurer logos + 17 stub pages + insurance.html all live | ✅ COMPLETE | b90b345 |
+| PS-DESIGN-QA-01 | Design quality + visual consistency pass — icon system, logo audit, typography, layout variants | ✅ COMPLETE | TBD |
+| PS-CONDITIONS-02 | 4 remaining stub condition pages (slugs TBD) | ⬜ QUEUED | — |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-SEO-01 | Meta, schema, sitemap, internal links | ⬜ QUEUED | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
 
-## PS-INSURANCE-01 Notes
-- 17/17 insurer logos grabbed successfully (all WebP, assets/logos/insurer-*.webp)
-- 17 stub pages built with substantive content — coverage status, platforms, copay range, how-to-check steps
-- insurance.html updated: all 23 cards live-linked, all with logo img + onerror fallback
-- 6 original live insurer logos (aetna, bcbs, cigna, uhc, medicaid) not yet grabbed — onerror fallback to initials active, visual parity maintained
-- build-insurer-pages.py generator script retained in assets/ for future updates
-
-## PS-CONDITIONS-01 Notes
-- conditions.html finalized with 28 total entries: 24 live + 4 stubs (Men's Mental Health,
-  Women's Mental Health, Life Transitions, Autism & Neurodivergence)
-- "Stress & Burnout" split into separate stress.html + burnout.html — confirm split is intentional
-- Men's/Women's/Life Transitions/Autism slugs to be confirmed and added to PS-CONTENT-02 or PS-CONDITIONS-02
-
-## Known Technical Patterns (established this project)
+## Known Technical Patterns
 - Python inline commands via cmd fail at ~500+ chars (Windows arg length limit) — always write to file first
 - sys.stdout.reconfigure(encoding='utf-8') is correct UTF-8 fix; PYTHONUTF8=1 via set does not persist
-- Desktop Commander read_file returns metadata only for .md files — use cmd type as fallback
+- git commit -m with parens/dashes gets tokenized wrong by Desktop Commander shell — always write message to commit-msg.txt and use git commit -F commit-msg.txt
+- GREGORE hook intercepts stdout in PowerShell — Python scripts must write results to files; run via cmd shell for clean output
+- **EMOJI BAN (permanent):** No emoji anywhere on site. Use inline stroke-based SVGs. See icons-ban.md for standards. Origin: PS-DESIGN-QA-01.
 
 ## Page Inventory
 
@@ -70,7 +61,7 @@ Last Updated: 2026-03-19
 - [ ] life-transitions.html (stub on hub — slug TBD)
 - [ ] autism.html (stub on hub — slug TBD)
 
-### Insurance (23 live / 23 total) ✅
+### Insurance (23 live / 23 total) ✅ COMPLETE
 - [x] aetna.html
 - [x] bcbs.html
 - [x] cigna.html
@@ -95,7 +86,7 @@ Last Updated: 2026-03-19
 - [x] tufts.html
 - [x] community-health.html
 
-### Hub Pages (3 live / 3 total)
+### Hub Pages (3 live / 3 total) ✅ COMPLETE
 - [x] reviews.html
 - [x] conditions.html
 - [x] insurance.html
@@ -120,6 +111,6 @@ Last Updated: 2026-03-19
 
 ## Assets
 - Platform logos: 34 WebPs in assets/logos/ ✅
-- Insurance logos: 17 new insurer logos ✅ (insurer-*.webp) | 6 original live insurer logos not yet grabbed (fallback active)
+- Insurance logos: 17 WebPs in assets/logos/insurer-*.webp ✅
 - Hero images: 3 WebPs ✅
 - Branding: favicon, logo-icon, logo-wordmark ✅
