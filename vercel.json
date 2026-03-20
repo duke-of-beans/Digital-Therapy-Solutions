@@ -1,7 +1,9 @@
 {
   "rewrites": [
-    { "source": "/assets/(.*)", "destination": "/assets/$1" },
-    { "source": "/templates/(.*)", "destination": "/templates/$1" },
+    { "source": "/assets/logos/:file", "destination": "/assets/logos/:file" },
+    { "source": "/assets/branding/:file", "destination": "/assets/branding/:file" },
+    { "source": "/assets/:file", "destination": "/assets/:file" },
+    { "source": "/templates/:file", "destination": "/templates/:file" },
     { "source": "/(.*)", "destination": "/output/$1" }
   ],
   "cleanUrls": true,
