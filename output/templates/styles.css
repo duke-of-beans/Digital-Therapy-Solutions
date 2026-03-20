@@ -362,13 +362,6 @@ small, .text-small {
 .trust-row {
   max-width: 460px;
 }
-.hero-subhead {
-  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
-  color: var(--text-secondary);
-  line-height: 1.7;
-  max-width: 600px;
-  margin: 0 0 var(--space-lg);
-}
 .hero-subhead em {
   font-family: var(--font-display);
   font-style: italic;
