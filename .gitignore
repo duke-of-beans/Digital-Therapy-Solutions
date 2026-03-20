@@ -1,0 +1,4 @@
+commit-msg.txt
+__pycache__/
+.DS_Store
+Thumbs.db
