@@ -344,7 +344,7 @@ small, .text-small {
   font-size: clamp(1rem, 1.3vw, 1.15rem);
   color: var(--text-secondary);
   line-height: 1.7;
-  max-width: 380px;
+  max-width: min(380px, 44vw);
   margin: 0 0 var(--space-xs);
 }
 .hero-subhead em {
@@ -357,7 +357,7 @@ small, .text-small {
   font-size: clamp(0.95rem, 1.2vw, 1.05rem);
   margin-top: 0;
   margin-bottom: var(--space-lg);
-  max-width: 380px;
+  max-width: min(380px, 44vw);
 }
 .trust-row {
   max-width: 460px;
@@ -2620,4 +2620,5 @@ button:focus-visible,
 /* Catches any logo image regardless of wrapper class — prevents runaway sizes */
 .logo { max-width: 64px; max-height: 64px; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: var(--bg-secondary); border-radius: 6px; }
 .logo img { max-width: 64px !important; max-height: 64px !important; width: auto !important; height: auto !important; object-fit: contain !important; background-color: var(--bg-secondary) !important; border-radius: 6px !important; display: block; }
+.logo .logo-fallback { display: none; }
 .card-logo { max-width: 64px; max-height: 64px; object-fit: contain; background-color: var(--bg-secondary); border-radius: 6px; display: block; }
