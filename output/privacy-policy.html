@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,98 +18,26 @@
     <!-- Styles -->
     <link rel="stylesheet" href="../templates/styles.css">
     
-    <style>
-        .policy-hero {
-            background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        
-        .policy-hero h1 {
-            font-family: 'Fraunces', serif;
-            font-size: clamp(2rem, 8vw, 3.5rem);
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-        
-        .policy-hero .subhead {
-            font-family: 'Instrument Serif', serif;
-            font-style: italic;
-            font-size: 1.125rem;
-            opacity: 0.95;
-        }
-        
-        .policy-content {
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.8;
-        }
-        
-        .policy-content h2 {
-            font-family: 'Fraunces', serif;
-            font-size: 1.75rem;
-            font-weight: 600;
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            color: var(--accent-primary);
-        }
-        
-        .policy-content h2:first-child {
-            margin-top: 0;
-        }
-        
-        .policy-content p {
-            color: var(--text-primary);
-            margin-bottom: 1.5rem;
-        }
-        
-        .policy-content a {
-            color: var(--accent-primary);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        
-        .policy-content a:hover {
-            text-decoration: underline;
-        }
-        
-        .policy-note {
-            background: var(--bg-secondary);
-            padding: 1.5rem;
-            border-left: 4px solid var(--accent-primary);
-            margin: 2rem 0;
-            border-radius: 0.25rem;
-            font-style: italic;
-            color: var(--text-primary);
-        }
-        
-        .update-notice {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            margin-bottom: 2rem;
-        }
-    </style>
+    
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="site-nav">
-        <button class="site-nav__hamburger" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <a href="index.html" class="site-nav__brand">
-            <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
-            Digital Therapy Solutions
-        </a>
-        <ul class="site-nav__list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="anxiety.html">Conditions</a></li>
-            <li><a href="betterhelp-review.html">Reviews</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <nav class="site-nav">
+        <div class="site-nav__inner">
+            <a href="index.html" class="site-nav__brand">
+                <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
+                Digital Therapy Solutions
+            </a>
+            <button class="site-nav__hamburger" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+            <ul class="site-nav__links">
+                <li><a href="anxiety.html">Conditions</a></li>
+                <li><a href="betterhelp-review.html">Reviews</a></li>
+                <li><a href="aetna.html">Insurance</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
@@ -120,7 +48,7 @@
         </section>
 
         <!-- Main Content -->
-        <div class="container">
+        <div class="content-container">
             <div class="policy-content">
                 <div class="update-notice reveal">Updated March 19, 2026</div>
 
@@ -187,12 +115,7 @@
 
     <script>
         // Hamburger Navigation
-        const hamburger = document.querySelector('.site-nav__hamburger');
-        const navList = document.querySelector('.site-nav__list');
-
-        hamburger?.addEventListener('click', () => {
-            navList.classList.toggle('active');
-        });
+        const hamburger = document.querySelector('.site-nav__hamburger'); const navLinks = document.querySelector('.site-nav__links'); if (hamburger && navLinks) { hamburger.addEventListener('click', () => navLinks.classList.toggle('open')); }
 
         // Intersection Observer for .reveal
         const observer = new IntersectionObserver((entries) => {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,12 +17,8 @@
                 <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
                 Digital Therapy Solutions
             </a>
-            <button class="site-nav__toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="site-nav__menu">
+            <button class="site-nav__hamburger" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+            <ul class="site-nav__links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="anxiety.html">Conditions</a></li>
                 <li><a href="betterhelp-review.html">Reviews</a></li>
@@ -32,7 +28,7 @@
     </nav>
 
     <header class="section-wrapper section-wrapper--hero">
-        <div class="section-wrapper__inner">
+        <div class="content-container">
             <h1 style="font-family: 'Fraunces', serif; color: #14a085;">We built the site we wish had existed.</h1>
             <p style="font-style: italic; font-size: 1.125rem; color: #555;">Not another affiliate site that recommends everything. An honest research publication that tells you the tradeoff.</p>
         </div>
@@ -40,7 +36,7 @@
 
     <main>
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">Why this site exists</h2>
                     <p>David Kirsch built Digital Therapy Solutions after spending weeks trying to figure out which online therapy platform was right for a family member. Every site he found either recommended everything ("all platforms are great!") or led with affiliate links without disclosing them. The pricing was vague. The "reviews" were barely distinguishable from the platforms' own marketing copy.</p>
@@ -50,7 +46,7 @@
         </div>
 
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">Our methodology</h2>
                     <p>How we research and rate platforms: We sign up, go through the intake process, and verify what we find against the platform's published pricing. We cross-check insurance coverage by calling the insurance carriers directly. We test the matching algorithm. We note whether the "20% off" promotions are real or always-on tricks. We look for the gotchas in the cancellation policy.</p>
@@ -61,7 +57,7 @@
         </div>
 
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">Our team</h2>
                     <p><strong>David Kirsch — Founder and Lead Researcher</strong></p>
@@ -73,7 +69,7 @@
         </div>
 
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">Our commitment</h2>
                     <p>We earn affiliate commissions when you sign up through our links. We disclose this clearly on every page and in our full affiliate disclosure. These commissions pay for our research and keep the site free for readers. They do not influence our rankings — we've recommended platforms we don't have affiliate relationships with, and we've written critical reviews of platforms we do.</p>
@@ -84,9 +80,7 @@
             </div>
         </div>
 
-        <div class="trust-badge">
-            <span>34+ Platforms Reviewed</span>
-        </div>
+        
     </main>
 
     <footer class="site-footer">
@@ -103,11 +97,11 @@
 
     <script>
         // Hamburger menu toggle
-        const navToggle = document.querySelector('.site-nav__toggle');
-        const navMenu = document.querySelector('.site-nav__menu');
+        const hamburger = document.querySelector('.site-nav__hamburger');
+        const navLinks = document.querySelector('.site-nav__links');
         if (navToggle) {
-            navToggle.addEventListener('click', () => {
-                navMenu.classList.toggle('active');
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
             });
         }
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,88 +11,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../templates/styles.css">
-    <style>
-        .comparison-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 2rem 0;
-            background: #f9f9f9;
-            border: 1px solid #e0e0e0;
-        }
-        .comparison-table th,
-        .comparison-table td {
-            padding: 1.5rem;
-            text-align: left;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        .comparison-table th {
-            background: #e8f5f5;
-            color: #1a6b6b;
-            font-weight: 600;
-        }
-        .comparison-table tr:last-child td {
-            border-bottom: none;
-        }
-        .reveal {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        .pull-quote {
-            border-left: 4px solid #1a6b6b;
-            padding-left: 2rem;
-            margin: 2rem 0;
-            font-size: 1.3rem;
-            font-style: italic;
-            color: #333;
-        }
-        .pull-quote-attribution {
-            margin-top: 0.5rem;
-            font-size: 0.95rem;
-            font-style: normal;
-            color: #666;
-        }
-        .visual-break {
-            margin: 3rem 0;
-            overflow: hidden;
-        }
-        .visual-break img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        .section-content {
-            margin: 2rem 0;
-            line-height: 1.8;
-        }
-        .section-content ol {
-            margin: 1rem 0 1rem 2rem;
-        }
-        .section-content li {
-            margin: 0.75rem 0;
-        }
-    </style>
+    
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <img src="../assets/branding/logo-icon.webp" alt="Digital Therapy Solutions logo" class="logo-icon">
-                <span>Digital Therapy Solutions</span>
-            </div>
-            <button class="hamburger-toggle" id="hamburgerToggle">
-                <span></span>
-                <span></span>
-                <span></span>
+        <nav class="site-nav">
+        <div class="site-nav__inner">
+            <a href="index.html" class="site-nav__brand">
+                <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
+                Digital Therapy Solutions
+            </a>
+            <button class="site-nav__hamburger" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
             </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
+            <ul class="site-nav__links">
                 <li><a href="anxiety.html">Conditions</a></li>
                 <li><a href="betterhelp-review.html">Reviews</a></li>
+                <li><a href="aetna.html">Insurance</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </div>
@@ -109,7 +43,7 @@
         </div>
     </header>
 
-    <main class="article-container">
+    <main class="content-container">
         <article class="article-body">
             <section class="reveal">
                 <h2>What a typical session looks like — the actual mechanics</h2>
@@ -269,12 +203,7 @@
 
     <script>
         // Hamburger menu toggle
-        const hamburgerToggle = document.getElementById('hamburgerToggle');
-        const navLinks = document.getElementById('navLinks');
-        
-        hamburgerToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
+        const hamburger = document.querySelector('.site-nav__hamburger'); const navLinks = document.querySelector('.site-nav__links'); if (hamburger && navLinks) { hamburger.addEventListener('click', () => navLinks.classList.toggle('open')); }
 
         // Intersection Observer for .reveal sections
         const revealElements = document.querySelectorAll('.reveal');

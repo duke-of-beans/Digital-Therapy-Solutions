@@ -1,4 +1,4 @@
-/* ============================================================
+﻿/* ============================================================
    DIGITAL THERAPY SOLUTIONS — Shared Stylesheet
    Design Language v1.0.0
    "The Institution You Trust" — Authoritative Warmth
@@ -344,7 +344,7 @@ small, .text-small {
   font-size: clamp(1rem, 1.3vw, 1.15rem);
   color: var(--text-secondary);
   line-height: 1.7;
-  max-width: 420px;
+  max-width: 380px;
   margin: 0 0 var(--space-xs);
 }
 .hero-subhead em {
@@ -357,7 +357,7 @@ small, .text-small {
   font-size: clamp(0.95rem, 1.2vw, 1.05rem);
   margin-top: 0;
   margin-bottom: var(--space-lg);
-  max-width: 420px;
+  max-width: 380px;
 }
 .trust-row {
   max-width: 460px;
@@ -1160,7 +1160,7 @@ small, .text-small {
 
 .site-nav__brand {
   font-family: 'Fraunces', Georgia, serif;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 1.3rem;
   color: var(--text-primary);
@@ -2029,4 +2029,150 @@ button:focus-visible,
 .byline-section__container {
   max-width: var(--content-width);
   margin: 0 auto;
+}
+/* --- Homepage --- */
+.condition-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.condition-tile {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: block;
+}
+.condition-tile:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+.condition-tile__icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+.condition-tile__label {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--accent-primary);
+    margin-bottom: 0.25rem;
+}
+.condition-tile__desc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+.insurance-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+.insurance-tile {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: block;
+}
+.insurance-tile:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+.insurance-tile__name {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--accent-primary);
+    margin-bottom: 0.25rem;
+}
+.insurance-tile__note {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+}
+.homepage-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.homepage-step {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+.homepage-step__number {
+    font-family: var(--font-mono);
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--accent-primary);
+    opacity: 0.4;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+.homepage-step__title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.homepage-step__desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+.platform-mini-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+}
+.platform-mini-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+}
+.platform-mini-card__logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.platform-mini-card__name {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+.platform-mini-card__tagline {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+}
+.platform-mini-card__price {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--accent-primary);
+    margin-bottom: 0.5rem;
+}
+.platform-mini-card__link {
+    color: var(--accent-primary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }

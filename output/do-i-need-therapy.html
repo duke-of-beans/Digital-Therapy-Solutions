@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,158 +16,31 @@
     <!-- Styles -->
     <link rel="stylesheet" href="../templates/styles.css">
     
-    <style>
-        .hero-subhead {
-            font-family: 'Instrument Serif', serif;
-            font-style: italic;
-            font-size: 1.25rem;
-            line-height: 1.6;
-            color: var(--text-secondary);
-            margin: 1.5rem 0 2rem;
-        }
-        
-        .byline {
-            font-size: 0.95rem;
-            color: var(--text-tertiary);
-            margin-top: 1.5rem;
-        }
-        
-        .section-content {
-            margin-bottom: 3rem;
-        }
-        
-        .section-content p {
-            margin-bottom: 1.25rem;
-            line-height: 1.8;
-        }
-        
-        .visual-break {
-            margin: 4rem 0;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-            align-items: center;
-        }
-        
-        .visual-break img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        
-        .pull-quote {
-            font-family: 'Instrument Serif', serif;
-            font-size: 1.35rem;
-            line-height: 1.6;
-            color: var(--text-primary);
-            font-style: italic;
-            padding: 2rem;
-            border-left: 4px solid var(--teal);
-            background: var(--bg-secondary);
-            margin: 0;
-        }
-        
-        .attribution {
-            font-size: 0.9rem;
-            color: var(--text-tertiary);
-            margin-top: 1rem;
-            font-style: normal;
-        }
-        
-        .soft-bridge {
-            background: var(--bg-secondary);
-            padding: 2rem;
-            border-radius: 8px;
-            margin: 2rem 0;
-        }
-        
-        .soft-bridge p {
-            margin-bottom: 1.5rem;
-        }
-        
-        .soft-bridge a {
-            display: block;
-            margin-bottom: 0.75rem;
-            color: var(--teal);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        
-        .soft-bridge a:hover {
-            color: var(--teal-dark);
-            text-decoration: underline;
-        }
-        
-        .reveal {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        }
-        
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        
-        .hesitation-item {
-            margin-bottom: 2rem;
-        }
-        
-        .hesitation-item strong {
-            color: var(--text-primary);
-            display: block;
-            margin-bottom: 0.5rem;
-        }
-        
-        .therapy-type {
-            margin-bottom: 1.75rem;
-        }
-        
-        .therapy-type strong {
-            color: var(--text-primary);
-        }
-        
-        @media (max-width: 768px) {
-            .visual-break {
-                grid-template-columns: 1fr;
-            }
-            
-            .hero-subhead {
-                font-size: 1.1rem;
-            }
-            
-            .pull-quote {
-                font-size: 1.1rem;
-            }
-        }
-    </style>
+    
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="../assets/branding/logo-icon.webp" alt="Digital Therapy Solutions logo" class="logo-icon">
+        <nav class="site-nav">
+        <div class="site-nav__inner">
+            <a href="index.html" class="site-nav__brand">
+                <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
+                Digital Therapy Solutions
             </a>
-            
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
+            <button class="site-nav__hamburger" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
             </button>
-            
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html">Home</a></li>
+            <ul class="site-nav__links">
                 <li><a href="anxiety.html">Conditions</a></li>
                 <li><a href="betterhelp-review.html">Reviews</a></li>
+                <li><a href="aetna.html">Insurance</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
+    <div class="section-wrapper section-wrapper--hero">
+        <div class="hero-text">
             <img src="../assets/hero.webp" alt="Person sitting with a cup of coffee, looking thoughtful" class="hero-image">
             
             <div class="hero-content">
@@ -181,7 +54,7 @@
     </section>
 
     <!-- Main Content -->
-    <main class="content-wrapper">
+    <main class="content-container">
         <article class="article">
             <!-- Section 1: Signs therapy might help -->
             <section class="reveal section-content">
@@ -363,19 +236,7 @@
     <!-- JavaScript -->
     <script>
         // Hamburger Navigation
-        const navToggle = document.getElementById('navToggle');
-        const navMenu = document.getElementById('navMenu');
-
-        navToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
-
-        // Close nav when link is clicked
-        const navLinks = navMenu.querySelectorAll('a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                navMenu.classList.remove('active');
-            });
+        const hamburger = document.querySelector('.site-nav__hamburger'); const navLinks = document.querySelector('.site-nav__links'); if (hamburger && navLinks) { hamburger.addEventListener('click', () => navLinks.classList.toggle('open')); }
         });
 
         // IntersectionObserver for Reveal Animation

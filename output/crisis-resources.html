@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,168 +18,26 @@
     <!-- Styles -->
     <link rel="stylesheet" href="../templates/styles.css">
     
-    <style>
-        .crisis-hero {
-            background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        
-        .crisis-hero h1 {
-            font-family: 'Fraunces', serif;
-            font-size: clamp(2rem, 8vw, 3.5rem);
-            font-weight: 700;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-        
-        .crisis-hero .subhead {
-            font-family: 'Instrument Serif', serif;
-            font-style: italic;
-            font-size: 1.25rem;
-            margin-bottom: 1.5rem;
-            opacity: 0.95;
-        }
-        
-        .crisis-note {
-            background: var(--crisis-bg);
-            border-left: 4px solid var(--crisis-border);
-            padding: 1.5rem;
-            margin: 1.5rem auto;
-            max-width: 600px;
-            border-radius: 0.25rem;
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-        
-        .crisis-intro {
-            font-size: 1.1rem;
-            line-height: 1.7;
-            margin-bottom: 3rem;
-            color: var(--text-primary);
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .resource-card {
-            border-left: 4px solid var(--accent-primary);
-            padding: 2rem;
-            margin-bottom: 2rem;
-            background: var(--bg-secondary);
-            border-radius: 0.25rem;
-        }
-        
-        .resource-card h3 {
-            font-family: 'Fraunces', serif;
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: var(--accent-primary);
-        }
-        
-        .resource-card p {
-            line-height: 1.7;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-        
-        .resource-card p:last-child {
-            margin-bottom: 0;
-        }
-        
-        .resource-label {
-            display: inline-block;
-            font-weight: 600;
-            color: var(--accent-primary);
-            margin-right: 0.5rem;
-        }
-        
-        .resource-link {
-            display: inline-block;
-            margin-top: 1rem;
-            padding: 0.75rem 1.5rem;
-            background: var(--accent-primary);
-            color: white;
-            text-decoration: none;
-            border-radius: 0.25rem;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: background 0.2s;
-        }
-        
-        .resource-link:hover {
-            background: var(--accent-primary-dark);
-        }
-        
-        .bridge-section {
-            background: var(--bg-secondary);
-            padding: 2rem;
-            margin-top: 3rem;
-            border-radius: 0.25rem;
-            text-align: center;
-        }
-        
-        .bridge-section h2 {
-            font-family: 'Fraunces', serif;
-            font-size: 1.75rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: var(--accent-primary);
-        }
-        
-        .bridge-section p {
-            font-size: 1.1rem;
-            line-height: 1.7;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .bridge-links {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .bridge-links a {
-            padding: 0.75rem 1.5rem;
-            background: var(--accent-primary);
-            color: white;
-            text-decoration: none;
-            border-radius: 0.25rem;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-        
-        .bridge-links a:hover {
-            background: var(--accent-primary-dark);
-        }
-    </style>
+    
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="site-nav">
-        <button class="site-nav__hamburger" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <a href="index.html" class="site-nav__brand">
-            <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
-            Digital Therapy Solutions
-        </a>
-        <ul class="site-nav__list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="anxiety.html">Conditions</a></li>
-            <li><a href="betterhelp-review.html">Reviews</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <nav class="site-nav">
+        <div class="site-nav__inner">
+            <a href="index.html" class="site-nav__brand">
+                <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
+                Digital Therapy Solutions
+            </a>
+            <button class="site-nav__hamburger" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+            <ul class="site-nav__links">
+                <li><a href="anxiety.html">Conditions</a></li>
+                <li><a href="betterhelp-review.html">Reviews</a></li>
+                <li><a href="aetna.html">Insurance</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
@@ -193,7 +51,7 @@
         </section>
 
         <!-- Main Content -->
-        <div class="container">
+        <div class="content-container">
             <p class="crisis-intro reveal">
                 This page is for people who need help right now — not for people researching therapy options. If that's you, the resources below connect you with real people immediately. No waitlist. No insurance required. No intake form. The hotlines on this page are staffed 24/7.
             </p>
@@ -283,12 +141,7 @@
 
     <script>
         // Hamburger Navigation
-        const hamburger = document.querySelector('.site-nav__hamburger');
-        const navList = document.querySelector('.site-nav__list');
-
-        hamburger?.addEventListener('click', () => {
-            navList.classList.toggle('active');
-        });
+        const hamburger = document.querySelector('.site-nav__hamburger'); const navLinks = document.querySelector('.site-nav__links'); if (hamburger && navLinks) { hamburger.addEventListener('click', () => navLinks.classList.toggle('open')); }
 
         // Intersection Observer for .reveal
         const observer = new IntersectionObserver((entries) => {

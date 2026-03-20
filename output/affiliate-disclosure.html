@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,12 +17,8 @@
                 <img src="../assets/branding/logo-icon.webp" alt="" class="site-nav__brand-icon">
                 Digital Therapy Solutions
             </a>
-            <button class="site-nav__toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="site-nav__menu">
+            <button class="site-nav__hamburger" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+            <ul class="site-nav__links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="anxiety.html">Conditions</a></li>
                 <li><a href="betterhelp-review.html">Reviews</a></li>
@@ -32,7 +28,7 @@
     </nav>
 
     <header class="section-wrapper section-wrapper--hero">
-        <div class="section-wrapper__inner">
+        <div class="content-container">
             <h1 style="font-family: 'Fraunces', serif; color: #14a085;">We earn commissions. Here's exactly how it works.</h1>
             <p style="font-style: italic; font-size: 1.125rem; color: #555;">This is the least fun page on the site. But you deserve to know.</p>
         </div>
@@ -40,7 +36,7 @@
 
     <main>
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">What affiliate relationships mean</h2>
                     <p>When you click a link on this site and sign up for an online therapy platform, we may earn a commission. This is called an affiliate relationship. The FTC requires us to disclose this, and we think you should know even if they didn't.</p>
@@ -50,7 +46,7 @@
         </div>
 
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">Which programs we participate in</h2>
                     <p><strong>BetterHelp:</strong> affiliate program via Impact Radius. We earn a commission on new paid subscriptions.</p>
@@ -62,7 +58,7 @@
         </div>
 
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">How this does and doesn't affect our content</h2>
                     <p><strong>What it DOES affect:</strong> which platforms we've invested the most time reviewing. A platform with an affiliate relationship gets more thorough testing than one we haven't onboarded with yet. That's a natural reality we're being honest about.</p>
@@ -73,7 +69,7 @@
         </div>
 
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">How to tell which links are affiliate links</h2>
                     <p>Most outbound links to therapy platforms are affiliate links. We don't add visual indicators to individual links because that creates visual clutter that's actually harder to parse. Instead, we disclose clearly at the top of every review and at the bottom of every content page: "Some links on this page are affiliate links."</p>
@@ -82,7 +78,7 @@
         </div>
 
         <div class="section-wrapper reveal">
-            <div class="section-wrapper__inner">
+            <div class="content-container">
                 <div class="article-body">
                     <h2 class="section-heading">Questions?</h2>
                     <p>If you have questions about our affiliate relationships or want to know whether a specific link is an affiliate link, email us at contact@digitaltherapysolutions.com.</p>
@@ -92,9 +88,7 @@
             </div>
         </div>
 
-        <div class="trust-badge">
-            <span>34+ Platforms Reviewed</span>
-        </div>
+        
     </main>
 
     <footer class="site-footer">
@@ -111,11 +105,11 @@
 
     <script>
         // Hamburger menu toggle
-        const navToggle = document.querySelector('.site-nav__toggle');
-        const navMenu = document.querySelector('.site-nav__menu');
+        const hamburger = document.querySelector('.site-nav__hamburger');
+        const navLinks = document.querySelector('.site-nav__links');
         if (navToggle) {
-            navToggle.addEventListener('click', () => {
-                navMenu.classList.toggle('active');
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
             });
         }
 
