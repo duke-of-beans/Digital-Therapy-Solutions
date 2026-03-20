@@ -11,7 +11,7 @@ Last Updated: 2026-03-20
 | PS-CONDITIONS-01 | 20 condition pages + conditions.html fully live (24 cards) | ✅ COMPLETE | 889f7dc |
 | PS-INSURANCE-01 | 17 insurer logos + 17 stub pages + insurance.html all live | ✅ COMPLETE | b90b345 |
 | PS-DESIGN-QA-01 | Design quality pass — icons, logos, typography, layout variants | ✅ COMPLETE | 682bb37 |
-| PS-CONDITIONS-02 | 4 remaining condition pages | ✅ COMPLETE | TBD |
+| PS-CONDITIONS-02 | 4 remaining condition pages | ✅ COMPLETE | 16ad1e8 |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-SEO-01 | Meta, schema, sitemap, internal links | ⬜ QUEUED | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
