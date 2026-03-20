@@ -9,6 +9,17 @@ Last Updated: 2026-03-19
 
 ## Queued Sprints
 
+### PS-MOBILE-01 — Mobile Responsiveness Audit + Comparison Table Fix
+**Status:** READY
+**Issues:**
+- Comparison tables overflow on mobile — need horizontal scroll wrapper or responsive reflow
+- Global mobile audit: all page types at 375px, 480px, 768px
+- Check: nav hamburger, hero split, hub card grids, platform cards, detail pills, forks section
+- Check: typography scale at small sizes, touch target sizes on CTAs
+- Comparison table fix: wrap in overflow-x: auto container OR reflow to stacked card layout on mobile
+
+---
+
 ### PS-AUDIT-01 — Full Site Audit (Multi-Hat)
 **Status:** READY — sprint prompt at sprints/PS-AUDIT-01.md
 **Hats:** Designer / Engineer / DTS Owner / Affiliate Partner

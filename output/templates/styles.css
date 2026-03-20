@@ -1329,6 +1329,11 @@ small, .text-small {
   opacity: 1;
   transform: translateY(0);
 }
+/* alias — some pages use 'revealed' class name */
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
 .reveal-delay-1 { transition-delay: 0.1s; }
 .reveal-delay-2 { transition-delay: 0.2s; }
 .reveal-delay-3 { transition-delay: 0.3s; }
