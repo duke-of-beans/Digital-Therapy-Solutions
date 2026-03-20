@@ -2151,10 +2151,10 @@ button:focus-visible,
     color: var(--text-secondary);
     margin-bottom: 0.75rem;
 }
-.platform-mini-card__price {
-    font-family: var(--font-mono);
+..platform-mini-card__price {
+    font-family: var(--font-body);
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: var(--font-body-weight-medium);
     color: var(--accent-primary);
     margin-bottom: 0.5rem;
 }
