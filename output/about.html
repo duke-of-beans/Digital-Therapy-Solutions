@@ -1,106 +1,411 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>About Digital Therapy Solutions — Our Mission &amp; Methodology | Digital Therapy Solutions</title>
-<meta content="We review online therapy platforms so you don't have to. Learn about our methodology, our team, and why we built this site." name="description"/><link href="https://digitaltherapysolutions.com/about" rel="canonical"/>
+<title>About Digital Therapy Solutions — Our Mission &amp; Methodology</title>
+<meta content="We review online therapy platforms so you don't have to. Learn about our methodology, our team, and why we built this site." name="description"/>
+<link href="https://digitaltherapysolutions.com/about" rel="canonical"/>
 <link href="../assets/branding/favicon.png" rel="icon" type="image/png"/>
 <link href="../assets/branding/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <link href="../templates/styles.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@6..72,400;6..72,700&amp;family=Instrument+Serif:ital@0;1&amp;family=DM+Sans:opsz,wght@9..150,400;9..150,500;9..150,700&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://digitaltherapysolutions.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "About",
-      "item": "https://digitaltherapysolutions.com/about"
-    }
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://digitaltherapysolutions.com/"},
+    {"@type":"ListItem","position":2,"name":"About","item":"https://digitaltherapysolutions.com/about"}
   ]
-}</script></head>
+}</script>
+<style>
+/* --- About Page --- */
+.about-hero {
+  background: var(--bg-dark);
+  padding: clamp(4rem, 8vw, 7rem) var(--space-md) clamp(3rem, 6vw, 5rem);
+  position: relative;
+  overflow: hidden;
+}
+.about-hero::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.2em;
+  left: -0.05em;
+  font-family: var(--font-display);
+  font-size: clamp(12rem, 20vw, 18rem);
+  color: rgba(45,122,111,0.12);
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+.about-hero__inner {
+  max-width: 820px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.about-hero__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  margin-bottom: var(--space-md);
+}
+.about-hero__headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 400;
+  color: var(--text-inverse);
+  line-height: 1.15;
+  margin-bottom: var(--space-md);
+  max-width: 720px;
+}
+.about-hero__subhead {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  color: rgba(245,240,232,0.65);
+  line-height: 1.6;
+  max-width: 580px;
+  margin-bottom: 0;
+}
+.about-stats {
+  display: flex;
+  gap: var(--space-xl);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  flex-wrap: wrap;
+}
+.about-stat__number {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--accent-primary);
+  line-height: 1;
+  display: block;
+}
+.about-stat__label {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: rgba(245,240,232,0.5);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 4px;
+  display: block;
+}
+.about-section {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: clamp(3rem, 5vw, 5rem) var(--space-md);
+}
+.about-section__label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: var(--space-sm);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.about-section__label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.about-section__heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: var(--space-md);
+  line-height: 1.2;
+}
+.about-section__body {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.2vw, 1.1rem);
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+.about-section__body p { margin-bottom: var(--space-md); }
+.about-pull-quote {
+  border-left: 3px solid var(--accent-warm);
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-lg) 0;
+  background: var(--accent-warm-light);
+  border-radius: 0 8px 8px 0;
+}
+.about-pull-quote p {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin: 0;
+}
+.about-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+.about-pillar {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: var(--space-md);
+}
+.about-pillar__number {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--accent-primary);
+  opacity: 0.4;
+  line-height: 1;
+  margin-bottom: var(--space-xs);
+}
+.about-pillar__title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+}
+.about-pillar__desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.about-founder {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--space-lg);
+  align-items: start;
+  margin-top: var(--space-lg);
+}
+.about-founder__badge {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+}
+.about-founder__initial {
+  width: 72px;
+  height: 72px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-sm);
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: white;
+}
+.about-founder__name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.about-founder__role {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+.about-divider {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.about-commitment {
+  background: var(--bg-dark);
+  padding: clamp(3rem, 5vw, 5rem) var(--space-md);
+}
+.about-commitment__inner {
+  max-width: 820px;
+  margin: 0 auto;
+}
+.about-commitment__heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: var(--text-inverse);
+  font-weight: 400;
+  margin-bottom: var(--space-md);
+}
+.about-commitment__body {
+  font-size: clamp(1rem, 1.2vw, 1.1rem);
+  color: rgba(245,240,232,0.7);
+  line-height: 1.8;
+}
+.about-commitment__body p { margin-bottom: var(--space-md); }
+.about-commitment__links {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+  flex-wrap: wrap;
+}
+.about-commitment__link {
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--accent-primary);
+  padding-bottom: 2px;
+  transition: opacity 0.2s;
+}
+.about-commitment__link:hover { opacity: 0.7; }
+@media (max-width: 640px) {
+  .about-founder { grid-template-columns: 1fr; }
+  .about-stats { gap: var(--space-md); }
+}
+</style>
+</head>
 <body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
 <nav class="site-nav">
 <div class="site-nav__inner">
 <a class="site-nav__brand" href="index.html">
 <img alt="" class="site-nav__brand-icon" src="../assets/branding/logo-icon.webp"/>
-                Digital Therapy Solutions
-            </a>
-<button aria-label="Toggle navigation" class="site-nav__hamburger"><svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="24"><line x1="3" x2="21" y1="6" y2="6"></line><line x1="3" x2="21" y1="12" y2="12"></line><line x1="3" x2="21" y1="18" y2="18"></line></svg></button>
+Digital Therapy Solutions
+</a>
+<button aria-label="Toggle navigation" class="site-nav__hamburger">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
 <ul class="site-nav__links">
 <li><a href="index.html">Home</a></li>
 <li><a href="conditions.html">Conditions</a></li>
 <li><a href="reviews.html">Reviews</a></li>
+<li><a href="insurance.html">Insurance</a></li>
 <li><a href="about.html">About</a></li>
 </ul>
 </div>
 </nav>
-<header class="section-wrapper section-wrapper--hero">
-<div class="content-container">
-<h1 style="font-family: 'Fraunces', serif; color: #14a085;">We built the site we wish had existed.</h1>
-<p style="font-style: italic; font-size: 1.125rem; color: #555;">Not another affiliate site that recommends everything. An honest research publication that tells you the tradeoff.</p>
+
+<main id="main-content">
+
+<!-- HERO -->
+<section class="about-hero">
+<div class="about-hero__inner">
+<p class="about-hero__eyebrow">About Digital Therapy Solutions</p>
+<h1 class="about-hero__headline">We built the site we wish had existed.</h1>
+<p class="about-hero__subhead">Not another affiliate directory that recommends everything. An honest research publication that tells you the tradeoff.</p>
+<div class="about-stats">
+<div>
+<span class="about-stat__number">34+</span>
+<span class="about-stat__label">Platforms tested</span>
 </div>
-</header>
-<main>
-<div class="section-wrapper reveal">
-<div class="content-container">
-<div class="article-body">
-<h2 class="section-heading">Why this site exists</h2>
+<div>
+<span class="about-stat__number">97</span>
+<span class="about-stat__label">Pages of research</span>
+</div>
+<div>
+<span class="about-stat__number">23</span>
+<span class="about-stat__label">Insurance guides</span>
+</div>
+<div>
+<span class="about-stat__number">28</span>
+<span class="about-stat__label">Condition guides</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- WHY WE EXIST -->
+<section class="about-divider">
+<div class="about-section">
+<p class="about-section__label">The origin</p>
+<h2 class="about-section__heading">Why this site exists</h2>
+<div class="about-section__body">
 <p>David Kirsch built Digital Therapy Solutions after spending weeks trying to figure out which online therapy platform was right for a family member. Every site he found either recommended everything ("all platforms are great!") or led with affiliate links without disclosing them. The pricing was vague. The "reviews" were barely distinguishable from the platforms' own marketing copy.</p>
-<p>The mission became simple: build the site that actually does the work. Test the platforms. Verify the pricing. Check the insurance coverage. Talk to licensed professionals. Then write what we found — clearly, with tradeoffs named, with "who should look elsewhere" sections that other sites are too scared to include.</p>
+<div class="about-pull-quote">
+<p>"Every review site I found was either clueless or corrupted. The right answer was to build the one that wasn't."</p>
+</div>
+<p>The mission became simple: build the site that actually does the work. Test the platforms. Verify the pricing. Check the insurance coverage. Then write what we found — clearly, with tradeoffs named, with "who should look elsewhere" sections that other sites are too scared to include.</p>
+</div>
+</div>
+</section>
+
+<!-- METHODOLOGY -->
+<div style="background:var(--bg-secondary); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+<div class="about-section">
+<p class="about-section__label">How we work</p>
+<h2 class="about-section__heading">Our methodology</h2>
+<div class="about-section__body">
+<p>We sign up for every platform we review. We go through the intake process, get matched, and verify pricing at the payment screen — not by trusting the marketing copy. When a platform says "$65/week," we go to checkout.</p>
+</div>
+<div class="about-pillars">
+<div class="about-pillar">
+<div class="about-pillar__number">01</div>
+<div class="about-pillar__title">Hands-on testing</div>
+<div class="about-pillar__desc">We sign up, go through intake, verify pricing at checkout, and test the matching algorithm.</div>
+</div>
+<div class="about-pillar">
+<div class="about-pillar__number">02</div>
+<div class="about-pillar__title">Insurance verification</div>
+<div class="about-pillar__desc">We check coverage via the platform's tool and by calling carriers directly. We document where they differ.</div>
+</div>
+<div class="about-pillar">
+<div class="about-pillar__number">03</div>
+<div class="about-pillar__title">Clinical review</div>
+<div class="about-pillar__desc">Every review is sent to a licensed mental health professional to verify therapeutic accuracy.</div>
+</div>
+<div class="about-pillar">
+<div class="about-pillar__number">04</div>
+<div class="about-pillar__title">Honest scoring</div>
+<div class="about-pillar__desc">Our rubric covers pricing transparency, therapist quality signals, insurance access, and cancellation terms.</div>
 </div>
 </div>
 </div>
-<div class="section-wrapper reveal">
-<div class="content-container">
-<div class="article-body">
-<h2 class="section-heading">Our methodology</h2>
-<p>How we research and rate platforms: We sign up, go through the intake process, and verify what we find against the platform's published pricing. We cross-check insurance coverage by calling the insurance carriers directly. We test the matching algorithm. We note whether the "20% off" promotions are real or always-on tricks. We look for the gotchas in the cancellation policy.</p>
-<p>Every platform review is then sent to a licensed mental health professional for clinical accuracy review. They verify that our descriptions of therapeutic modalities are accurate, that our "best for" recommendations make clinical sense, and that our "who should look elsewhere" sections are honest.</p>
-<p>Our scoring rubric covers: pricing transparency, insurance accessibility, therapist quality signals, platform usability, format options, cancellation policy, and crisis response. No platform gets a perfect score — because none of them are perfect.</p>
+</div>
+
+<!-- TEAM -->
+<div style="background:var(--bg-primary);">
+<div class="about-section">
+<p class="about-section__label">The people</p>
+<h2 class="about-section__heading">Our team</h2>
+<div class="about-founder">
+<div class="about-founder__badge">
+<div class="about-founder__initial">D</div>
+<div class="about-founder__name">David Kirsch</div>
+<div class="about-founder__role">Founder &amp; Lead Researcher</div>
+</div>
+<div class="about-section__body">
+<p>David has a background in operations and research. He built Digital Therapy Solutions as a consumer advocacy project after experiencing firsthand how opaque the mental health services landscape is for regular people trying to find help.</p>
+<p>His work is focused on translating platform complexity into plain language that actually helps people make decisions — not language that sounds helpful while protecting advertisers.</p>
+</div>
+</div>
+<div class="about-section__body" style="margin-top:var(--space-lg); padding-top:var(--space-lg); border-top:1px solid var(--border);">
+<p><strong style="font-family:var(--font-display);">Clinical Review Network</strong></p>
+<p>We're actively recruiting licensed therapists and mental health professionals to review our content. If you're a licensed clinical professional interested in contributing, email us at <a href="mailto:reviewers@digitaltherapysolutions.com">reviewers@digitaltherapysolutions.com</a>.</p>
 </div>
 </div>
 </div>
-<div class="section-wrapper reveal">
-<div class="content-container">
-<div class="article-body">
-<h2 class="section-heading">Our team</h2>
-<p><strong>David Kirsch — Founder and Lead Researcher</strong></p>
-<p>David has a background in operations and research. He built Digital Therapy Solutions as a consumer advocacy project after experiencing firsthand how opaque the mental health services landscape is for regular people trying to find help. His work is focused on translating platform complexity into plain language that actually helps people make decisions.</p>
-<p><strong>Clinical Review Network</strong></p>
-<p>We're actively recruiting licensed therapists and mental health professionals to review our content. If you're a licensed clinical professional interested in contributing, we'd love to hear from you. Email us at reviewers@digitaltherapysolutions.com.</p>
-</div>
-</div>
-</div>
-<div class="section-wrapper reveal">
-<div class="content-container">
-<div class="article-body">
-<h2 class="section-heading">Our commitment</h2>
-<p>We earn affiliate commissions when you sign up through our links. We disclose this clearly on every page and in our full affiliate disclosure. These commissions pay for our research and keep the site free for readers. They do not influence our rankings — we've recommended platforms we don't have affiliate relationships with, and we've written critical reviews of platforms we do.</p>
+
+<!-- COMMITMENT -->
+<section class="about-commitment">
+<div class="about-commitment__inner">
+<h2 class="about-commitment__heading">Our commitment to you</h2>
+<div class="about-commitment__body">
+<p>We earn affiliate commissions when you sign up through our links. We disclose this clearly on every page. These commissions pay for our research and keep the site free. They do not influence our rankings — we've recommended platforms we don't have affiliate relationships with, and we've written critical reviews of platforms we do.</p>
 <p>No platform has ever paid us for a favorable review. No platform has ever been told in advance what their score would be. If that ever changes, we'll close the site.</p>
-<p><a href="editorial-policy.html">Read our full editorial policy →</a></p>
-<p><a href="affiliate-disclosure.html">Read our affiliate disclosure →</a></p>
+</div>
+<div class="about-commitment__links">
+<a href="editorial-policy.html" class="about-commitment__link">Read our editorial policy →</a>
+<a href="affiliate-disclosure.html" class="about-commitment__link">Full affiliate disclosure →</a>
 </div>
 </div>
-</div>
+</section>
+
 </main>
-<div class="section-wrapper" style="padding:var(--space-xl) var(--space-md);max-width:var(--table-width);margin:0 auto;">
-<h2 style="font-family:var(--font-serif);font-size:1.4rem;margin-bottom:var(--space-md);">Also worth reading</h2>
-<ul style="list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:var(--space-sm);">
-<li><a href="how-online-therapy-works.html" style="color:var(--accent-primary);text-decoration:underline;">How Online Therapy Works</a></li>
-<li><a href="editorial-policy.html" style="color:var(--accent-primary);text-decoration:underline;">Our Editorial Policy</a></li>
-<li><a href="reviews.html" style="color:var(--accent-primary);text-decoration:underline;">Browse All Platform Reviews</a></li>
-</ul>
-</div>
+
 <footer class="site-footer">
 <div class="site-footer__inner">
 <div><h3>About Digital Therapy Solutions</h3><p>Independent reviews of online therapy platforms. Expert-written, regularly updated, no sponsored rankings.</p></div>
@@ -110,42 +415,12 @@
 <div class="site-footer__crisis"><span class="crisis-alert">In crisis?</span> Call or text <a href="tel:988">988</a> · Text HOME to <a href="sms:741741">741741</a> · Emergency: <a href="tel:911">911</a></div>
 <div class="site-footer__bottom">© 2026 Digital Therapy Solutions. All rights reserved. | <a href="privacy-policy.html">Privacy</a> | <a href="affiliate-disclosure.html">Disclosures</a></div>
 </footer>
-<button aria-label="Back to top" class="back-to-top">↑</button>
 <script>
-        // Hamburger menu toggle
-        const hamburger = document.querySelector('.site-nav__hamburger');
-        const navLinks = document.querySelector('.site-nav__links');
-        if (navToggle) {
-            hamburger.addEventListener('click', () => {
-                navLinks.classList.toggle('open');
-            });
-        }
-
-        // Reveal on scroll
-        const revealElements = document.querySelectorAll('.reveal');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
-                }
-            });
-        }, { threshold: 0.1 });
-        revealElements.forEach(el => observer.observe(el));
-
-        // Back to top button
-        const backToTop = document.querySelector('.back-to-top');
-        if (backToTop) {
-            window.addEventListener('scroll', () => {
-                if (window.pageYOffset > 300) {
-                    backToTop.style.display = 'block';
-                } else {
-                    backToTop.style.display = 'none';
-                }
-            });
-            backToTop.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        }
-    </script>
+const hamburger = document.querySelector('.site-nav__hamburger');
+const navLinks = document.querySelector('.site-nav__links');
+if (hamburger && navLinks) {
+  hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+}
+</script>
 </body>
 </html>
