@@ -15,8 +15,18 @@ Last Updated: 2026-03-20
 | PS-SEO-01 | Canonicals, structured data, sitemap, robots, meta audit | ✅ COMPLETE | 1094e09 |
 | PS-DESIGN-QA-02 | Vercel routing, footer links, logos, layout variety | ✅ COMPLETE | 27a767d |
 | PS-ROUTING-FIX | vercel.json outputDirectory — clean URLs confirmed live | ✅ COMPLETE | db10564 |
-| PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
+| PS-PLATFORMS-01 | 31 review pages + affiliate toggle system | ✅ COMPLETE | TBD |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
+
+
+## PS-PLATFORMS-01 Notes
+- 31 new review pages built — all follow betterhelp-review.html structure
+- All 34 review pages (including 3 existing) use data-affiliate-status="pending" pending CTA pattern
+- assets/activate-affiliate.py ready: py assets/activate-affiliate.py --platform [slug] --url [url]
+- .cta-button--pending CSS added to templates/styles.css
+- reviews.html: all 34 cards live-linked, 0 stubs
+- output/sitemap.xml regenerated: 97 URLs
+- Quality gate: 0 failures, 97 pages
 
 ## PS-DESIGN-QA-02 Notes
 - vercel.json at repo root — clean URLs live (/reviews, /betterhelp-review, etc.)
@@ -41,7 +51,7 @@ Last Updated: 2026-03-20
 - Quality gate: 0 failures
 
 ## Open Items
-- None.
+- None. Next: PS-DESIGN-01 (MORPH-26 design intelligence pass)
 
 ## Known Technical Patterns
 - Python inline commands via cmd fail at ~500+ chars — always write to file first
@@ -52,9 +62,11 @@ Last Updated: 2026-03-20
 
 ## Page Inventory
 
-### Reviews (3 live / 34 total)
+### Reviews (34 live / 34 total) ✅ COMPLETE
 - [x] betterhelp-review.html, talkspace-review.html, online-therapy-com-review.html
-- [ ] 31 pages — see PS-PLATFORMS-01
+- [x] adhd-online-review.html, amwell-review.html, bend-health-review.html, brightline-review.html, brightside-review.html, calmerry-review.html, cerebral-review.html, circle-medical-review.html, doctor-on-demand-review.html, done-adhd-review.html
+- [x] faithful-counseling-review.html, gay-therapy-center-review.html, grow-therapy-review.html, headspace-review.html, headway-review.html, inclusive-therapists-review.html, klarity-review.html, lunajoy-review.html, manatee-health-review.html, mindful-care-review.html
+- [x] nocd-review.html, open-path-review.html, our-relationship-review.html, our-ritual-review.html, pride-counseling-review.html, psychology-today-review.html, regain-review.html, simplepractice-review.html, talkiatry-review.html, teen-counseling-review.html, therapyden-review.html
 
 ### Conditions (28 live / 28 total) ✅ COMPLETE
 - [x] anxiety.html, depression.html, adhd.html, couples.html

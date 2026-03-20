@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "inclusive-therapists",
+    "name": "Inclusive Therapists",
+    "abbr": "IT",
+    "color": "#7B1FA2",
+    "score": "4.2",
+    "badge": "Recommended",
+    "tagline": "A therapist directory built for marginalized identities — LGBTQ+, BIPOC, and disability-affirming",
+    "verdict_short": "Inclusive Therapists is a directory specifically built for people seeking culturally responsive, identity-affirming therapists. Browse by identity, filter by specialty, connect directly.",
+    "body": "Inclusive Therapists is a therapist directory founded on the premise that identity-affirming care isn't a nice-to-have — it's a clinical necessity for many clients. The directory filters for LGBTQ+-affirming, BIPOC-affirming, disability-affirming, and neurodivergent-affirming therapists, with sliding scale options prioritized. Unlike general directories, Inclusive Therapists vets listed providers for actual cultural competency, not just self-reported affirmation. You browse profiles, filter by the identities and specialties that matter to you, and contact therapists directly. Insurance acceptance varies by individual provider.",
+    "price": "Varies (-200/session, sliding scale available)",
+    "insurance": "Varies by therapist",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "LGBTQ+, BIPOC, disabled, or neurodivergent people seeking affirming therapists",
+      "Anyone who has had experiences of their identity being minimized or pathologized in therapy",
+      "People who want sliding scale access and identity-affirming care together"
+    ],
+    "look_elsewhere": [
+      "If you want a subscription model with messaging and platform features",
+      "If you need insurance billing handled centrally — contact each therapist directly for coverage",
+      "If you need psychiatry or medication management alongside therapy"
+    ],
+    "pricing_detail": "Pricing varies by therapist. Many Inclusive Therapists-listed providers offer sliding scale rates starting around /session. Standard session rates run up to . Insurance varies by provider — you'll need to verify directly. The directory itself is free to use.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per session starting",
+    "formats_detail": "Session formats are set by individual therapists and include video and in-person depending on location. There is no centralized platform for booking or sessions — you connect with therapists directly through their contact information on the directory.",
+    "pull_quote": "There is a meaningful difference between a therapist who is not actively harmful to LGBTQ+ clients and a therapist who has genuinely developed cultural competency in affirming care. Inclusive Therapists is built around that distinction.",
+    "compare_1_slug": "gay-therapy-center-review.html",
+    "compare_1_name": "Gay Therapy Center",
+    "compare_2_slug": "therapyden-review.html",
+    "compare_2_name": "TherapyDen",
+    "compare_3_slug": "pride-counseling-review.html",
+    "compare_3_name": "Pride Counseling",
+    "condition_1_slug": "lgbtq.html",
+    "condition_1_name": "LGBTQ+ Mental Health",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  },
+  {
+    "slug": "klarity",
+    "name": "Klarity",
+    "abbr": "Kl",
+    "color": "#00BCD4",
+    "score": "3.9",
+    "badge": "Recommended",
+    "tagline": "Psychiatric medication online — fast access to ADHD, anxiety, and depression prescriptions",
+    "verdict_short": "Klarity connects patients with psychiatric providers for medication management. Fast access to prescriptions for common conditions. Not a therapy platform — medication only.",
+    "body": "Klarity is a medication management platform that connects patients with licensed psychiatric nurse practitioners and physicians for online prescription services. The focus is on conditions where medication is a primary treatment: ADHD, anxiety, depression, insomnia. The platform is designed to reduce the time between deciding you want medication help and actually getting a prescription — the evaluation process is streamlined, and ongoing management is handled through regular video check-ins. Insurance coverage is limited, making this primarily a self-pay platform. For people who've decided they want medication and don't want to navigate a three-month waitlist, Klarity provides a functional alternative.",
+    "price": "-199/month",
+    "insurance": "Limited",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "Adults seeking psychiatric medication management without a lengthy waitlist",
+      "People who've already decided they want medication and need a prescriber",
+      "Those with ADHD, anxiety, or depression who want a streamlined medication-only pathway"
+    ],
+    "look_elsewhere": [
+      "If you need therapy alongside medication — Klarity is medication management only",
+      "If insurance coverage is important — Klarity has limited insurance acceptance",
+      "If you want a therapist, not just a prescriber"
+    ],
+    "pricing_detail": "Klarity charges -199/month for ongoing medication management, which includes regular video check-ins with your provider and prescription management. The initial evaluation is included. Insurance coverage is limited — this is primarily a self-pay platform. For context, a single session with a private psychiatrist often costs more than a full month on Klarity.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per month",
+    "formats_detail": "Klarity uses video for all clinical appointments — evaluations and ongoing management check-ins. There is no async messaging or phone option. The model is clinical encounter-based: scheduled video appointments for prescription review and management.",
+    "pull_quote": "Medication management doesn't have to mean a three-month waitlist. Klarity's model addresses the access problem directly — for people who know what they need, the streamlined pathway is the point.",
+    "compare_1_slug": "done-adhd-review.html",
+    "compare_1_name": "Done ADHD",
+    "compare_2_slug": "cerebral-review.html",
+    "compare_2_name": "Cerebral",
+    "compare_3_slug": "brightside-review.html",
+    "compare_3_name": "Brightside",
+    "condition_1_slug": "adhd.html",
+    "condition_1_name": "ADHD",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  },
+  {
+    "slug": "lunajoy",
+    "name": "LunaJoy",
+    "abbr": "LJ",
+    "color": "#AD1457",
+    "score": "4.1",
+    "badge": "Recommended",
+    "tagline": "Women's mental health — perinatal, postpartum, and hormonal mental health on one platform",
+    "verdict_short": "LunaJoy specializes in women's mental health across life stages — pregnancy, postpartum, perimenopause, and hormonal transitions. Therapists and psychiatrists on one platform.",
+    "body": "LunaJoy is one of the few telehealth platforms built specifically around the mental health needs of women across different life stages. The platform combines therapists and psychiatric providers who specialize in perinatal mental health, postpartum depression, PMDD, perimenopause-related mood changes, and hormonal transitions. Several insurance plans are accepted, which makes it accessible for postpartum care where insurance coverage is often more reliably available. For women navigating mental health challenges tied to reproductive health events — pregnancy, the postpartum period, or perimenopause — LunaJoy offers a level of clinical specialization that general platforms can't match.",
+    "price": "Insurance-based",
+    "insurance": "Several plans",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "Women seeking care attuned to hormonal mental health and postpartum depression",
+      "People navigating perinatal anxiety, PMDD, or perimenopause-related mood changes",
+      "Women who want both therapy and psychiatry on a specialized platform"
+    ],
+    "look_elsewhere": [
+      "General therapy needs not related to women's hormonal health",
+      "Men or people who don't identify as women",
+      "Those needing nationwide coverage — LunaJoy's availability varies by state"
+    ],
+    "pricing_detail": "LunaJoy operates on an insurance-based model for most services. Several plans are accepted, including some Medicaid plans that cover perinatal mental health. Out-of-pocket costs depend on your coverage. Verify your specific plan before starting, as state availability and in-network status vary.",
+    "pricing_stat": "Insurance",
+    "pricing_stat_label": "based pricing",
+    "formats_detail": "All sessions are video-based. LunaJoy's clinical model involves regular video appointments with your therapist and separate check-ins with your psychiatric provider if medication is part of your care plan. The platform is video-first with no async messaging option.",
+    "pull_quote": "Postpartum depression affects one in five new mothers. Having access to a platform where every provider understands that context — rather than having to explain it — is clinically significant.",
+    "compare_1_slug": "brightside-review.html",
+    "compare_1_name": "Brightside",
+    "compare_2_slug": "talkspace-review.html",
+    "compare_2_name": "Talkspace",
+    "compare_3_slug": "betterhelp-review.html",
+    "compare_3_name": "BetterHelp",
+    "condition_1_slug": "postpartum.html",
+    "condition_1_name": "Postpartum Depression",
+    "condition_2_slug": "womens-mental-health.html",
+    "condition_2_name": "Women's Mental Health"
+  },
+  {
+    "slug": "manatee-health",
+    "name": "Manatee Health",
+    "abbr": "MH",
+    "color": "#006064",
+    "score": "4.0",
+    "badge": "Recommended",
+    "tagline": "Child therapy with parent involvement — behavioral health for kids ages 5-17",
+    "verdict_short": "Manatee's model involves parents in their child's therapy process, providing coaching and tools alongside the therapist. Designed for kids 5-17 with behavioral or emotional challenges.",
+    "body": "Manatee Health is a pediatric mental health platform built around a parent-involved care model. Children ages 5-17 work with licensed therapists, while parents receive coaching, tools, and structured guidance to extend therapeutic work into the home environment. The approach is grounded in the recognition that for children, the home context matters as much as the therapy session — a child can't carry change forward without support from the adults around them. Several insurance plans are accepted. For parents of children with anxiety, ADHD, OCD, or behavioral challenges who want to be active participants in treatment rather than bystanders, Manatee is one of the most structurally sound options available.",
+    "price": "-200/session",
+    "insurance": "Several plans",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "Parents of children ages 5-17 with anxiety, ADHD, OCD, or behavioral challenges",
+      "Families who want parent coaching alongside child therapy",
+      "Parents who want to understand and support their child's treatment process"
+    ],
+    "look_elsewhere": [
+      "Adults — Manatee Health is pediatric only",
+      "Families who want child-only sessions without parent involvement in the process",
+      "Those outside Manatee's service states — availability varies by location"
+    ],
+    "pricing_detail": "Manatee's session rates are -200 per session. Several insurance plans are accepted, including some commercial plans and Medicaid where available. Coverage varies by state. The parent coaching component is built into the model at no additional per-session charge.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per session starting",
+    "formats_detail": "All sessions are conducted via video, covering both child therapy sessions and parent coaching check-ins. Manatee's model typically involves separate time with the child, separate coaching time for parents, and sometimes joint sessions depending on the treatment plan.",
+    "pull_quote": "Child therapy that doesn't equip parents to support the work between sessions is solving half the problem. Manatee's model is built around the other half.",
+    "compare_1_slug": "brightline-review.html",
+    "compare_1_name": "Brightline",
+    "compare_2_slug": "bend-health-review.html",
+    "compare_2_name": "Bend Health",
+    "compare_3_slug": "teen-counseling-review.html",
+    "compare_3_name": "Teen Counseling",
+    "condition_1_slug": "teen.html",
+    "condition_1_name": "Teen Mental Health",
+    "condition_2_slug": "adhd.html",
+    "condition_2_name": "ADHD"
+  },
+  {
+    "slug": "mindful-care",
+    "name": "Mindful Care",
+    "abbr": "MC",
+    "color": "#1B5E20",
+    "score": "3.9",
+    "badge": "Recommended",
+    "tagline": "Regional psychiatric care with strong insurance coverage in NY, NJ, IL, and TX",
+    "verdict_short": "Mindful Care is a regionally focused psychiatric and therapy practice with telehealth access. Strong insurance coverage but limited to specific states.",
+    "body": "Mindful Care is a psychiatric group practice that has expanded into telehealth, currently serving patients in New York, New Jersey, Illinois, and Texas. The platform offers both therapy and psychiatric care (medication management) with strong insurance integration for most major plans in those states. Mindful Care's model is closer to a traditional practice than a technology-first platform — the care is clinically rigorous, but the technology experience is less polished than platforms built from the ground up as software products. For insured patients in its service states who want psychiatry with real insurance coverage, Mindful Care is a solid option.",
+    "price": "Insurance-based",
+    "insurance": "Most major plans in NY/NJ/IL/TX",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "Insured patients in NY, NJ, IL, or TX seeking psychiatric care and medication management",
+      "Those who want both therapy and psychiatry on a single insurance-covered platform",
+      "Patients who prefer a practice-style model over a software-first subscription"
+    ],
+    "look_elsewhere": [
+      "If you're outside their service states — Mindful Care doesn't operate nationwide",
+      "If you want a consumer-grade technology experience with messaging and app features",
+      "If you need mental wellness tools or between-session support beyond standard appointments"
+    ],
+    "pricing_detail": "Mindful Care operates on insurance billing for covered patients in its service states. Most major plans are accepted within NY, NJ, IL, and TX. Out-of-pocket costs are your standard in-network copay. Self-pay rates are available but not published centrally — contact them directly for current rates.",
+    "pricing_stat": "In-network",
+    "pricing_stat_label": "with most major plans",
+    "formats_detail": "Mindful Care offers both video telehealth and in-person appointments depending on location. The video platform functions as a standard telehealth encounter — scheduled appointments with your therapist or psychiatrist. In-person options are available at practice locations in service states.",
+    "pull_quote": "Regional specialization means Mindful Care can pursue real insurance contracts in the markets where they operate — the tradeoff of geographic limits for coverage depth is often worth it for insured patients.",
+    "compare_1_slug": "talkiatry-review.html",
+    "compare_1_name": "Talkiatry",
+    "compare_2_slug": "brightside-review.html",
+    "compare_2_name": "Brightside",
+    "compare_3_slug": "grow-therapy-review.html",
+    "compare_3_name": "Grow Therapy",
+    "condition_1_slug": "depression.html",
+    "condition_1_name": "Depression",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  }
+]

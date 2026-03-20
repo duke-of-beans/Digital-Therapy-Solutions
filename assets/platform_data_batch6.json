@@ -1,0 +1,255 @@
+[
+  {
+    "slug": "psychology-today",
+    "name": "Psychology Today",
+    "abbr": "PT",
+    "color": "#00796B",
+    "score": "4.0",
+    "badge": "Recommended",
+    "tagline": "The largest therapist directory in the US — maximum control over who you see",
+    "verdict_short": "Psychology Today is a directory, not a platform. No integrated booking, billing, or messaging — you contact therapists directly. Unmatched for finding local or specialized therapists.",
+    "body": "Psychology Today's therapist directory is the most comprehensive in the United States — tens of thousands of licensed therapists filterable by specialty, insurance, location, approach, and identity. The directory is free to search and use. What Psychology Today does not provide is any platform infrastructure: there's no integrated booking, no video sessions through the site, no messaging, and no billing. You find a therapist, get their contact information, and reach out directly. For people who want maximum control over finding a therapist who fits a very specific profile — particular specialty, insurance, location, or approach — the breadth of the directory is unmatched. For people who want an end-to-end platform experience, it's not that.",
+    "price": "Varies by therapist (-300/session)",
+    "insurance": "Varies by therapist",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "Finding a therapist by specialty, location, insurance, or approach with maximum control",
+      "People with specific requirements who need to filter across a large pool of providers",
+      "Those who prefer to vet therapists themselves rather than use an algorithm"
+    ],
+    "look_elsewhere": [
+      "If you want integrated booking, billing, and sessions in one app — use Headway or Grow Therapy",
+      "If you want a subscription model with ongoing features between sessions",
+      "If you want the platform to handle insurance billing — Psychology Today doesn't"
+    ],
+    "pricing_detail": "Psychology Today's directory is free. Therapist rates vary entirely by individual provider — typically -300 per session depending on specialty, location, and whether they accept insurance. Insurance acceptance is set by each therapist. You negotiate and pay the therapist directly.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per session starting",
+    "formats_detail": "Session formats are determined by individual therapists and include video, phone, and in-person depending on the provider. Psychology Today does not provide a platform for sessions — you use whatever method your chosen therapist uses for their practice.",
+    "pull_quote": "The directory's value is breadth and control. If you have specific requirements — a therapist who specializes in a rare condition, accepts a specific insurance, and is within five miles — nowhere else gives you that combination at scale.",
+    "compare_1_slug": "headway-review.html",
+    "compare_1_name": "Headway",
+    "compare_2_slug": "grow-therapy-review.html",
+    "compare_2_name": "Grow Therapy",
+    "compare_3_slug": "therapyden-review.html",
+    "compare_3_name": "TherapyDen",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  },
+  {
+    "slug": "regain",
+    "name": "Regain",
+    "abbr": "Re",
+    "color": "#C0392B",
+    "score": "4.1",
+    "badge": "Recommended",
+    "tagline": "Online couples therapy through BetterHelp — relationship-specialist matching",
+    "verdict_short": "Regain (by BetterHelp) is built for couples, with matching to therapists who specialize in relationship counseling. Same BetterHelp infrastructure, couples-focused filtering.",
+    "body": "Regain is BetterHelp's couples therapy platform, built on the same infrastructure but filtered for therapists who specialize in relationship counseling and couples work. The matching algorithm prioritizes relationship specialists, which increases the likelihood of being connected with someone whose primary expertise is couples therapy rather than individual work. Both partners can access the therapy room, message the therapist, and attend sessions. Like all BetterHelp platforms, insurance is not accepted and pricing is a 4-week subscription cycle. For couples who want to start quickly, don't have insurance coverage for therapy, and want a curated therapist pool for relationship work, Regain is the most accessible option.",
+    "price": "-100/week",
+    "insurance": "Not accepted",
+    "formats": [
+      "Video",
+      "Phone",
+      "Messaging"
+    ],
+    "best_for": [
+      "Couples who want online therapy without insurance and want fast matching",
+      "Partners who want both to participate in therapy remotely without coordinating in-person schedules",
+      "Those who've used BetterHelp individually and want a familiar platform for couples work"
+    ],
+    "look_elsewhere": [
+      "If insurance coverage is needed — Grow Therapy has in-network couples therapists",
+      "If you want to select your therapist by profile before matching",
+      "If you need in-person sessions as an option"
+    ],
+    "pricing_detail": "Regain pricing matches BetterHelp: -100/week on a 4-week billing cycle. Insurance is not accepted. Both partners can use the platform under a single subscription — no need to purchase two separate accounts. Financial aid is available for qualifying couples.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per week for both partners",
+    "formats_detail": "Regain supports video sessions, phone sessions, and async messaging — the same format suite as BetterHelp. Both partners can message the therapist and attend sessions, with the option for joint sessions or individual time depending on the treatment approach.",
+    "pull_quote": "Having both partners on the same platform, in the same therapy room, without coordinating in-person schedules removes one of the main logistical barriers to couples actually starting therapy.",
+    "compare_1_slug": "betterhelp-review.html",
+    "compare_1_name": "BetterHelp",
+    "compare_2_slug": "grow-therapy-review.html",
+    "compare_2_name": "Grow Therapy",
+    "compare_3_slug": "our-relationship-review.html",
+    "compare_3_name": "Our Relationship",
+    "condition_1_slug": "couples.html",
+    "condition_1_name": "Couples Therapy",
+    "condition_2_slug": "relationship.html",
+    "condition_2_name": "Relationship Issues"
+  },
+  {
+    "slug": "simplepractice",
+    "name": "SimplePractice",
+    "abbr": "SP",
+    "color": "#4A90D9",
+    "score": "3.7",
+    "badge": "Recommended",
+    "tagline": "Practice management software with a client portal — not a therapist marketplace",
+    "verdict_short": "SimplePractice is practice management software for therapists. The client-facing portal lets patients book and attend sessions with their existing SimplePractice-using therapist. Not a marketplace.",
+    "body": "SimplePractice is fundamentally different from the other platforms on this list: it is not a marketplace for finding therapists. It is practice management software used by independent therapists to run their practices — scheduling, billing, note-taking, and a client portal for video sessions. If your therapist uses SimplePractice, you'll use the client portal to book appointments, complete intake forms, and attend video sessions. The portal is functional and relatively polished. What SimplePractice cannot do is help you find a therapist — it has no directory, no matching, and no network. If you're already working with a therapist who uses it, it's your gateway to their practice.",
+    "price": "Varies by therapist",
+    "insurance": "Varies by therapist",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "Existing patients whose therapist uses SimplePractice for scheduling and video",
+      "People completing intake paperwork and booking through their therapist's portal",
+      "Therapists managing their practice — though that's a different audience"
+    ],
+    "look_elsewhere": [
+      "If you're looking to find a new therapist — use Headway, Psychology Today, or Grow Therapy instead",
+      "If you want a platform to discover and compare providers",
+      "If you need integrated matching, billing, or a therapist network"
+    ],
+    "pricing_detail": "SimplePractice has no consumer pricing — therapists pay to use the software, and clients use the portal at no charge. Session fees are set by your individual therapist and vary by provider. Insurance acceptance depends entirely on the individual therapist's billing setup.",
+    "pricing_stat": "Free",
+    "pricing_stat_label": "client portal access",
+    "formats_detail": "SimplePractice supports video sessions through its integrated Telehealth tool and manages scheduling for in-person appointments. Video quality is functional. The portal also handles intake forms, payment processing, and appointment reminders.",
+    "pull_quote": "SimplePractice is what happens on the administrative side of a private practice — it's not a place to find therapy, it's where therapy is delivered once you've found a therapist who uses it.",
+    "compare_1_slug": "headway-review.html",
+    "compare_1_name": "Headway",
+    "compare_2_slug": "psychology-today-review.html",
+    "compare_2_name": "Psychology Today",
+    "compare_3_slug": "grow-therapy-review.html",
+    "compare_3_name": "Grow Therapy",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  },
+  {
+    "slug": "talkiatry",
+    "name": "Talkiatry",
+    "abbr": "Ta",
+    "color": "#283593",
+    "score": "4.3",
+    "badge": "Recommended",
+    "tagline": "Insurance-covered psychiatry — in-network psychiatric care with medication and therapy",
+    "verdict_short": "Talkiatry is a psychiatric practice that accepts insurance and offers both medication management and therapy. One of the most insurance-friendly psychiatric platforms.",
+    "body": "Talkiatry is a psychiatric group practice built for the telehealth era, with deep insurance integrations across most major carriers. The platform offers psychiatric evaluation, medication management, and therapy — all in-network with most major plans. What differentiates Talkiatry from general therapy platforms is the psychiatric depth: providers are psychiatrists and psychiatric nurse practitioners, not just therapists who can refer to psychiatry. For insured adults who need psychiatric care — evaluation, medication, or a combination of medication and therapy — Talkiatry is one of the strongest insurance-covered options in the market. The covered copay model makes ongoing psychiatric care financially sustainable in a way that self-pay psychiatry rarely is.",
+    "price": "Insurance-based (-100 copay)",
+    "insurance": "Most major plans",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "Insured adults seeking psychiatric evaluation, medication, and/or ongoing therapy",
+      "People with depression, anxiety, ADHD, or mood disorders who need both medication and therapy",
+      "Those who've been unable to find an in-network psychiatrist through traditional channels"
+    ],
+    "look_elsewhere": [
+      "If you don't need psychiatry — a therapy-only platform will be more cost-effective",
+      "Self-pay patients without insurance — Talkiatry's model is insurance-optimized",
+      "Those needing highly specialized subspecialty psychiatry beyond general adult practice"
+    ],
+    "pricing_detail": "Talkiatry accepts most major insurance plans. With coverage, your cost is typically your in-network copay — -100 per appointment depending on your plan and provider type. Self-pay rates are available but not prominently published. The insurance model is the platform's primary value proposition.",
+    "pricing_stat": "",
+    "pricing_stat_label": "copay starting with insurance",
+    "formats_detail": "All Talkiatry appointments are conducted via video. There is no in-person option and no async messaging tier. Sessions are structured clinical encounters — psychiatric evaluations, medication management check-ins, and therapy sessions as applicable to your care plan.",
+    "pull_quote": "Finding an in-network psychiatrist through a traditional directory is one of the more frustrating experiences in healthcare. Talkiatry's model is built specifically to close that gap.",
+    "compare_1_slug": "brightside-review.html",
+    "compare_1_name": "Brightside",
+    "compare_2_slug": "cerebral-review.html",
+    "compare_2_name": "Cerebral",
+    "compare_3_slug": "grow-therapy-review.html",
+    "compare_3_name": "Grow Therapy",
+    "condition_1_slug": "depression.html",
+    "condition_1_name": "Depression",
+    "condition_2_slug": "adhd.html",
+    "condition_2_name": "ADHD"
+  },
+  {
+    "slug": "teen-counseling",
+    "name": "Teen Counseling",
+    "abbr": "TC",
+    "color": "#00695C",
+    "score": "4.1",
+    "badge": "Recommended",
+    "tagline": "Online therapy built for teenagers — BetterHelp's adolescent platform",
+    "verdict_short": "Teen Counseling (by BetterHelp) matches teenagers 13-19 with therapists who specialize in adolescent issues. Parents can be involved at the teen's discretion. Same BetterHelp infrastructure.",
+    "body": "Teen Counseling is BetterHelp's platform for teenagers ages 13 to 19. The matching algorithm filters for therapists who specialize in adolescent mental health — school stress, social anxiety, identity development, family conflict, and the specific challenges of teenage experience. Parents can be connected to the therapy room with the teen's consent, creating an option for parental visibility without mandating it. The platform infrastructure is identical to BetterHelp — video, phone, chat, messaging — with the same financial aid options. Insurance is not accepted. For parents seeking online therapy for their teenager and willing to pay out of pocket, Teen Counseling is a well-built option with appropriate adolescent safeguards.",
+    "price": "-100/week",
+    "insurance": "Not accepted",
+    "formats": [
+      "Video",
+      "Phone",
+      "Messaging"
+    ],
+    "best_for": [
+      "Teenagers ages 13-19 needing therapy for anxiety, stress, or identity-related challenges",
+      "Parents seeking mental health support for their teen that the teen can access independently",
+      "Families comfortable with out-of-pocket costs who want fast matching"
+    ],
+    "look_elsewhere": [
+      "If insurance coverage is needed — Teen Counseling doesn't accept insurance",
+      "For children under 13 — use Brightline, Bend Health, or Manatee Health",
+      "If you want an in-person or hybrid option alongside online sessions"
+    ],
+    "pricing_detail": "Teen Counseling mirrors BetterHelp's pricing: -100/week on a 4-week billing cycle. Insurance is not accepted. Financial aid is available for qualifying families through the same application as BetterHelp. Parents are the account holders and manage billing; the teen is the client.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per week starting",
+    "formats_detail": "Teen Counseling offers video sessions, phone sessions, and async messaging — the full BetterHelp format suite. The teen chooses how to communicate with their therapist. Parents can be added to the therapy room with the teen's explicit consent, allowing for periodic family sessions or updates.",
+    "pull_quote": "Giving teenagers a degree of autonomy over their therapy experience — including whether their parents can see the conversation — increases the likelihood they'll actually engage with treatment.",
+    "compare_1_slug": "betterhelp-review.html",
+    "compare_1_name": "BetterHelp",
+    "compare_2_slug": "brightline-review.html",
+    "compare_2_name": "Brightline",
+    "compare_3_slug": "bend-health-review.html",
+    "compare_3_name": "Bend Health",
+    "condition_1_slug": "teen.html",
+    "condition_1_name": "Teen Mental Health",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  },
+  {
+    "slug": "therapyden",
+    "name": "TherapyDen",
+    "abbr": "TD",
+    "color": "#2E7D32",
+    "score": "4.1",
+    "badge": "Recommended",
+    "tagline": "A values-forward therapist directory with sliding scale access and identity filtering",
+    "verdict_short": "TherapyDen is a therapist directory that emphasizes sliding scale access and identity-affirming care. Strong filtering for LGBTQ+, BIPOC, neurodivergent, and other communities.",
+    "body": "TherapyDen is a therapist directory that distinguishes itself from Psychology Today by its values-forward design: the platform was built to surface sliding scale therapists and identity-affirming providers more prominently than standard directories do. Filtering options let you search by therapist identity, specific client communities served, sliding scale availability, and a wide range of specialties. Like all directories, TherapyDen does not provide a platform for sessions — you find therapists, get their contact information, and reach out directly. Insurance and pricing vary by therapist. For people who want to find a therapist filtered by values and identity with sliding scale access prioritized, TherapyDen is one of the best starting points.",
+    "price": "Varies by therapist (sliding scale common)",
+    "insurance": "Varies by therapist",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "People who want to filter by therapist values, identity, and sliding scale availability",
+      "LGBTQ+, BIPOC, neurodivergent, or other communities seeking affirming therapists",
+      "Those looking for affordable therapy with sliding scale options prominently surfaced"
+    ],
+    "look_elsewhere": [
+      "If you want integrated platform features — TherapyDen is a directory only, no platform",
+      "If you want insurance billing handled centrally — contact therapists directly",
+      "If you want algorithm matching rather than self-directed browsing"
+    ],
+    "pricing_detail": "TherapyDen itself is free to search. Therapist rates vary entirely by provider. The directory emphasizes sliding scale availability, so many listed therapists offer reduced-rate options. Insurance acceptance depends on the individual therapist. You handle all payment and billing directly with your chosen provider.",
+    "pricing_stat": "Free",
+    "pricing_stat_label": "to search the directory",
+    "formats_detail": "Session formats are set by individual therapists — most offer video, many offer in-person depending on location. TherapyDen does not provide a sessions platform; you use the therapist's own system for appointments and video.",
+    "pull_quote": "Making sliding scale access and identity-affirming care the default filter rather than the edge case is a design decision that changes who actually finds affordable therapy.",
+    "compare_1_slug": "psychology-today-review.html",
+    "compare_1_name": "Psychology Today",
+    "compare_2_slug": "inclusive-therapists-review.html",
+    "compare_2_name": "Inclusive Therapists",
+    "compare_3_slug": "open-path-review.html",
+    "compare_3_name": "Open Path",
+    "condition_1_slug": "lgbtq.html",
+    "condition_1_name": "LGBTQ+ Mental Health",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  }
+]

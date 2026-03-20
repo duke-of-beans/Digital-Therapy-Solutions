@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "faithful-counseling",
+    "name": "Faithful Counseling",
+    "abbr": "FC",
+    "color": "#5D4037",
+    "score": "4.0",
+    "badge": "Recommended",
+    "tagline": "Christian therapy online — faith-integrated counseling through a BetterHelp platform",
+    "verdict_short": "Faithful Counseling (by BetterHelp) connects users with Christian therapists who integrate faith into sessions. Same platform infrastructure as BetterHelp, faith-filtered therapist pool.",
+    "body": "Faithful Counseling is a BetterHelp subsidiary platform built for people who want a therapist who shares their Christian faith. The matching process filters for therapists who identify as Christians and integrate faith into their clinical work. The underlying platform is identical to BetterHelp — same video, phone, chat, and messaging options, same billing structure, same financial aid process. The only meaningful difference is the therapist filter. If faith integration matters to your therapy experience, Faithful Counseling delivers it without requiring you to vet individual therapists yourself.",
+    "price": "-100/week",
+    "insurance": "Not accepted",
+    "formats": [
+      "Video",
+      "Phone",
+      "Messaging"
+    ],
+    "best_for": [
+      "Christians who want a therapist who shares their faith and integrates it into treatment",
+      "People who've struggled to find affirming therapists through general platforms",
+      "Anyone who wants the BetterHelp infrastructure with a faith-focused filter"
+    ],
+    "look_elsewhere": [
+      "If faith integration isn't important — BetterHelp gives you the same platform with a wider therapist pool at the same price",
+      "If insurance coverage matters — BetterHelp platforms don't accept insurance",
+      "If you need psychiatry or medication management"
+    ],
+    "pricing_detail": "Pricing is identical to BetterHelp: -100/week billed on a 4-week cycle. Insurance is not accepted. Financial aid is available for qualifying users through the same process as BetterHelp. There is no cost premium for the faith-filtered matching.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per week starting",
+    "formats_detail": "Faithful Counseling supports video sessions, phone sessions, and async text messaging — the same format options as BetterHelp. Live chat is also available during scheduled sessions. Format flexibility is one of the BetterHelp platform's genuine strengths.",
+    "pull_quote": "For someone whose faith is central to how they process the world, finding a therapist who can hold that context without dismissing or working around it changes the quality of the work.",
+    "compare_1_slug": "betterhelp-review.html",
+    "compare_1_name": "BetterHelp",
+    "compare_2_slug": "pride-counseling-review.html",
+    "compare_2_name": "Pride Counseling",
+    "compare_3_slug": "online-therapy-com-review.html",
+    "compare_3_name": "Online-Therapy.com",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  },
+  {
+    "slug": "gay-therapy-center",
+    "name": "Gay Therapy Center",
+    "abbr": "GT",
+    "color": "#E91E63",
+    "score": "4.2",
+    "badge": "Recommended",
+    "tagline": "LGBTQ+ affirming therapy with vetted queer and trans-competent therapists",
+    "verdict_short": "Gay Therapy Center is a directory-style platform connecting LGBTQ+ clients with vetted affirming therapists. Not a subscription model — you book directly with therapists.",
+    "body": "Gay Therapy Center is a therapist directory specifically built for LGBTQ+ clients who want to connect with queer-affirming, trans-competent providers. Unlike subscription platforms, Gay Therapy Center functions as a curated matching service — you're connected with independent therapists who have been vetted for LGBTQ+ competency and affirming practices. Sessions are booked directly with the therapist. Pricing varies by therapist and some accept insurance, but there's no platform-wide insurance integration. The core value proposition is trust: every therapist listed has been screened, not just self-identified as affirming.",
+    "price": "-250/session",
+    "insurance": "Limited, varies by therapist",
+    "formats": [
+      "Video",
+      "In-person (select)"
+    ],
+    "best_for": [
+      "LGBTQ+ individuals who prioritize therapist identity affirmation and vetting",
+      "Queer and trans clients who want a specialist, not just someone who's not explicitly anti-LGBTQ+",
+      "People who want the option of in-person sessions with an affirming therapist"
+    ],
+    "look_elsewhere": [
+      "If you need insurance coverage or a subscription pricing model",
+      "If you want a single platform for booking, billing, and sessions in one app",
+      "If you're outside areas where Gay Therapy Center therapists practice"
+    ],
+    "pricing_detail": "Pricing is set by individual therapists and typically runs -250 per session. Some therapists accept insurance; this varies by provider and must be verified directly. Gay Therapy Center does not process insurance or billing centrally — you handle that with your therapist.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per session starting",
+    "formats_detail": "Session formats depend on the individual therapist. Most offer video, and some offer in-person sessions depending on location. There is no platform-wide messaging or async support — the relationship is between you and your therapist, not mediated through a platform subscription.",
+    "pull_quote": "The difference between a therapist who says they're affirming and a therapist who has been vetted for queer and trans competency is not a small distinction.",
+    "compare_1_slug": "pride-counseling-review.html",
+    "compare_1_name": "Pride Counseling",
+    "compare_2_slug": "inclusive-therapists-review.html",
+    "compare_2_name": "Inclusive Therapists",
+    "compare_3_slug": "therapyden-review.html",
+    "compare_3_name": "TherapyDen",
+    "condition_1_slug": "lgbtq.html",
+    "condition_1_name": "LGBTQ+ Mental Health",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  },
+  {
+    "slug": "grow-therapy",
+    "name": "Grow Therapy",
+    "abbr": "GT",
+    "color": "#2E7D32",
+    "score": "4.3",
+    "badge": "Recommended",
+    "tagline": "Insurance and therapist choice combined — browse profiles and book directly",
+    "verdict_short": "Grow Therapy lets you browse real therapist profiles and book directly — no algorithm matching. One of the best options for insured clients who want control over who they see.",
+    "body": "Grow Therapy is the platform that answers the most common complaint about algorithm-matched therapy: you can't see who you're being matched with. On Grow Therapy, you browse therapist profiles with full bios, specializations, session availability, and insurance acceptance before booking your first appointment. Most major insurance plans are accepted, and the breadth of the therapist network has grown rapidly — particularly for in-person and video hybrid options. For insured clients who want the widest real choice over their therapist, Grow Therapy is one of the strongest options in the market.",
+    "price": "Insurance-based",
+    "insurance": "Most major plans",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "Insured clients who want to choose their own therapist by specialty and profile",
+      "People who've had bad experiences with algorithm matching and want direct control",
+      "Those who want in-person or hybrid video and in-person options with insurance coverage"
+    ],
+    "look_elsewhere": [
+      "If you don't have insurance — self-pay options exist but you lose the main cost advantage",
+      "If you want a subscription model with messaging and async support",
+      "If you're looking for psychiatry or medication management alongside therapy"
+    ],
+    "pricing_detail": "Grow Therapy's primary value is insurance: with most major plans, you pay your normal in-network copay — often -50 per session. Self-pay rates are set by individual therapists and vary significantly. The platform's pricing model is built around insurance, not out-of-pocket subscription.",
+    "pricing_stat": "-50",
+    "pricing_stat_label": "copay with insurance",
+    "formats_detail": "Grow Therapy offers both video and in-person sessions depending on the therapist and location. The platform supports scheduling and session access directly — no separate system for in-person vs. video. Many therapists offer both, giving you flexibility week to week.",
+    "pull_quote": "The ability to read a therapist's actual biography and specializations before committing to a first session changes the probability of a good fit — and a good fit is what makes therapy work.",
+    "compare_1_slug": "headway-review.html",
+    "compare_1_name": "Headway",
+    "compare_2_slug": "talkspace-review.html",
+    "compare_2_name": "Talkspace",
+    "compare_3_slug": "psychology-today-review.html",
+    "compare_3_name": "Psychology Today",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  },
+  {
+    "slug": "headspace",
+    "name": "Headspace",
+    "abbr": "Hs",
+    "color": "#FF6D00",
+    "score": "3.5",
+    "badge": "Recommended",
+    "tagline": "Mindfulness and mental wellness — not traditional therapy",
+    "verdict_short": "Headspace is a mental wellness app, not a therapy platform. Meditation, sleep content, and guided exercises. Valuable as a supplement to therapy, not a replacement.",
+    "body": "Headspace is one of the most well-known mental wellness apps in the world, and it's worth being clear about what that means: Headspace is not therapy, and it does not connect you with licensed therapists. What it offers is a comprehensive library of guided meditations, sleep content, breathing exercises, and structured mindfulness courses. The quality of this content is high. For someone managing mild stress, building a mindfulness practice, or looking for better sleep, Headspace is genuinely useful. For someone who needs therapy — a licensed clinician to process real issues — Headspace is not a substitute, and it does not try to be.",
+    "price": ".99-69.99/month",
+    "insurance": "Some employer plans",
+    "formats": [
+      "App + Guided content"
+    ],
+    "best_for": [
+      "People managing mild stress or building mindfulness habits",
+      "Those who want a meditation and wellness supplement alongside therapy or other care",
+      "Employees with Headspace included through employer benefits"
+    ],
+    "look_elsewhere": [
+      "Anyone who needs actual therapy — Headspace does not provide clinical care",
+      "People with clinical-level anxiety, depression, or other conditions requiring a therapist",
+      "Those looking for therapist matching, sessions, or prescriptions"
+    ],
+    "pricing_detail": "Headspace costs .99/month or .99/year for individuals. Family plans and student discounts are available. Some employers provide Headspace through wellness benefits at no cost to employees. There is no per-session billing — this is a content subscription, not a clinical service.",
+    "pricing_stat": ".99",
+    "pricing_stat_label": "per month",
+    "formats_detail": "Headspace is an app-based experience. Content is delivered through guided audio sessions, video courses, and structured programs. There are no live sessions, no therapist connections, and no real-time interaction. The experience is asynchronous and self-directed.",
+    "pull_quote": "Headspace is excellent at what it is. The mistake is using it as a substitute for what it isn't — if you need therapy, it won't fill that role no matter how consistently you use it.",
+    "compare_1_slug": "betterhelp-review.html",
+    "compare_1_name": "BetterHelp",
+    "compare_2_slug": "calmerry-review.html",
+    "compare_2_name": "Calmerry",
+    "compare_3_slug": "online-therapy-com-review.html",
+    "compare_3_name": "Online-Therapy.com",
+    "condition_1_slug": "stress.html",
+    "condition_1_name": "Stress",
+    "condition_2_slug": "insomnia.html",
+    "condition_2_name": "Insomnia"
+  },
+  {
+    "slug": "headway",
+    "name": "Headway",
+    "abbr": "Hw",
+    "color": "#6200EA",
+    "score": "4.4",
+    "badge": "Recommended",
+    "tagline": "The largest insurance-accepting therapist directory — in-network access at scale",
+    "verdict_short": "Headway is a therapist network that handles insurance billing on behalf of independent therapists. One of the best platforms for finding an in-network therapist across most major insurers.",
+    "body": "Headway's model is elegant: independent therapists join the Headway network, and Headway handles their insurance credentialing and billing. The result is a rapidly growing directory of therapists who accept insurance — many of whom would otherwise be cash-only private practices. For clients, the experience is browsing a profile-rich directory and booking directly, similar to Grow Therapy. Headway's therapist network has become one of the largest and fastest-growing in the country. For insured clients who want in-network coverage and the ability to choose their therapist by specialty, location, and identity, Headway is a top-tier option.",
+    "price": "Insurance-based (-50 copay typically)",
+    "insurance": "Most major plans",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "Insured clients who want the widest selection of in-network therapists",
+      "People who want to browse profiles and choose their therapist before booking",
+      "Those looking for in-person or video options with insurance coverage"
+    ],
+    "look_elsewhere": [
+      "If you don't have insurance — Headway's advantages are primarily cost-driven by coverage",
+      "If you want platform features like messaging, worksheets, or between-session tools",
+      "If you need psychiatry alongside therapy — Headway is therapy-focused"
+    ],
+    "pricing_detail": "With most major insurance plans, Headway sessions cost whatever your in-network copay is — often -50 per session. Headway handles all insurance billing on behalf of your therapist, which means no superbills and no out-of-network reimbursement paperwork. Self-pay rates are set by individual therapists.",
+    "pricing_stat": "-50",
+    "pricing_stat_label": "copay with insurance",
+    "formats_detail": "Headway supports video and in-person sessions depending on the therapist. The scheduling and session access are managed through the Headway platform for video appointments. In-person sessions happen at the therapist's practice location. Both can be covered by insurance through Headway's billing system.",
+    "pull_quote": "The bottleneck for in-network therapy has historically been credentialing — most private practice therapists can't afford the administrative burden. Headway removes that barrier at scale.",
+    "compare_1_slug": "grow-therapy-review.html",
+    "compare_1_name": "Grow Therapy",
+    "compare_2_slug": "talkspace-review.html",
+    "compare_2_name": "Talkspace",
+    "compare_3_slug": "psychology-today-review.html",
+    "compare_3_name": "Psychology Today",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  }
+]

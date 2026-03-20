@@ -10,8 +10,10 @@ Last Updated: 2026-03-19
 ## Queued Sprints
 
 ### PS-PLATFORMS-01 — All 31 Remaining Platform Review Pages
-**Status:** QUEUED — blocked on affiliate applications
-**Dependencies:** Affiliate applications accepted
+**Status:** READY — sprint prompt written at sprints/PS-PLATFORMS-01.md
+**Dependencies:** None — affiliate contracts NOT required. Pages built with pending CTAs.
+**Toggle system:** assets/activate-affiliate.py flips any platform live when contract signed.
+  Usage: python assets/activate-affiliate.py --platform [slug] --url [affiliate_url]
 **Note:** Apply verdict-box, pull-quote, feature-list components from PS-DESIGN-QA-01
 to all new review pages at build time. reviews.html hub cards auto-activate once pages exist.
 **Platform list:**

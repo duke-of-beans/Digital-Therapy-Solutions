@@ -2617,3 +2617,4 @@ button:focus-visible,
   color: var(--text-secondary);
   line-height: 1.65;
 }
+.cta-button--pending { opacity: 0.5; cursor: not-allowed; background: var(--text-muted); }

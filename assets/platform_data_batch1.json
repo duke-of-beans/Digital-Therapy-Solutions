@@ -1,0 +1,207 @@
+[
+  {
+    "slug": "adhd-online",
+    "name": "ADHD Online",
+    "abbr": "AO",
+    "color": "#1976D2",
+    "score": "4.0",
+    "badge": "Recommended",
+    "tagline": "Best for ADHD-specific telehealth — diagnosis, therapy, and medication in one place",
+    "verdict_short": "Specialized ADHD platform covering evaluation, therapy, and medication in one place. Best for adults seeking diagnosis or ongoing medication management online.",
+    "body": "ADHD Online is one of the few telehealth platforms built entirely around ADHD — not a general therapy service that happens to treat it. The platform offers a structured evaluation pathway, licensed therapists who specialize in ADHD, and medication management all within a single subscription. For adults who've long suspected they have ADHD and want a faster path than a six-month waitlist at a local psychiatrist, ADHD Online removes most of the friction. The pricing is higher than general therapy platforms, and insurance coverage is limited, but for the scope of services offered — evaluation, therapy, and medication in one place — the value proposition is real.",
+    "price": "-299/month",
+    "insurance": "Some plans accepted",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "Adults seeking ADHD diagnosis without a multi-month waitlist",
+      "People wanting combined therapy and medication management on one platform",
+      "Those who've been managing untreated ADHD and want a structured evaluation"
+    ],
+    "look_elsewhere": [
+      "If you want broad therapy topics beyond ADHD",
+      "If you need sliding-scale or low-cost pricing options",
+      "If you require comprehensive insurance coverage"
+    ],
+    "pricing_detail": "ADHD Online charges -299 per month depending on the services selected. The base evaluation is a one-time cost; ongoing therapy and medication management are subscription-based. Insurance acceptance varies by state and carrier — check directly before assuming coverage.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per month starting",
+    "formats_detail": "All sessions are conducted via video. There is no phone or messaging option — ADHD Online is a video-first platform designed for structured clinical encounters rather than async support.",
+    "pull_quote": "For adults who've spent years compensating for undiagnosed ADHD, having evaluation, therapy, and medication management in one place changes the math significantly.",
+    "compare_1_slug": "done-adhd-review.html",
+    "compare_1_name": "Done ADHD",
+    "compare_2_slug": "cerebral-review.html",
+    "compare_2_name": "Cerebral",
+    "compare_3_slug": "betterhelp-review.html",
+    "compare_3_name": "BetterHelp",
+    "condition_1_slug": "adhd.html",
+    "condition_1_name": "ADHD",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  },
+  {
+    "slug": "amwell",
+    "name": "Amwell",
+    "abbr": "AW",
+    "color": "#0277BD",
+    "score": "3.8",
+    "badge": "Recommended",
+    "tagline": "Best for insurance-covered urgent mental health through a large telehealth network",
+    "verdict_short": "Amwell is a broad telehealth network, not a therapy-first platform. Useful for insured patients who want mental health covered under existing telehealth benefits.",
+    "body": "Amwell is a general-purpose telehealth platform that covers urgent care, primary care, and mental health under one roof. Its mental health offering is solid but not specialized — you can see a therapist or psychiatrist, get a prescription, and have it billed to most major insurance plans. The platform's real strength is insurance integration: Amwell is in-network with a wide range of carriers, which makes it attractive for people who want mental health care handled the same way as any other medical appointment. The tradeoff is that this isn't a therapy-depth platform — it's optimized for episodic care, not ongoing weekly sessions.",
+    "price": "-279/session",
+    "insurance": "Most major plans",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "People with insurance who want therapy under their existing telehealth benefit",
+      "One-off sessions or urgent mental health needs",
+      "Patients who want physical and mental health on the same platform"
+    ],
+    "look_elsewhere": [
+      "If you want ongoing weekly therapy with a dedicated therapist",
+      "If cost matters and you're paying out of pocket — per-session pricing is steep",
+      "If you want messaging or async support between sessions"
+    ],
+    "pricing_detail": "Amwell's pricing depends heavily on whether you're using insurance or paying out of pocket. With insurance, your normal telehealth copay typically applies. Self-pay rates run -279 per session depending on provider type — therapists are on the lower end, psychiatrists higher. For ongoing therapy without insurance, this adds up quickly.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per session starting",
+    "formats_detail": "Amwell is video-only. Sessions are conducted through the Amwell app or browser. There is no async messaging, phone sessions, or between-session support — each encounter is a standalone appointment.",
+    "pull_quote": "Amwell works best when you think of it as telehealth for mental health — not as a dedicated therapy platform with ongoing care infrastructure.",
+    "compare_1_slug": "talkspace-review.html",
+    "compare_1_name": "Talkspace",
+    "compare_2_slug": "doctor-on-demand-review.html",
+    "compare_2_name": "Doctor on Demand",
+    "compare_3_slug": "grow-therapy-review.html",
+    "compare_3_name": "Grow Therapy",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  },
+  {
+    "slug": "bend-health",
+    "name": "Bend Health",
+    "abbr": "BH",
+    "color": "#43A047",
+    "score": "4.1",
+    "badge": "Recommended",
+    "tagline": "Best for kids and teens — whole-family mental health coaching and therapy",
+    "verdict_short": "Bend Health focuses on pediatric and adolescent mental health with a coaching and therapy model. One of the few platforms designed for the whole family.",
+    "body": "Bend Health serves children from age 2 through 17, with a model that actively involves parents and caregivers in the care process. The platform combines licensed therapists with mental health coaches — a more affordable touchpoint for between-session support — and provides parents with tools, exercises, and check-ins designed to extend care into the home. Most major insurance plans are accepted, which meaningfully lowers the cost barrier for families. If you're a parent looking for mental health support for a child or teen and want a platform built specifically for that, Bend Health is one of the strongest options available.",
+    "price": "-295/month",
+    "insurance": "Several major plans",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "Parents seeking mental health support for children ages 2-17",
+      "Families who want structured parent involvement alongside the child's care",
+      "Children with anxiety, ADHD, behavioral challenges, or emotional regulation issues"
+    ],
+    "look_elsewhere": [
+      "Adults seeking individual therapy — Bend Health is pediatric only",
+      "Families without Bend Health-covered insurance who can't absorb the full cost",
+      "Parents who want child-only sessions without caregiver involvement"
+    ],
+    "pricing_detail": "Bend Health's pricing depends on your insurance plan. Several major carriers are accepted, including some BCBS plans and employer-sponsored benefits. Out-of-pocket costs run -295/month for the combined coaching and therapy model. For families with coverage, the actual cost is typically a copay-based arrangement.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per month starting",
+    "formats_detail": "All sessions are video-based. Bend Health's model pairs live therapist sessions with coaching check-ins and between-session tools accessible through the parent-facing app. The combination of formats is designed to create consistent support, not just weekly appointments.",
+    "pull_quote": "Most pediatric mental health platforms treat the child in isolation. Bend Health's model recognizes that meaningful change happens in the family system, not just the therapy room.",
+    "compare_1_slug": "brightline-review.html",
+    "compare_1_name": "Brightline",
+    "compare_2_slug": "manatee-health-review.html",
+    "compare_2_name": "Manatee Health",
+    "compare_3_slug": "teen-counseling-review.html",
+    "compare_3_name": "Teen Counseling",
+    "condition_1_slug": "teen.html",
+    "condition_1_name": "Teen Mental Health",
+    "condition_2_slug": "adhd.html",
+    "condition_2_name": "ADHD"
+  },
+  {
+    "slug": "brightline",
+    "name": "Brightline",
+    "abbr": "BL",
+    "color": "#FF7043",
+    "score": "4.2",
+    "badge": "Recommended",
+    "tagline": "Best for children and teens — behavioral health coaching and therapy",
+    "verdict_short": "Brightline specializes in pediatric behavioral health. Strong coaching model for kids with anxiety, ADHD, or behavioral challenges. Employer-sponsored plans widely available.",
+    "body": "Brightline is a pediatric behavioral health platform designed for children ages 1 through 17. Their model pairs licensed therapists with behavioral health coaches — coaches handle skill-building and between-session reinforcement, therapists handle deeper clinical work. Brightline is heavily integrated with employer benefits programs, which means many families access it through a parent's workplace plan at reduced or zero out-of-pocket cost. The BCBS partnership is particularly strong. For families navigating school-related anxiety, behavioral challenges, ADHD, or emotional dysregulation in kids, Brightline is one of the most structured options available.",
+    "price": "/month+",
+    "insurance": "Major plans including BCBS",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "Children ages 1-17 with behavioral or emotional health challenges",
+      "Families with employer-sponsored Brightline benefits",
+      "Parents who want regular coaching alongside clinical therapy sessions"
+    ],
+    "look_elsewhere": [
+      "Adults — Brightline is pediatric only",
+      "Families without Brightline-covered insurance who need affordable self-pay options",
+      "Cases requiring intensive clinical intervention beyond outpatient coaching"
+    ],
+    "pricing_detail": "Brightline is predominantly accessed through employer benefits and insurance. For covered families, the experience is low or no out-of-pocket cost. Self-pay rates start around /month. The platform's employer partnership model means checking your benefits portal is often the first step before assuming you'd pay full price.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per month starting",
+    "formats_detail": "Sessions are video-based. The coaching model includes both scheduled video sessions and app-based touchpoints — parents receive tools and exercises designed to extend therapeutic work between appointments. The dual therapist-plus-coach structure is Brightline's defining feature.",
+    "pull_quote": "The combination of therapists for clinical depth and coaches for everyday skill-building is what separates Brightline from platforms that offer sessions alone.",
+    "compare_1_slug": "bend-health-review.html",
+    "compare_1_name": "Bend Health",
+    "compare_2_slug": "manatee-health-review.html",
+    "compare_2_name": "Manatee Health",
+    "compare_3_slug": "teen-counseling-review.html",
+    "compare_3_name": "Teen Counseling",
+    "condition_1_slug": "teen.html",
+    "condition_1_name": "Teen Mental Health",
+    "condition_2_slug": "adhd.html",
+    "condition_2_name": "ADHD"
+  },
+  {
+    "slug": "brightside",
+    "name": "Brightside",
+    "abbr": "BS",
+    "color": "#5C6BC0",
+    "score": "4.3",
+    "badge": "Recommended",
+    "tagline": "Best for anxiety and depression with medication — integrated therapy and psychiatry",
+    "verdict_short": "Brightside treats anxiety and depression with therapy and medication management together. One of the cleaner integrated care models — no separate referrals needed.",
+    "body": "Brightside is purpose-built for anxiety and depression, combining therapy and medication management on a single platform. The integrated model is the core differentiator: you work with a therapist and a prescribing provider without being bounced between two separate systems. Most major insurance plans are accepted. The symptom tracking built into the platform gives both you and your provider a data-driven view of how treatment is progressing — something most generic therapy platforms don't offer. The tradeoff is scope: Brightside is condition-specific. If your primary concern is something other than anxiety or depression, you'll want a broader platform.",
+    "price": "-349/month",
+    "insurance": "Most major plans",
+    "formats": [
+      "Video"
+    ],
+    "best_for": [
+      "People with anxiety or depression who may benefit from both therapy and medication",
+      "Patients who want coordinated care without managing two separate providers",
+      "Insured clients who want one integrated platform for mental health"
+    ],
+    "look_elsewhere": [
+      "Anyone needing specialized therapy — trauma, OCD, couples — Brightside is condition-specific",
+      "People with complex psychiatric needs beyond anxiety and depression",
+      "Those seeking medication for conditions outside Brightside's scope"
+    ],
+    "pricing_detail": "Brightside's pricing depends on the services you use. Therapy-only plans run around /month with insurance; combined therapy and medication management can reach /month. Most major insurers are accepted, and Brightside's in-network status meaningfully reduces out-of-pocket costs for covered patients.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per month with insurance",
+    "formats_detail": "Sessions are video-only. Brightside's format is structured around regular video appointments with your therapist and separate check-ins with your prescriber. The platform's app includes between-session mood tracking and symptom monitoring, which feeds into your care plan.",
+    "pull_quote": "The symptom-tracking layer is what makes Brightside feel like a real treatment platform rather than just scheduled video calls — your progress is visible and data-informed.",
+    "compare_1_slug": "cerebral-review.html",
+    "compare_1_name": "Cerebral",
+    "compare_2_slug": "talkiatry-review.html",
+    "compare_2_name": "Talkiatry",
+    "compare_3_slug": "talkspace-review.html",
+    "compare_3_name": "Talkspace",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  }
+]
