@@ -1,0 +1,24 @@
+FAIL adhd-online.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL bend-health.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL betterhelp.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL brightside.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL doctor-on-demand.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL done-adhd.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL faithful-counseling.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL grow-therapy.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL headway.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL insurer-anthem.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL insurer-chip.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL insurer-humana.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL insurer-magellan.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL insurer-medicare.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL insurer-wellcare.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL mindful-care.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL nocd.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL open-path.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL our-ritual.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL pride-counseling.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL psychology-today.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL simplepractice.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+FAIL talkspace.webp -- <urlopen error [Errno 11001] getaddrinfo failed>
+DONE

@@ -1,11 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/assets/logos/:file", "destination": "/assets/logos/:file" },
-    { "source": "/assets/branding/:file", "destination": "/assets/branding/:file" },
-    { "source": "/assets/:file", "destination": "/assets/:file" },
-    { "source": "/templates/:file", "destination": "/templates/:file" },
-    { "source": "/(.*)", "destination": "/output/$1" }
-  ],
+  "outputDirectory": "output",
   "cleanUrls": true,
   "trailingSlash": false
 }

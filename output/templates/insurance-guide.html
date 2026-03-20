@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PAGE_TITLE}}</title>
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600&amp;family=Instrument+Serif:ital@0;1&amp;family=DM+Sans:wght@400;500;600&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Skip to main content link -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Navigation -->
+<nav class="site-nav">
+    <div class="site-nav__inner">
+        <a href="/" class="site-nav__brand">Digital Therapy Solutions</a>
+        <button class="site-nav__hamburger" aria-label="Toggle navigation">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <ul class="site-nav__links">
+            <li><a href="/conditions">Conditions</a></li>
+            <li><a href="/insurance">Insurance</a></li>
+            <li><a href="/reviews">Reviews</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="section-wrapper--hero">
+    <div class="hero-visual">
+        <img src="{{HERO_IMAGE_PATH}}" alt="{{HERO_IMAGE_ALT}}">
+    </div>
+    <div class="hero-text">
+        <h1 class="hero-headline" style="font-family: Fraunces, serif;">{{INSURANCE_HEADLINE}}</h1>
+        <p class="hero-subhead hero-subhead--italic">{{INSURANCE_SUBHEAD_ITALIC}}</p>
+        <p class="hero-subhead hero-subhead--follow">{{INSURANCE_SUBHEAD_FOLLOW}}</p>
+        <div class="trust-row">
+            <span class="trust-pill">Expert Reviewed</span>
+            <span class="trust-pill">{{PLATFORMS_REVIEWED_COUNT}} Platforms Analyzed</span>
+            <span class="trust-pill">Updated 2026</span>
+        </div>
+    </div>
+</section>
+
+<!-- SVG Section Divider: Wave -->
+<svg class="section-divider section-divider--wave" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <path d="M0,40 Q300,0 600,40 T1200,40 L1200,120 L0,120 Z" fill="currentColor"/>
+</svg>
+<!-- Platform Cards Section -->
+<section class="section-wrapper--alt" id="main-content">
+    <div class="content-container">
+        <h2 class="section-heading">{{SECTION_HEADING}}</h2>
+        <div class="section-context">
+            <p>Reviewed by <strong>{{REVIEWER_NAME}}</strong>, {{REVIEWER_CREDENTIAL}}</p>
+            <p>{{REVIEWER_CONTEXT}}</p>
+        </div>
+
+        <!-- Featured Card (Platform 1) -->
+        <div class="platform-card platform-card--featured" style="border-color: {{PLATFORM_1_COLOR}};">
+            <div class="card-header">
+                <div class="card-logo-wrapper">
+                    <img src="{{PLATFORM_1_LOGO_PATH}}" alt="{{PLATFORM_1_NAME}} logo" class="card-logo" onerror="this.src='/images/fallback-logo.png'">
+                    <span class="card-initial" style="background-color: {{PLATFORM_1_COLOR}};">{{PLATFORM_1_INITIAL}}</span>
+                </div>
+                <div>
+                    <h3 class="card-name" style="font-family: Fraunces, serif;">{{PLATFORM_1_NAME}}</h3>
+                    <p class="card-tagline">{{PLATFORM_1_TAGLINE}}</p>
+                </div>
+            </div>
+
+            <div class="card-score">
+                <span class="card-score__number">{{PLATFORM_1_SCORE}}</span>
+                <span class="card-score__label">/5</span>
+                <div class="card-stars">{{PLATFORM_1_STARS_SVG}}</div>
+                <span class="rating-badge rating-badge--top">Top Rated</span>
+            </div>
+
+            <p class="card-body">{{PLATFORM_1_BODY}}</p>
+
+            <div class="card-details">
+                {{PLATFORM_1_DETAILS}}
+            </div>
+
+            <div class="card-offer">
+                <span class="offer-tag">{{PLATFORM_1_OFFER_TAG}}</span>
+                <a href="{{PLATFORM_1_CTA_URL}}" class="cta-button cta-button--primary">{{PLATFORM_1_CTA_TEXT}}</a>
+            </div>
+
+            <p class="card-meta"><a href="{{PLATFORM_1_REVIEW_URL}}" class="card-review-link">Full review</a></p>
+        </div>
+
+        <!-- Editorial Divider -->
+        <div class="editorial-divider">
+            <span>or</span>
+        </div>
+        <!-- Side-by-side Alternative Cards (Platform 2 & 3) -->
+        <div class="platform-cards-grid">
+            <!-- Platform 2 Card -->
+            <div class="platform-card" style="border-color: {{PLATFORM_2_COLOR}};">
+                <div class="card-header">
+                    <div class="card-logo-wrapper">
+                        <img src="{{PLATFORM_2_LOGO_PATH}}" alt="{{PLATFORM_2_NAME}} logo" class="card-logo" onerror="this.src='/images/fallback-logo.png'">
+                        <span class="card-initial" style="background-color: {{PLATFORM_2_COLOR}};">{{PLATFORM_2_INITIAL}}</span>
+                    </div>
+                    <div>
+                        <h3 class="card-name" style="font-family: Fraunces, serif;">{{PLATFORM_2_NAME}}</h3>
+                        <p class="card-tagline">{{PLATFORM_2_TAGLINE}}</p>
+                    </div>
+                </div>
+
+                <div class="card-score">
+                    <span class="card-score__number">{{PLATFORM_2_SCORE}}</span>
+                    <span class="card-score__label">/5</span>
+                    <div class="card-stars">{{PLATFORM_2_STARS_SVG}}</div>
+                    <span class="rating-badge rating-badge--recommended">Recommended</span>
+                </div>
+
+                <p class="card-body">{{PLATFORM_2_BODY}}</p>
+
+                <div class="card-details">
+                    {{PLATFORM_2_DETAILS}}
+                </div>
+
+                <div class="card-offer">
+                    <span class="offer-tag">{{PLATFORM_2_OFFER_TAG}}</span>
+                    <a href="{{PLATFORM_2_CTA_URL}}" class="cta-button cta-button--secondary">{{PLATFORM_2_CTA_TEXT}}</a>
+                </div>
+
+                <p class="card-meta"><a href="{{PLATFORM_2_REVIEW_URL}}" class="card-review-link">Full review</a></p>
+            </div>
+
+            <!-- Platform 3 Card -->
+            <div class="platform-card" style="border-color: {{PLATFORM_3_COLOR}};">
+                <div class="card-header">
+                    <div class="card-logo-wrapper">
+                        <img src="{{PLATFORM_3_LOGO_PATH}}" alt="{{PLATFORM_3_NAME}} logo" class="card-logo" onerror="this.src='/images/fallback-logo.png'">
+                        <span class="card-initial" style="background-color: {{PLATFORM_3_COLOR}};">{{PLATFORM_3_INITIAL}}</span>
+                    </div>
+                    <div>
+                        <h3 class="card-name" style="font-family: Fraunces, serif;">{{PLATFORM_3_NAME}}</h3>
+                        <p class="card-tagline">{{PLATFORM_3_TAGLINE}}</p>
+                    </div>
+                </div>
+
+                <div class="card-score">
+                    <span class="card-score__number">{{PLATFORM_3_SCORE}}</span>
+                    <span class="card-score__label">/5</span>
+                    <div class="card-stars">{{PLATFORM_3_STARS_SVG}}</div>
+                    <span class="rating-badge rating-badge--recommended">Recommended</span>
+                </div>
+
+                <p class="card-body">{{PLATFORM_3_BODY}}</p>
+
+                <div class="card-details">
+                    {{PLATFORM_3_DETAILS}}
+                </div>
+
+                <div class="card-offer">
+                    <span class="offer-tag">{{PLATFORM_3_OFFER_TAG}}</span>
+                    <a href="{{PLATFORM_3_CTA_URL}}" class="cta-button cta-button--secondary">{{PLATFORM_3_CTA_TEXT}}</a>
+                </div>
+
+                <p class="card-meta"><a href="{{PLATFORM_3_REVIEW_URL}}" class="card-review-link">Full review</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SVG Section Divider: Flip -->
+<svg class="section-divider section-divider--flip" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <path d="M0,80 Q300,120 600,80 T1200,80 L1200,0 L0,0 Z" fill="currentColor"/>
+</svg>
+<!-- Visual Break: Cinematic Photo + Quote -->
+<section class="section-wrapper--visual-break">
+    <div class="visual-break-image-wrapper">
+        <img src="{{VISUAL_BREAK_IMAGE}}" alt="{{VISUAL_BREAK_IMAGE_ALT}}" class="visual-break-image">
+        <div class="visual-break-overlay"></div>
+    </div>
+    <div class="visual-break-content">
+        <blockquote class="visual-break-quote">
+            <p>{{VISUAL_BREAK_QUOTE}}</p>
+            <footer>— {{VISUAL_BREAK_ATTRIBUTION}}</footer>
+        </blockquote>
+    </div>
+</section>
+
+<!-- Comparison Table -->
+<section class="section-wrapper">
+    <div class="content-container">
+        <h2 class="section-heading">Quick Comparison</h2>
+        <div class="table-wrapper">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>{{PLATFORM_1_NAME}}</th>
+                        <th>{{PLATFORM_2_NAME}}</th>
+                        <th>{{PLATFORM_3_NAME}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="row-label">Copay</td>
+                        <td><span class="table-mono">{{PLATFORM_1_COPAY}}</span></td>
+                        <td><span class="table-mono">{{PLATFORM_2_COPAY}}</span></td>
+                        <td><span class="table-mono">{{PLATFORM_3_COPAY}}</span></td>
+                    </tr>
+                    <tr>
+                        <td class="row-label">In-Network</td>
+                        <td>{{PLATFORM_1_IN_NETWORK}}</td>
+                        <td>{{PLATFORM_2_IN_NETWORK}}</td>
+                        <td>{{PLATFORM_3_IN_NETWORK}}</td>
+                    </tr>
+                    <tr>
+                        <td class="row-label">Out-of-Pocket</td>
+                        <td><span class="table-mono">{{PLATFORM_1_OOP_PRICE}}</span></td>
+                        <td><span class="table-mono">{{PLATFORM_2_OOP_PRICE}}</span></td>
+                        <td><span class="table-mono">{{PLATFORM_3_OOP_PRICE}}</span></td>
+                    </tr>
+                    <tr>
+                        <td class="row-label">Format</td>
+                        <td>{{PLATFORM_1_FORMAT}}</td>
+                        <td>{{PLATFORM_2_FORMAT}}</td>
+                        <td>{{PLATFORM_3_FORMAT}}</td>
+                    </tr>
+                    <tr>
+                        <td class="row-label">Best For</td>
+                        <td>{{PLATFORM_1_BEST_FOR}}</td>
+                        <td>{{PLATFORM_2_BEST_FOR}}</td>
+                        <td>{{PLATFORM_3_BEST_FOR}}</td>
+                    </tr>
+                    <tr>
+                        <td class="row-label">Rating</td>
+                        <td>{{PLATFORM_1_SCORE}}/5 <span class="rating-badge rating-badge--top">Top Rated</span></td>
+                        <td>{{PLATFORM_2_SCORE}}/5 <span class="rating-badge rating-badge--recommended">Recommended</span></td>
+                        <td>{{PLATFORM_3_SCORE}}/5 <span class="rating-badge rating-badge--recommended">Recommended</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- Insurance Fallback Section -->
+<div class="section-wrapper">
+    <div class="content-container">
+        <h2 class="section-heading">What If My Plan Isn't Accepted?</h2>
+        <p>Not all {{INSURER_NAME}} plans are accepted by every platform. If your specific plan isn't covered, here are your options:</p>
+        <p><strong>Out-of-network reimbursement:</strong> Many {{INSURER_NAME}} plans offer partial reimbursement for out-of-network mental health services. Check your plan documents or call the number on the back of your card.</p>
+        <p><strong>Financial assistance:</strong> Most platforms offer sliding scale fees or financial aid programs that can reduce your cost significantly.</p>
+        <p><strong>Affordable alternatives:</strong> If insurance isn't an option, <a href="{{AFFORDABLE_PAGE_URL}}">see our guide to affordable online therapy</a> for platforms starting at $42/week.</p>
+    </div>
+</div>
+<!-- Gentle Forks Section -->
+<section class="section-wrapper--accent">
+    <div class="content-container">
+        <h2 class="section-heading">Explore More Options</h2>
+        <div class="forks-grid">
+            {{FORK_LINKS}}
+        </div>
+        <div class="forks-visual">
+            <img src="{{FORKS_IMAGE_PATH}}" alt="{{FORKS_IMAGE_ALT}}" class="forks-image">
+        </div>
+    </div>
+</section>
+
+<!-- Reviewer Card Section -->
+<section class="section-wrapper--alt">
+    <div class="content-container">
+        <div class="reviewer-card">
+            <div class="reviewer-avatar">
+                <span class="reviewer-initials">{{REVIEWER_INITIALS}}</span>
+            </div>
+            <div class="reviewer-content">
+                <h3 class="reviewer-name" style="font-family: Fraunces, serif;">{{REVIEWER_NAME}}</h3>
+                <p class="reviewer-credential">{{REVIEWER_CREDENTIAL}}</p>
+                <p class="reviewer-specialties"><strong>Specialties:</strong> {{REVIEWER_SPECIALTIES}}</p>
+                <p class="reviewer-bio">{{REVIEWER_BIO}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Disclaimers Section -->
+<section class="section-wrapper--muted">
+    <div class="content-container">
+        <h2 class="section-heading">Important Information</h2>
+        <div class="disclaimers-content">
+            {{DISCLAIMERS_CONTENT}}
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="site-footer__inner">
+        <div>
+            <h3>About Digital Therapy Solutions</h3>
+            <p>Independent reviews of online therapy platforms. Expert-written, regularly updated, no sponsored rankings.</p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <ul><li><a href="/conditions">All Conditions</a></li><li><a href="/reviews">Platform Reviews</a></li><li><a href="/insurance">Insurance Guide</a></li><li><a href="/about">About Us</a></li></ul>
+        </div>
+        <div>
+            <h3>Resources</h3>
+            <ul><li><a href="/editorial-policy">Editorial Policy</a></li><li><a href="/affiliate-disclosure">Affiliate Disclosure</a></li><li><a href="/privacy">Privacy Policy</a></li></ul>
+        </div>
+    </div>
+    <div class="site-footer__crisis"><span class="crisis-alert">In crisis?</span> Call or text <a href="tel:988">988</a> · Text HOME to <a href="sms:741741">741741</a> · Emergency: <a href="tel:911">911</a></div>
+    <div class="site-footer__bottom">&copy; 2026 Digital Therapy Solutions. All rights reserved. | <a href="/privacy">Privacy</a> | <a href="/terms">Terms</a> | <a href="/affiliate-disclosure">Disclosures</a></div>
+</footer>
+
+<!-- JavaScript -->
+<script>
+// Hamburger Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.site-nav__hamburger');
+    const navLinks = document.querySelector('.site-nav__links');
+    
+    if (hamburger) {
+        hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+    }
+});
+
+// Scroll Reveal Observer
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px'
+};
+
+const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('reveal');
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+document.querySelectorAll('.platform-card, .reviewer-card, .section-wrapper').forEach(el => {
+    observer.observe(el);
+});
+
+// Back to Top Button
+window.addEventListener('scroll', function() {
+    const backToTop = document.querySelector('.back-to-top');
+    if (window.scrollY > 300 && backToTop) {
+        backToTop.classList.add('visible');
+    } else if (backToTop) {
+        backToTop.classList.remove('visible');
+    }
+});
+
+if (document.querySelector('.back-to-top')) {
+    document.querySelector('.back-to-top').addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
+</script>
+
+</body>
+</html>

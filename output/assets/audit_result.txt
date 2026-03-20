@@ -1,0 +1,25 @@
+Audit complete. 51 logos checked, 23 flagged.
+  FLAG: adhd-online.webp -- Size 1834B under 2KB
+  FLAG: bend-health.webp -- Size 1310B under 2KB
+  FLAG: betterhelp.webp -- Size 1498B under 2KB
+  FLAG: brightside.webp -- Size 1912B under 2KB
+  FLAG: doctor-on-demand.webp -- Size 1760B under 2KB
+  FLAG: done-adhd.webp -- Size 1228B under 2KB
+  FLAG: faithful-counseling.webp -- Size 1498B under 2KB
+  FLAG: grow-therapy.webp -- Size 1350B under 2KB
+  FLAG: headway.webp -- Size 780B under 2KB
+  FLAG: insurer-anthem.webp -- Size 1968B under 2KB
+  FLAG: insurer-chip.webp -- Size 1468B under 2KB
+  FLAG: insurer-humana.webp -- Size 1402B under 2KB
+  FLAG: insurer-magellan.webp -- Size 1752B under 2KB
+  FLAG: insurer-medicare.webp -- Size 1968B under 2KB
+  FLAG: insurer-wellcare.webp -- Size 868B under 2KB
+  FLAG: mindful-care.webp -- Size 1268B under 2KB
+  FLAG: nocd.webp -- Size 1840B under 2KB
+  FLAG: open-path.webp -- Size 1964B under 2KB
+  FLAG: our-ritual.webp -- Size 2044B under 2KB
+  FLAG: pride-counseling.webp -- Size 1498B under 2KB
+  FLAG: psychology-today.webp -- Size 854B under 2KB
+  FLAG: simplepractice.webp -- Size 990B under 2KB
+  FLAG: talkspace.webp -- Size 454B under 2KB
+DONE

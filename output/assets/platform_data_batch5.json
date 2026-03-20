@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "nocd",
+    "name": "NOCD",
+    "abbr": "NC",
+    "color": "#1A237E",
+    "score": "4.5",
+    "badge": "Top Rated",
+    "tagline": "The most specialized online OCD therapy platform — ERP-trained therapists and peer community",
+    "verdict_short": "NOCD is built specifically for OCD with ERP-trained therapists, between-session support, and peer community. The best online option for OCD by a significant margin.",
+    "body": "NOCD is the most specialized OCD treatment platform available online, and it's not particularly close. Every therapist on the platform is trained in Exposure and Response Prevention (ERP) — the gold-standard, evidence-based treatment for OCD. The platform pairs clinical ERP therapy sessions with between-session support, a peer community of people managing OCD, and structured tools for practicing ERP techniques outside of sessions. Most major insurance plans are accepted, and a self-pay option exists for those without coverage. If you have OCD, NOCD is the clear recommendation — the combination of ERP expertise, insurance coverage, and between-session infrastructure is difficult to replicate through a general therapy platform.",
+    "price": "Insurance-based + /month self-pay",
+    "insurance": "Most major plans",
+    "formats": [
+      "Video",
+      "Async"
+    ],
+    "best_for": [
+      "Anyone with OCD seeking ERP therapy — the gold standard treatment",
+      "People who want between-session support and a peer community alongside clinical sessions",
+      "Insured and self-pay clients alike — coverage is broad and self-pay is available"
+    ],
+    "look_elsewhere": [
+      "If you don't have OCD — NOCD is narrow by design and not a general therapy platform",
+      "If you want a generalist therapist who treats multiple conditions",
+      "If you need conditions beyond OCD treated on the same platform"
+    ],
+    "pricing_detail": "NOCD accepts most major insurance plans, and with coverage, your session copay is typically -100 depending on your plan. The self-pay rate is /month, which includes therapy sessions and the full platform. For OCD treatment, this represents real value — ERP-trained therapists are genuinely harder to find through general platforms.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per month self-pay",
+    "formats_detail": "NOCD sessions are video-based. The between-session support is delivered through the platform's messaging tools and peer community. ERP practice tools are built into the app, allowing clients to track exposures and document progress between clinical sessions.",
+    "pull_quote": "ERP is the only treatment with strong evidence for OCD, and most generalist therapists don't know how to deliver it well. NOCD's entire model is built around closing that gap.",
+    "compare_1_slug": "betterhelp-review.html",
+    "compare_1_name": "BetterHelp",
+    "compare_2_slug": "talkspace-review.html",
+    "compare_2_name": "Talkspace",
+    "compare_3_slug": "brightside-review.html",
+    "compare_3_name": "Brightside",
+    "condition_1_slug": "ocd.html",
+    "condition_1_name": "OCD",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  },
+  {
+    "slug": "open-path",
+    "name": "Open Path",
+    "abbr": "OP",
+    "color": "#2E7D32",
+    "score": "4.4",
+    "badge": "Recommended",
+    "tagline": "Affordable therapy at -80 per session for uninsured and underinsured clients",
+    "verdict_short": "Open Path is the best option for uninsured or underinsured clients who want real therapy at accessible prices. Therapists set their own sliding scale rates. One-time membership fee.",
+    "body": "Open Path is a therapist collective built specifically to address the affordability gap in mental health care. Therapists on the platform agree to offer sliding scale rates of -80 per session — significantly below their standard rates — in exchange for access to clients who couldn't otherwise afford care. A one-time membership fee of  gives clients lifetime access to the network. Insurance is not accepted, which is actually the point: Open Path exists for the population that doesn't have insurance or whose insurance doesn't cover mental health effectively. The therapist network is real licensed clinicians, not coaches or counselors — you get the same quality as a traditional therapy practice at a fraction of the cost.",
+    "price": "-80/session (one-time  membership)",
+    "insurance": "Not accepted",
+    "formats": [
+      "Video",
+      "In-person"
+    ],
+    "best_for": [
+      "Uninsured or underinsured adults who want affordable weekly therapy",
+      "People who've priced out private pay and been priced out of their options",
+      "Anyone who wants real licensed therapists at accessible rates"
+    ],
+    "look_elsewhere": [
+      "If you have insurance — Headway or Grow Therapy will be cheaper with in-network coverage",
+      "If you want subscription features like messaging or async between-session tools",
+      "If you need psychiatry or medication management alongside therapy"
+    ],
+    "pricing_detail": "Open Path requires a one-time  membership fee that grants lifetime access to the network. After joining, sessions are booked at -80 each, set by individual therapists at their sliding scale rate. There are no monthly subscription costs — you pay per session. For someone attending weekly therapy, the annual cost at /session is roughly ,600 plus the  membership.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per session starting",
+    "formats_detail": "Session formats depend on the individual therapist. Most offer video, and some offer in-person sessions depending on location. Booking and payment are managed through the Open Path platform, but sessions may be conducted through the therapist's own video system or Open Path's integrated tool.",
+    "pull_quote": "The  membership buys you lifetime access to real licensed therapists at -80 a session. For people who've been told therapy is something they can't afford, that changes the math.",
+    "compare_1_slug": "betterhelp-review.html",
+    "compare_1_name": "BetterHelp",
+    "compare_2_slug": "headway-review.html",
+    "compare_2_name": "Headway",
+    "compare_3_slug": "therapyden-review.html",
+    "compare_3_name": "TherapyDen",
+    "condition_1_slug": "anxiety.html",
+    "condition_1_name": "Anxiety",
+    "condition_2_slug": "depression.html",
+    "condition_2_name": "Depression"
+  },
+  {
+    "slug": "our-relationship",
+    "name": "Our Relationship",
+    "abbr": "OR",
+    "color": "#C62828",
+    "score": "4.1",
+    "badge": "Recommended",
+    "tagline": "A research-backed self-guided couples program — not live therapy, but evidence-based",
+    "verdict_short": "Our Relationship is a research-backed self-guided couples program, not ongoing live therapy. Developed at University of Chicago. Strong evidence base for relationship satisfaction.",
+    "body": "Our Relationship is not a therapy platform — it's a structured self-guided program for couples, developed by researchers at the University of Chicago. The program is based on decades of relationship science and walks couples through a series of interactive modules, exercises, and guided reflections designed to improve communication, reduce conflict, and increase relationship satisfaction. At  one-time, it's the most affordable intervention for couples who want structured support. The evidence base is real — multiple randomized controlled trials show meaningful improvement in relationship satisfaction for couples who complete the program. The important caveat: this is not a substitute for live couples therapy if there are serious issues that require clinical intervention.",
+    "price": " one-time",
+    "insurance": "Not accepted",
+    "formats": [
+      "Self-guided program"
+    ],
+    "best_for": [
+      "Couples wanting a structured, affordable program to improve communication",
+      "Partners who want to work on their relationship before problems become serious",
+      "Those who prefer a self-paced program over scheduled live therapy sessions"
+    ],
+    "look_elsewhere": [
+      "If you need live couples therapy — this is a program, not a therapist match",
+      "Couples in acute crisis who need clinical intervention, not a self-guided course",
+      "Anyone expecting ongoing therapist contact or real-time support"
+    ],
+    "pricing_detail": "Our Relationship costs  as a one-time fee — no subscriptions, no per-session billing. The program is fully self-paced and can be completed at whatever speed works for the couple. The one-time cost model makes it accessible as a starting point for couples who are hesitant to commit to ongoing therapy costs.",
+    "pricing_stat": "",
+    "pricing_stat_label": "one-time program fee",
+    "formats_detail": "Our Relationship is entirely self-guided — there are no live sessions, no therapist contact, and no real-time interactions. The program is delivered through a web-based interface with video content, written exercises, and interactive modules. Couples complete it together on their own schedule.",
+    "pull_quote": "The research behind Our Relationship is solid — this isn't self-help content dressed up as a program. For couples who want structure without the cost of ongoing sessions, the evidence base makes it worth considering.",
+    "compare_1_slug": "regain-review.html",
+    "compare_1_name": "Regain",
+    "compare_2_slug": "our-ritual-review.html",
+    "compare_2_name": "Our Ritual",
+    "compare_3_slug": "betterhelp-review.html",
+    "compare_3_name": "BetterHelp",
+    "condition_1_slug": "couples.html",
+    "condition_1_name": "Couples Therapy",
+    "condition_2_slug": "relationship.html",
+    "condition_2_name": "Relationship Issues"
+  },
+  {
+    "slug": "our-ritual",
+    "name": "Our Ritual",
+    "abbr": "Ri",
+    "color": "#880E4F",
+    "score": "3.9",
+    "badge": "Recommended",
+    "tagline": "Relationship coaching with app-based tools — between self-help and couples therapy",
+    "verdict_short": "Our Ritual combines relationship coaching with app-based tools and exercises. Somewhere between self-help and couples therapy. Better for prevention and growth than acute crisis.",
+    "body": "Our Ritual occupies a useful middle ground between self-guided programs and full licensed couples therapy. The platform pairs couples with relationship coaches (not licensed therapists) and provides an app-based toolkit of exercises, prompts, and communication tools for ongoing relationship maintenance. Sessions are live video with coaches who specialize in relationship dynamics. The model is better suited to couples who are doing well and want to invest in their relationship proactively — or couples with mild friction who want structured support — than to couples in acute conflict or crisis. Insurance is not accepted; the monthly subscription model makes it a recurring commitment.",
+    "price": "-195/month",
+    "insurance": "Not accepted",
+    "formats": [
+      "Video",
+      "App tools"
+    ],
+    "best_for": [
+      "Couples wanting ongoing relationship maintenance and communication tools",
+      "Partners in the prevention-and-growth phase, not acute crisis",
+      "Those who want regular check-ins with a coach plus between-session app tools"
+    ],
+    "look_elsewhere": [
+      "If you're in relationship crisis — you need a licensed couples therapist, not coaching",
+      "If insurance coverage matters — Our Ritual is self-pay only",
+      "If you need clinical therapy rather than coaching-level support"
+    ],
+    "pricing_detail": "Our Ritual's pricing ranges from -195/month depending on the plan tier and session frequency. All plans include access to the app toolkit with exercises and prompts. Higher tiers include more frequent coach sessions. Insurance is not accepted.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per month starting",
+    "formats_detail": "Our Ritual uses live video for coaching sessions and an app for between-session tools and exercises. The combination is designed to make relationship work continuous rather than episodic — the app keeps the conversation going between sessions.",
+    "pull_quote": "Relationship coaching isn't the same as relationship therapy, and that distinction matters. Our Ritual is most valuable when chosen for what it actually is — not as a substitute for clinical care when clinical care is what's needed.",
+    "compare_1_slug": "regain-review.html",
+    "compare_1_name": "Regain",
+    "compare_2_slug": "our-relationship-review.html",
+    "compare_2_name": "Our Relationship",
+    "compare_3_slug": "betterhelp-review.html",
+    "compare_3_name": "BetterHelp",
+    "condition_1_slug": "couples.html",
+    "condition_1_name": "Couples Therapy",
+    "condition_2_slug": "relationship.html",
+    "condition_2_name": "Relationship Issues"
+  },
+  {
+    "slug": "pride-counseling",
+    "name": "Pride Counseling",
+    "abbr": "PC",
+    "color": "#9C27B0",
+    "score": "4.0",
+    "badge": "Recommended",
+    "tagline": "LGBTQ+ affirming therapy through BetterHelp's platform with identity-forward matching",
+    "verdict_short": "Pride Counseling (by BetterHelp) filters the BetterHelp therapist pool for LGBTQ+ affirming providers. Same infrastructure, same pricing, LGBTQ+-forward matching.",
+    "body": "Pride Counseling is a BetterHelp subsidiary platform designed for LGBTQ+ clients who want to be matched with therapists who identify as or are affirming of LGBTQ+ identities. The underlying infrastructure is identical to BetterHelp — same video, phone, chat, and messaging options, same financial aid, same billing. The meaningful difference is the matching filter: Pride Counseling's algorithm prioritizes therapists who are LGBTQ+-affirming, reducing the chance of being matched with a provider who requires education on your identity before therapy can actually begin. For LGBTQ+ clients who want that filter applied upfront without building their own vetting process, Pride Counseling removes that friction.",
+    "price": "-100/week",
+    "insurance": "Not accepted",
+    "formats": [
+      "Video",
+      "Phone",
+      "Messaging"
+    ],
+    "best_for": [
+      "LGBTQ+ individuals who want affirming therapy without vetting therapists themselves",
+      "People who want the BetterHelp platform with identity-aware matching applied",
+      "Those who've had experiences of therapists being unprepared for LGBTQ+ content"
+    ],
+    "look_elsewhere": [
+      "If insurance coverage is important — BetterHelp platforms don't accept insurance",
+      "If you want vetted specialists rather than an affirmation filter — Gay Therapy Center or Inclusive Therapists offer deeper vetting",
+      "If you need psychiatry or medication management alongside therapy"
+    ],
+    "pricing_detail": "Pricing matches BetterHelp exactly: -100/week on a 4-week billing cycle. Insurance is not accepted. Financial aid is available for qualifying users through the same application process as BetterHelp. There is no premium for the LGBTQ+ matching filter.",
+    "pricing_stat": "",
+    "pricing_stat_label": "per week starting",
+    "formats_detail": "Pride Counseling supports video sessions, phone sessions, live chat sessions, and async messaging — the full BetterHelp format suite. Format flexibility lets you choose what works best for each week without paying extra or switching plans.",
+    "pull_quote": "Not having to start every therapy relationship by explaining your identity before the actual work can begin is a genuine quality-of-care improvement — and that's what the matching filter buys you.",
+    "compare_1_slug": "betterhelp-review.html",
+    "compare_1_name": "BetterHelp",
+    "compare_2_slug": "gay-therapy-center-review.html",
+    "compare_2_name": "Gay Therapy Center",
+    "compare_3_slug": "inclusive-therapists-review.html",
+    "compare_3_name": "Inclusive Therapists",
+    "condition_1_slug": "lgbtq.html",
+    "condition_1_name": "LGBTQ+ Mental Health",
+    "condition_2_slug": "anxiety.html",
+    "condition_2_name": "Anxiety"
+  }
+]
