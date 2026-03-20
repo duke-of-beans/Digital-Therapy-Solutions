@@ -2,39 +2,52 @@
 **Session:** 2026-03-20T00:00:00
 **Environment:** BUSINESS
 **Project:** Digital Therapy Solutions
-**Blueprint:** PS-CONDITIONS-02.md
+**Blueprint:** PS-SEO-01.md
 
 ---
 
 ## SHIPPED
 | Item | Status | Files Modified |
 |------|--------|----------------|
-| output/mens-mental-health.html | COMPLETE | output/mens-mental-health.html |
-| output/womens-mental-health.html | COMPLETE | output/womens-mental-health.html |
-| output/life-transitions.html | COMPLETE | output/life-transitions.html |
-| output/autism.html | COMPLETE | output/autism.html |
-| conditions.html — 4 stub cards activated | COMPLETE | output/conditions.html |
+| T1: inclusive-therapists.webp logo grab | BLOCKED (DNS unreachable from Cowork VM) | assets/grab-one-logo.py written |
+| T2/T3: Meta description audit + fix | COMPLETE | META_AUDIT.md, 23 HTML files patched (all 65 now 120–160 chars) |
+| T4: Canonical tags | COMPLETE | All 65 output/*.html — `<link rel="canonical">` added to every page |
+| T5: BreadcrumbList JSON-LD | COMPLETE | All 65 output/*.html — BreadcrumbList schema injected |
+| T6: FAQPage JSON-LD | COMPLETE | 28 condition pages + 23 insurance pages = 51 pages |
+| T7: Review JSON-LD | COMPLETE | betterhelp-review.html, talkspace-review.html, online-therapy-com-review.html |
+| T8: sitemap.xml | COMPLETE | output/sitemap.xml — 65 URLs, valid XML, priority tiers assigned |
+| T9: robots.txt | COMPLETE | output/robots.txt — Allow: /, Sitemap directive |
+| T10: Internal link audit + patch | COMPLETE | INTERNAL_LINKS_AUDIT.md — 4 pages patched (privacy-policy, about, affiliate-disclosure, editorial-policy) |
+| T11: Quality gate | COMPLETE | 0 failures, 49 pre-existing warnings (carry-over, not regressions) |
 
 ---
 
 ## QUALITY GATES
-- **quality_gate.py:** PASS — 65 pages, 0 failures, 49 warnings (all pre-existing, not regressions)
+- **quality_gate.py:** PASS — 0 failures, 65 pages
+- **Spot checks:** PASS — canonical, BreadcrumbList, FAQPage, Review schema all verified on anxiety.html, betterhelp-review.html, aetna.html, index.html
+- **sitemap.xml:** PASS — 65 `<url>` entries, valid XML header
+- **robots.txt:** PASS — Allow: / and Sitemap directive confirmed
+- **Meta audit:** PASS — 65/65 pages at 120–160 chars
+- **Internal links:** PASS — 65/65 pages with ≥3 body content links
 - **Git:** see commit hash in STATUS.md after push
 
 ---
 
 ## DECISIONS MADE BY AGENT
-- Kept `.reveal` class on platform cards despite quality gate warnings — warnings are sitewide pre-existing pattern, not failures introduced this sprint. Confidence: HIGH.
-- Removed comparison table section from new 4 pages — sprint spec did not call for it and ocd.html pattern is the reference. All 4 pages are 3-card single-column layout matching spec exactly. Confidence: HIGH.
-- Kept existing SVG icons from conditions.html where stub had them, replaced with sprint-spec icons — sprint-spec icons take precedence as they are the defined final icons. Confidence: HIGH.
-- Changed stub `<div class="hub-card hub-card--stub">` + `<span class="hub-card__cta">Guide Coming</span>` to `<a href="...">` + `<span class="hub-card__cta">Read Guide &rarr;</span>` to match live card pattern. Confidence: HIGH.
+
+- **fix_meta.py self-caught 6 descriptions at 161–170 chars** — ran fix_meta2.py as a second pass to trim to 120–160. All clean on re-audit. — confidence: HIGH
+- **Logo grab failure handled as non-blocking** — sprint spec explicitly says "if both fail, log and continue." No workaround attempted. — confidence: HIGH
+- **Warnings in quality_gate.py not treated as regressions** — 49 warnings are pre-existing (.reveal sections, trust badges) from earlier sprints. Confirmed they were present before this sprint by reviewing STATUS.md history. — confidence: HIGH
+- **Internal link patch used "Also worth reading" section style** — sprint said "Related guides" or "Also worth reading." Chose latter for legal/policy pages where "guides" would be tonally off. — confidence: HIGH
+- **`py` launcher used instead of `python`** — consistent with known env pattern in STATUS.md. — confidence: HIGH
 
 ---
 
 ## UNEXPECTED FINDINGS
-- All 4 stub cards already had SVG icons from PS-DESIGN-QA-01 — sprint spec called for replacement icons, applied as specified.
-- Visual break section (video-call-shoulder.webp) was present in ocd.html but sprint spec did not mention it for new pages. Omitted from new pages to match minimal spec. If desired, can be added in PS-DESIGN-01.
-- `inclusive-therapists.webp` logo referenced in autism.html — this logo may not exist in assets/logos/ (not in original 34-platform set). Quality gate passed because logo fallback (onerror initials) is correctly implemented. Recommend checking assets/logos/ during PS-DESIGN-01.
+
+- **Cowork VM has no outbound DNS resolution** — Python `requests` cannot reach external APIs (Clearbit, etc.). This will affect any future sprint that tries to grab assets programmatically. Recommended: pre-fetch assets on the host machine and commit, or use Claude in Chrome for downloads.
+- **BeautifulSoup not pre-installed in env** — `pip install beautifulsoup4 lxml` required at session start. Add to sprint boilerplate or pre-install note in STATUS.md.
+- **fix_meta.py first pass produced strings at 161–170 chars** — descriptions containing natural-language qualifiers ("Yes — ", insurer full names) tend to run long. Future meta scripts should build descriptions from a character-budget template, not freeform strings.
 
 ---
 
@@ -43,17 +56,18 @@
 ### Logged Only
 | # | Category | What happened |
 |---|----------|--------------|
-| 1 | TOOL | Desktop Commander read_file returns metadata-only for markdown/html — workaround: use start_process with `type` cmd or write Python script to file |
-| 2 | ENV | python3 not on PATH in powershell — must use `python` in cmd shell |
-| 3 | PATTERN | cmd 500-char limit requires writing Python scripts to file before execution — already documented in STATUS.md Known Technical Patterns |
+| 1 | ENV | Clearbit DNS unreachable from Cowork VM — `requests` fails with `getaddrinfo failed`. Logo not grabbed. |
+| 2 | ENV | `python` not on PATH in Cowork shell — must use `py` launcher or full path. Known, in STATUS.md. |
+| 3 | SPEC | fix_meta.py first pass: 6 descriptions 161–170 chars. Self-corrected with fix_meta2.py. |
+| 4 | ENV | bs4 not pre-installed — added pip install step at session start. |
 
 ---
 
 ## NEXT QUEUE (RECOMMENDED)
-1. **PS-PLATFORMS-01** — 31 remaining platform review pages — blocked on affiliate application approvals. Ready to scaffold once affiliates confirmed.
-2. **PS-SEO-01** — meta tags, schema.org, sitemap, internal link audit — no blockers, conditions vertical now 100% complete making this the right next step.
-3. **PS-DESIGN-01** — MORPH-26 design intelligence pass — no blockers, full page inventory now live.
-4. **assets/regrab-logos.py** — run from host to pull 23 flagged logos — requires host network, not sandbox.
+
+1. **PS-PLATFORMS-01** — 31 remaining platform review pages — blocked on affiliate applications being accepted. Ready to run the moment approvals land. No other dependencies.
+2. **PS-DESIGN-01** — MORPH-26 design intelligence pass — ready, no blockers. Extract DTS design patterns into DESIGN_DNA.yaml. Also: grab inclusive-therapists.webp manually before this sprint starts (Clearbit from host machine or browser).
+3. **inclusive-therapists.webp grab** — small standalone task, do before PS-DESIGN-01. Grab via browser (Claude in Chrome) since Cowork VM has no outbound DNS.
 
 ---
 
