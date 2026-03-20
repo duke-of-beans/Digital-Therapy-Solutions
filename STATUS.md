@@ -17,6 +17,17 @@ Last Updated: 2026-03-20
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
 
+## PS-DESIGN-QA-02 Notes
+- vercel.json at repo root — clean URLs live (/reviews, /betterhelp-review, etc.)
+- output/404.html — styled 404 page added
+- Footer links patched on 62 pages — Quick Links now → reviews.html + insurance.html
+- Platform logo Clearbit regrab: 0/34 PASS (DNS blocked on host — backlogged)
+- .hub-card__logo img: object-fit: contain fixed in styles.css
+- privacy-policy.html: attorney disclaimer removed
+- how-online-therapy-works.html: fully restyled (hero, timeline, split-section, stat-callouts)
+- Layout variety applied to 6 detail pages (betterhelp, talkspace, online-therapy-com, aetna, bcbs, cigna)
+- Quality gate: 0 failures, 66 pages
+
 ## PS-SEO-01 Notes
 - Meta descriptions: 65/65 at 120-160 chars (23 were flagged, all fixed)
 - Canonicals: 65/65 pages
