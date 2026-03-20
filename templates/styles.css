@@ -2181,7 +2181,7 @@ button:focus-visible,
 .hub-grid { display: grid; gap: var(--space-md); }
 .hub-grid--3 { grid-template-columns: repeat(3, 1fr); }
 .hub-grid--4 { grid-template-columns: repeat(4, 1fr); }
-.hub-card { background: var(--bg-primary); border: 1px solid var(--border); border-radius: 12px; padding: var(--space-md); display: flex; flex-direction: column; gap: var(--space-xs); transition: box-shadow 0.2s; }
+.hub-card { background: var(--bg-primary); border: 1px solid var(--border); border-radius: 12px; text-decoration: none; padding: var(--space-md); display: flex; flex-direction: column; gap: var(--space-xs); transition: box-shadow 0.2s; }
 .hub-card:hover { box-shadow: var(--shadow-md); }
 .hub-card--stub { opacity: 0.6; }
 .hub-card__logo { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; }

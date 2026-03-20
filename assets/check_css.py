@@ -1,5 +1,7 @@
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
-lines = open(r'D:\Work\Digital-Therapy-Solutions\templates\styles.css', encoding='utf-8').readlines()
-for i, l in enumerate(lines[2180:2210], start=2181):
-    print(f'{i}: {l}', end='')
+import re
+with open('D:/Work/Digital-Therapy-Solutions/templates/styles.css', encoding='utf-8') as f:
+    content = f.read()
+matches = [(m.start(), content[max(0,m.start()-50):m.start()+150]) for m in re.finditer(r'hub-card|text-decoration', content)]
+for pos, ctx in matches[:30]:
+    print(f'Line ~{content[:pos].count(chr(10))}: {ctx.strip()[:150]}')
+    print('---')
