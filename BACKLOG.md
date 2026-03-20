@@ -9,6 +9,14 @@ Last Updated: 2026-03-19
 
 ## Queued Sprints
 
+### PS-AUDIT-01 — Full Site Audit (Multi-Hat)
+**Status:** READY — sprint prompt at sprints/PS-AUDIT-01.md
+**Hats:** Designer / Engineer / DTS Owner / Affiliate Partner
+**Output:** PS-AUDIT-01-REPORT.md + FIX NOW queue + backlog additions + launch checklist
+**Note:** Observe and document only. Fixes execute after report is written.
+
+---
+
 ### PS-LOGO-REFRESH-01 — Insurance Logo Replacement (Solid BG Versions)
 **Status:** BLOCKED — waiting on asset sourcing by David
 **Problem:** Insurance logos grabbed as transparent PNG/SVG render poorly on warm parchment
