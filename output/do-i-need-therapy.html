@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Not sure if you need therapy? You don't need to be in crisis to benefit. Explore the signs, address the hesitations, and find your path forward.">
+    <title>Do I Need Therapy? Signs It Might Help (And How to Find Out) | Digital Therapy Solutions</title>
+    
+    <!-- Favicon & Apple Touch Icon -->
+    <link rel="icon" type="image/png" href="../assets/branding/favicon.png">
+    <link rel="apple-touch-icon" href="../assets/branding/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../templates/styles.css">
+    
+    <style>
+        .hero-subhead {
+            font-family: 'Instrument Serif', serif;
+            font-style: italic;
+            font-size: 1.25rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin: 1.5rem 0 2rem;
+        }
+        
+        .byline {
+            font-size: 0.95rem;
+            color: var(--text-tertiary);
+            margin-top: 1.5rem;
+        }
+        
+        .section-content {
+            margin-bottom: 3rem;
+        }
+        
+        .section-content p {
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+        }
+        
+        .visual-break {
+            margin: 4rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .visual-break img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .pull-quote {
+            font-family: 'Instrument Serif', serif;
+            font-size: 1.35rem;
+            line-height: 1.6;
+            color: var(--text-primary);
+            font-style: italic;
+            padding: 2rem;
+            border-left: 4px solid var(--teal);
+            background: var(--bg-secondary);
+            margin: 0;
+        }
+        
+        .attribution {
+            font-size: 0.9rem;
+            color: var(--text-tertiary);
+            margin-top: 1rem;
+            font-style: normal;
+        }
+        
+        .soft-bridge {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        
+        .soft-bridge p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .soft-bridge a {
+            display: block;
+            margin-bottom: 0.75rem;
+            color: var(--teal);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .soft-bridge a:hover {
+            color: var(--teal-dark);
+            text-decoration: underline;
+        }
+        
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .hesitation-item {
+            margin-bottom: 2rem;
+        }
+        
+        .hesitation-item strong {
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .therapy-type {
+            margin-bottom: 1.75rem;
+        }
+        
+        .therapy-type strong {
+            color: var(--text-primary);
+        }
+        
+        @media (max-width: 768px) {
+            .visual-break {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-subhead {
+                font-size: 1.1rem;
+            }
+            
+            .pull-quote {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="../assets/branding/logo-icon.webp" alt="Digital Therapy Solutions logo" class="logo-icon">
+            </a>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="anxiety.html">Conditions</a></li>
+                <li><a href="betterhelp-review.html">Reviews</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <img src="../assets/hero.webp" alt="Person sitting with a cup of coffee, looking thoughtful" class="hero-image">
+            
+            <div class="hero-content">
+                <h1 style="color: var(--teal); font-family: 'Fraunces', serif; font-weight: 500;">If you're asking, the answer is probably worth exploring.</h1>
+                
+                <p class="hero-subhead">You don't need to be in crisis to benefit from therapy. You just need to be curious.</p>
+                
+                <p class="byline">By David Kirsch · Reviewed by Dr. Sarah Chen, LCSW · March 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="content-wrapper">
+        <article class="article">
+            <!-- Section 1: Signs therapy might help -->
+            <section class="reveal section-content">
+                <h2>Signs therapy might help</h2>
+                
+                <p>You're lying awake at 3 a.m. not because of one specific problem, but because your mind won't quiet down. There's a persistent hum of worry that's always there, beneath everything else. It's not panic — it's just this steady background noise that makes it hard to rest, hard to enjoy things, hard to feel quite like yourself.</p>
+                
+                <p>You notice you're having the same argument with your partner, your friend, your family member. Different topic, same feeling: I'm not being understood. You wall off. They retreat. Nothing actually changes, and you're tired of it. Somewhere you learned a pattern, and now the pattern keeps playing out, and you don't know how to break it.</p>
+                
+                <p>Someone you loved is gone — a person, a job, a version of your life you thought would last forever. And it's been months. The sharp pain has softened, but something still feels stuck. You're functioning. But you're not quite moving forward either. Grief doesn't always have a deadline.</p>
+                
+                <p>You feel stuck in ways you can't quite explain to people. They ask what's wrong, and the honest answer is "I don't know." You're not depressed, exactly. But you're not thriving either. It's like you're moving through your days in a lower gear, and you can't figure out how to shift up.</p>
+                
+                <p>You've noticed you're drinking more than you used to. Or scrolling longer. Or finding ways to numb out that didn't used to be your style. You're not sure if it's a problem yet, but you're noticing, and something in that noticing feels important.</p>
+                
+                <p>Your irritability has been coming out sideways — at the people you love, about things that don't quite explain it. You snap. You regret it. You snap again. And you realize this isn't really about the small thing that triggered it. There's something bigger that needs attention.</p>
+            </section>
+
+            <!-- Section 2: Common reasons people hesitate -->
+            <section class="reveal section-content">
+                <h2>Common reasons people hesitate — and honest responses</h2>
+                
+                <div class="hesitation-item">
+                    <strong>"It costs too much."</strong>
+                    <p>Yes, it can. Traditional in-person therapy often runs $150–250 per session, and insurance doesn't always cover it fully. But online therapy has changed the math considerably. Most online platforms run $45–80 per week, and insurance is increasingly covering it. If cost is the barrier, <a href="affordable.html">the affordable options page</a> walks through what's actually available to you — many therapists offer sliding scale fees, and some platforms specifically serve low-income clients.</p>
+                </div>
+                
+                <div class="hesitation-item">
+                    <strong>"It's not bad enough."</strong>
+                    <p>This one shows up more than you'd think. People assume therapy is an emergency room — you go when things have fallen apart. But that's not how therapy works. The people who benefit most are often the ones who come in while things are still manageable, before patterns calcify into crises. You don't need to be at rock bottom to deserve a therapist's time.</p>
+                </div>
+                
+                <div class="hesitation-item">
+                    <strong>"What would people think?"</strong>
+                    <p>Stigma is real, and it's also shrinking fast. More importantly: nobody sees your calendar. Nobody knows you're in a video session from your couch. Your therapist is bound by confidentiality. This is between you and them. Privacy is one of the unexpected perks of online therapy.</p>
+                </div>
+                
+                <div class="hesitation-item">
+                    <strong>"I don't know where to start."</strong>
+                    <p>That's what this site is for. You don't need to figure it all out before reaching out. A good therapist will help you understand what's worth exploring in the first session. The condition guides on this site — anxiety, depression, ADHD, relationships — are designed as a gentle hand toward understanding what might fit.</p>
+                </div>
+            </section>
+
+            <!-- Section 3: Types of therapy -->
+            <section class="reveal section-content">
+                <h2>Types of therapy — in plain English</h2>
+                
+                <div class="therapy-type">
+                    <strong>CBT (Cognitive Behavioral Therapy)</strong>
+                    <p>This is the most researched and most structured approach. It's practical and concrete: you identify thought patterns that aren't serving you, and you learn tools to change them. If you're looking for something action-oriented and time-bound, this is often the sweet spot. <a href="how-online-therapy-works.html">Learn more about how online therapy actually works</a>.</p>
+                </div>
+                
+                <div class="therapy-type">
+                    <strong>DBT (Dialectical Behavior Therapy)</strong>
+                    <p>Think of this as CBT's cousin, built for people with intense emotions. It combines acceptance and change strategies, and it's the gold standard for borderline personality disorder, self-harm, and some eating disorders. If you're managing very strong emotional swings, DBT has the tools.</p>
+                </div>
+                
+                <div class="therapy-type">
+                    <strong>Psychodynamic therapy</strong>
+                    <p>This approach explores patterns rooted in your past and how they show up now. It takes longer than CBT, but it goes deeper. If you're drawn to understanding the "why" behind your patterns — not just changing the behavior — this might be a fit.</p>
+                </div>
+                
+                <div class="therapy-type">
+                    <strong>Couples therapy</strong>
+                    <p>Both partners, one therapist. For relationship distress, communication breakdowns, or recovering from betrayal. <a href="couples.html">The couples therapy guide</a> goes deeper into what to expect.</p>
+                </div>
+                
+                <div class="therapy-type">
+                    <strong>Psychiatry (medication management)</strong>
+                    <p>Not therapy, but often paired with it. A psychiatrist evaluates whether medication might help alongside talk therapy. This is a distinct role from therapy, and some people benefit from both.</p>
+                </div>
+            </section>
+
+            <!-- Visual Break -->
+            <div class="reveal visual-break">
+                <img src="../assets/video-call-shoulder.webp" alt="Person in an online therapy video session, relaxed at home">
+                <div>
+                    <p class="pull-quote">Therapy works best when you come in while things are still manageable — not after they've become unmanageable.</p>
+                    <p class="attribution">— Based on research from the APA and our 34+ platform reviews</p>
+                </div>
+            </div>
+
+            <!-- Section 4: Online vs in-person -->
+            <section class="reveal section-content">
+                <h2>Online therapy vs. in-person therapy</h2>
+                
+                <p><strong>Online has real advantages:</strong> You avoid the commute. You get access to more therapist options, often at lower cost. It works really well for mild to moderate conditions — anxiety, depression, grief, relationships. And there's a kind of privacy you get sitting in your own space that some people find easier to open up in.</p>
+                
+                <p><strong>Online has real limits:</strong> It's not ideal for severe psychiatric conditions. Technical glitches can interrupt the flow. Some people find it harder to build deep rapport without the full nonverbal communication of in-person work. And if you're in crisis, online isn't appropriate — you need someone who can physically help.</p>
+                
+                <p><strong>In-person has different strengths:</strong> You get full nonverbal communication, which matters for complex trauma or severe disorders. Some people just prefer being in a room with another person. It can feel more "real" to some people. But it's also more expensive, requires a commute, and your choice of therapist is limited to people in your area.</p>
+                
+                <p>The full breakdown is in <a href="how-online-therapy-works.html">how online therapy actually works</a>. Most people find that the medium matters far less than the fit with their therapist.</p>
+            </section>
+
+            <!-- Section 5: First session demystified -->
+            <section class="reveal section-content">
+                <h2>What happens in a first therapy session</h2>
+                
+                <p>The first session is mostly intake. Your therapist is learning about you, and you're getting a feel for them. It's not deep diving into your worst memories or breaking you down. It's more like a mutual interview.</p>
+                
+                <p>You can expect 45–60 minutes of questions: What brought you in? What's your history — your family, your past relationships, any trauma or loss? What are your goals? The therapist is building a map of where you are and where you want to go. You can ask questions back. You're interviewing them, too.</p>
+                
+                <p>You can switch therapists. You're not locked in after one session. If something feels off, you can try someone else. It usually takes a few sessions to know if the fit is right, but there's no contract here. You're in control.</p>
+                
+                <p>Most people feel nervous before the first session. That's normal. Most people also leave it feeling a little lighter — just from being heard by someone trained to listen.</p>
+            </section>
+
+            <!-- Section 6: The Soft Bridge -->
+            <section class="reveal section-content">
+                <h2>When you're ready</h2>
+                
+                <div class="soft-bridge">
+                    <p>You've been thinking about this. That's already something. Curiosity is where therapy begins. If any of this resonates with you, you don't have to commit to anything right now. The condition pages on this site are just more information — a gentle next step, not a promise.</p>
+                    
+                    <a href="anxiety.html">Is anxiety part of what you're dealing with? → anxiety.html</a>
+                    <a href="depression.html">Depression can look like a lot of things. → depression.html</a>
+                    <a href="adhd.html">ADHD in adults is often undiagnosed. → adhd.html</a>
+                    <a href="couples.html">Couples therapy can happen before the crisis. → couples.html</a>
+                    <a href="affordable.html">Worried about cost? → affordable.html</a>
+                    <a href="how-online-therapy-works.html">See how online therapy actually works → how-online-therapy-works.html</a>
+                </div>
+            </section>
+
+            <!-- Reviewer Card -->
+            <section class="reveal reviewer-card">
+                <div class="reviewer-content">
+                    <div class="reviewer-initials">SC</div>
+                    <div class="reviewer-info">
+                        <h4>Dr. Sarah Chen, LCSW</h4>
+                        <p class="reviewer-credentials">Licensed Clinical Social Worker</p>
+                        <p class="reviewer-specialties">Anxiety Disorders · CBT · Trauma-Informed Care</p>
+                        <p class="reviewer-bio">Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating anxiety disorders. She reviews all educational content on Digital Therapy Solutions for clinical accuracy.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Citations -->
+            <section class="reveal citations">
+                <h3>Citations</h3>
+                <ul>
+                    <li>American Psychological Association. (2023). Understanding psychotherapy and how it works.</li>
+                    <li>NAMI. (2024). Types of mental health professionals.</li>
+                    <li>Hofmann, S.G., et al. (2012). The efficacy of cognitive behavioral therapy: A review of meta-analyses. Cognitive Therapy and Research.</li>
+                    <li>Titov, N., et al. (2019). Use of internet-delivered cognitive behavior therapy in a community population.</li>
+                </ul>
+            </section>
+
+            <!-- Disclaimer -->
+            <section class="reveal disclaimer">
+                <p>We're not therapists — we're researchers who spent hundreds of hours comparing these platforms so you don't have to. This article is for informational purposes. For professional guidance, please consult a licensed mental health provider.</p>
+            </section>
+        </article>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- Footer -->
+        <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div>
+                <h3>About Digital Therapy Solutions</h3>
+                <p>Independent reviews of online therapy platforms. Expert-written, regularly updated, no sponsored rankings.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul><li><a href="index.html">Home</a></li><li><a href="betterhelp-review.html">Platform Reviews</a></li><li><a href="aetna.html">Insurance Guide</a></li><li><a href="about.html">About Us</a></li></ul>
+            </div>
+            <div>
+                <h3>Resources</h3>
+                <ul><li><a href="editorial-policy.html">Editorial Policy</a></li><li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li></ul>
+            </div>
+        </div>
+        <div class="site-footer__crisis"><span class="crisis-alert">In crisis?</span> Call or text <a href="tel:988">988</a> &middot; Text HOME to <a href="sms:741741">741741</a> &middot; Emergency: <a href="tel:911">911</a></div>
+        <div class="site-footer__bottom">&copy; 2026 Digital Therapy Solutions. All rights reserved. | <a href="privacy-policy.html">Privacy</a> | <a href="affiliate-disclosure.html">Disclosures</a></div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Hamburger Navigation
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close nav when link is clicked
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // IntersectionObserver for Reveal Animation
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealOptions = {
+            threshold: 0.15,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const revealOnScroll = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, revealOptions);
+
+        revealElements.forEach(element => {
+            revealOnScroll.observe(element);
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Right Online Therapy — Without the Guesswork | Digital Therapy Solutions</title>
+    <meta name="description" content="34+ online therapy platforms reviewed. Expert-written, no sponsored rankings. Find the best online therapy for your condition, insurance, or budget.">
+    
+    <!-- Favicon and Apple Touch Icon -->
+    <link rel="icon" type="image/png" href="assets/branding/favicon.png">
+    <link rel="apple-touch-icon" href="assets/branding/apple-touch-icon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="../templates/styles.css">
+    
+    <!-- Homepage-specific styles -->
+    <style>
+        .condition-tiles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .condition-tile {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: block;
+        }
+        
+        .condition-tile:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .condition-tile__icon {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .condition-tile__label {
+            font-family: var(--font-personality);
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--accent-primary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .condition-tile__desc {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .insurance-tiles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+        
+        .insurance-tile {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: block;
+        }
+        
+        .insurance-tile:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .insurance-tile__name {
+            font-family: var(--font-personality);
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--accent-primary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .insurance-tile__note {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+        }
+        
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .step-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        
+        .step-card__number {
+            font-family: var(--font-mono);
+            font-size: 2rem;
+            font-weight: 500;
+            color: var(--accent-primary);
+            opacity: 0.4;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        
+        .step-card__title {
+            font-family: var(--font-personality);
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .step-card__desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        .platform-mini-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+        }
+        
+        .platform-mini-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+        }
+        
+        .platform-mini-card__logo {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        
+        .platform-mini-card__name {
+            font-family: var(--font-personality);
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        
+        .platform-mini-card__tagline {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+        
+        .platform-mini-card__price {
+            font-family: var(--font-mono);
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--accent-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .platform-mini-card__badge {
+            display: inline-block;
+            background: var(--bg-accent-light);
+            color: var(--accent-primary);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.625rem;
+            border-radius: 4px;
+            margin-bottom: 0.75rem;
+        }
+        
+        .platform-mini-card__link {
+            color: var(--accent-primary);
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(24, 23, 23, 0.9) 0%, rgba(24, 23, 23, 0.85) 100%);
+        }
+        
+        .hero h1 {
+            font-family: var(--font-personality);
+            font-size: clamp(1.75rem, 5vw, 2.75rem);
+            font-weight: 500;
+            color: var(--accent-primary);
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        
+        .hero .subhead {
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            max-width: 60ch;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="assets/branding/logo-icon.webp" alt="Digital Therapy Solutions" class="logo__image">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="anxiety.html">Conditions</a></li>
+                        <li><a href="betterhelp-review.html">Reviews</a></li>
+                        <li><a href="aetna.html">Insurance</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-overlay" style="background: var(--bg-dark); position: relative;">
+        <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(24, 23, 23, 0.9) 0%, rgba(24, 23, 23, 0.85) 100%); z-index: 0;"></div>
+        <div class="container" style="position: relative; z-index: 1;">
+            <div style="padding: 4rem 0;">
+                <h1>Find the right online therapy — without the guesswork.</h1>
+                <p class="subhead">We tested 34+ online therapy platforms so you don't have to. No sponsored rankings. No marketing fluff. Just honest recommendations.</p>
+                
+                <!-- Trust Pills Row -->
+                <div class="trust-row" style="margin-top: 2rem;">
+                    <div class="trust-pill">
+                        <span>34+ Platforms Reviewed</span>
+                    </div>
+                    <div class="trust-pill">
+                        <span>Expert-Written</span>
+                    </div>
+                    <div class="trust-pill">
+                        <span>Updated Monthly</span>
+                    </div>
+                    <div class="trust-pill">
+                        <span>No Sponsored Rankings</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Browse by Condition -->
+    <section id="conditions" class="section-wrapper reveal">
+        <div class="container">
+            <h2>Find therapy for what you're dealing with</h2>
+            <div class="condition-tiles">
+                <a href="anxiety.html" class="condition-tile">
+                    <div class="condition-tile__icon">🌊</div>
+                    <div class="condition-tile__label">Anxiety</div>
+                    <div class="condition-tile__desc">Worry, panic, persistent dread</div>
+                </a>
+                <a href="depression.html" class="condition-tile">
+                    <div class="condition-tile__icon">☁️</div>
+                    <div class="condition-tile__label">Depression</div>
+                    <div class="condition-tile__desc">Low mood, fatigue, disconnection</div>
+                </a>
+                <a href="adhd.html" class="condition-tile">
+                    <div class="condition-tile__icon">⚡</div>
+                    <div class="condition-tile__label">ADHD</div>
+                    <div class="condition-tile__desc">Focus, organization, impulsivity</div>
+                </a>
+                <a href="couples.html" class="condition-tile">
+                    <div class="condition-tile__icon">💑</div>
+                    <div class="condition-tile__label">Couples Therapy</div>
+                    <div class="condition-tile__desc">Communication, conflict, reconnection</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Browse by Insurance -->
+    <section id="insurance" class="section-wrapper reveal">
+        <div class="container">
+            <h2>Does your insurance cover online therapy?</h2>
+            <div class="insurance-tiles">
+                <a href="aetna.html" class="insurance-tile">
+                    <div class="insurance-tile__name">Aetna</div>
+                    <div class="insurance-tile__note">Covers Talkspace — $20–50/session</div>
+                </a>
+                <a href="bcbs.html" class="insurance-tile">
+                    <div class="insurance-tile__name">Blue Cross Blue Shield</div>
+                    <div class="insurance-tile__note">Multiple platforms covered</div>
+                </a>
+                <a href="cigna.html" class="insurance-tile">
+                    <div class="insurance-tile__name">Cigna</div>
+                    <div class="insurance-tile__note">Talkspace and others accepted</div>
+                </a>
+                <a href="unitedhealthcare.html" class="insurance-tile">
+                    <div class="insurance-tile__name">UnitedHealthcare</div>
+                    <div class="insurance-tile__note">Multiple platform coverage</div>
+                </a>
+                <a href="medicaid.html" class="insurance-tile">
+                    <div class="insurance-tile__name">Medicaid</div>
+                    <div class="insurance-tile__note">Coverage varies by state</div>
+                </a>
+                <a href="affordable.html" class="insurance-tile">
+                    <div class="insurance-tile__name">Paying Out of Pocket</div>
+                    <div class="insurance-tile__note">Affordable options starting at $45/week</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Not Sure Where to Start -->
+    <section class="section-wrapper section-wrapper--accent reveal">
+        <div class="container">
+            <h2 style="font-family: var(--font-serif); font-style: italic;">Not sure where to start?</h2>
+            <p style="font-size: 1.0625rem; color: var(--text-secondary); max-width: 60ch; margin-bottom: 1.5rem;">That's completely normal. Most people aren't. We wrote guides that help you think it through — no forms to fill out, no commitment, just information.</p>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                <a href="do-i-need-therapy.html" style="color: var(--accent-primary); font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--accent-primary); padding-bottom: 0.25rem; display: inline-block; width: fit-content;">→ Do I need therapy? A guide to thinking it through</a>
+                <a href="how-online-therapy-works.html" style="color: var(--accent-primary); font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--accent-primary); padding-bottom: 0.25rem; display: inline-block; width: fit-content;">→ How does online therapy actually work?</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: How It Works -->
+    <section class="section-wrapper reveal">
+        <div class="container">
+            <h2>How it works in 3 steps</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-card__number">1</div>
+                    <div class="step-card__title">Tell us what you're dealing with</div>
+                    <div class="step-card__desc">Answer a few questions about your condition, insurance, and preferences</div>
+                </div>
+                <div class="step-card">
+                    <div class="step-card__number">2</div>
+                    <div class="step-card__title">We match you to the right platform</div>
+                    <div class="step-card__desc">Based on your specific needs, not who pays us the most</div>
+                </div>
+                <div class="step-card">
+                    <div class="step-card__number">3</div>
+                    <div class="step-card__title">Start within days</div>
+                    <div class="step-card__desc">Most platforms connect you with a therapist within 24–72 hours</div>
+                </div>
+            </div>
+            <div style="margin-top: 2.5rem; text-align: center;">
+                <a href="how-online-therapy-works.html" style="color: var(--accent-primary); font-weight: 500; text-decoration: underline; text-underline-offset: 3px;">→ Read the full guide to online therapy</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Platform Spotlight -->
+    <section class="section-wrapper reveal">
+        <div class="container">
+            <h2>Platforms we recommend</h2>
+            <div class="platform-mini-cards">
+                <!-- BetterHelp -->
+                <div class="platform-mini-card">
+                    <div class="platform-mini-card__logo" style="background: linear-gradient(135deg, #00A67E, #008B6A);">
+                        <img src="assets/logos/betterhelp.webp" alt="BetterHelp" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.parentElement.textContent = 'BH'">
+                    </div>
+                    <div class="platform-mini-card__name">BetterHelp</div>
+                    <div class="platform-mini-card__tagline">Best for fast matching — largest therapist network</div>
+                    <div class="platform-mini-card__price">$69–109/week</div>
+                    <div class="platform-mini-card__badge">No insurance</div>
+                    <a href="betterhelp-review.html" class="platform-mini-card__link">Read full review →</a>
+                </div>
+                
+                <!-- Talkspace -->
+                <div class="platform-mini-card">
+                    <div class="platform-mini-card__logo" style="background: linear-gradient(135deg, #FF6B5B, #E55A4A);">
+                        <img src="assets/logos/talkspace.webp" alt="Talkspace" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.parentElement.textContent = 'TS'">
+                    </div>
+                    <div class="platform-mini-card__name">Talkspace</div>
+                    <div class="platform-mini-card__tagline">Best for insurance — Aetna, BCBS, Cigna, UHC accepted</div>
+                    <div class="platform-mini-card__price">$69–109/week, less with insurance</div>
+                    <div class="platform-mini-card__badge">✓ Insurance accepted</div>
+                    <a href="talkspace-review.html" class="platform-mini-card__link">Read full review →</a>
+                </div>
+                
+                <!-- Online-Therapy.com -->
+                <div class="platform-mini-card">
+                    <div class="platform-mini-card__logo" style="background: linear-gradient(135deg, #5B6DFF, #4A5CE5);">
+                        <img src="assets/logos/online-therapy.webp" alt="Online-Therapy.com" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.parentElement.textContent = 'OT'">
+                    </div>
+                    <div class="platform-mini-card__name">Online-Therapy.com</div>
+                    <div class="platform-mini-card__tagline">Best for structured CBT — strongest evidence for anxiety/depression</div>
+                    <div class="platform-mini-card__price">$45–80/week</div>
+                    <div class="platform-mini-card__badge">No insurance</div>
+                    <a href="online-therapy-com-review.html" class="platform-mini-card__link">Read full review →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="anxiety.html">Conditions</a></li>
+                        <li><a href="betterhelp-review.html">Reviews</a></li>
+                        <li><a href="aetna.html">Insurance</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="editorial-policy.html">Editorial Policy</a></li>
+                        <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>In Crisis?</h4>
+                    <p class="crisis-alert">In crisis? <span class="crisis-alert">Call or text <a href="tel:988">988</a></span> · Text HOME to <a href="sms:741741">741741</a> · Emergency: <a href="tel:911">911</a></p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Digital Therapy Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- Scripts -->
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav__list');
+        
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                navList.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+        }
+        
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('.nav__list a').forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+        
+        // Intersection Observer for Reveal Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.reveal').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
