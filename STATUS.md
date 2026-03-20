@@ -9,7 +9,7 @@ Last Updated: 2026-03-19
 | PS-PROP-01-FIX | Nav/CSS unification — 9 pages fixed | ✅ COMPLETE | 590a427 |
 | PS-HUB-01 | Hub pages + nav update + breadcrumbs | ✅ COMPLETE | e4a7211 |
 | PS-CONDITIONS-01 | 20 condition pages + conditions.html fully live (24 cards) | ✅ COMPLETE | 889f7dc |
-| PS-INSURANCE-01 | Logo grab + 17 stub insurer pages | ✅ COMPLETE | TBD |
+| PS-INSURANCE-01 | Logo grab + 17 stub insurer pages | ✅ COMPLETE | 3c92ead / 7e1c5a9 |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-SEO-01 | Meta, schema, sitemap, internal links | ⬜ QUEUED | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
