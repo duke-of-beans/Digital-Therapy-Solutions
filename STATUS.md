@@ -1,5 +1,5 @@
 # Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-03-19
+Last Updated: 2026-03-20
 
 ## Sprints
 
@@ -11,7 +11,7 @@ Last Updated: 2026-03-19
 | PS-CONDITIONS-01 | 20 condition pages + conditions.html fully live (24 cards) | ✅ COMPLETE | 889f7dc |
 | PS-INSURANCE-01 | 17 insurer logos + 17 stub pages + insurance.html all live | ✅ COMPLETE | b90b345 |
 | PS-DESIGN-QA-01 | Design quality pass — icons, logos, typography, layout variants | ✅ COMPLETE | 682bb37 |
-| PS-CONDITIONS-02 | 4 remaining stub condition pages | ⬜ QUEUED | — |
+| PS-CONDITIONS-02 | 4 remaining condition pages | ✅ COMPLETE | TBD |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-SEO-01 | Meta, schema, sitemap, internal links | ⬜ QUEUED | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
@@ -41,17 +41,17 @@ Last Updated: 2026-03-19
 - [x] online-therapy-com-review.html
 - [ ] 31 pages — see PS-PLATFORMS-01
 
-### Conditions (24 live + 4 stubs / 28 total)
+### Conditions (28 live / 28 total) ✅ COMPLETE
 - [x] anxiety.html, depression.html, adhd.html, couples.html
 - [x] ocd.html, ptsd.html, bipolar.html, eating-disorders.html
 - [x] grief.html, anger.html, addiction.html, stress.html, burnout.html
 - [x] relationship.html, lgbtq.html, teen.html, postpartum.html
 - [x] insomnia.html, chronic-pain.html, social-anxiety.html
 - [x] phobias.html, panic.html, loneliness.html, self-esteem.html
-- [ ] mens-mental-health.html (slug confirmed)
-- [ ] womens-mental-health.html (slug confirmed)
-- [ ] life-transitions.html (slug confirmed)
-- [ ] autism.html (slug confirmed)
+- [x] mens-mental-health.html
+- [x] womens-mental-health.html
+- [x] life-transitions.html
+- [x] autism.html
 
 ### Insurance (23 live / 23 total) ✅ COMPLETE
 - [x] aetna.html, bcbs.html, cigna.html, unitedhealthcare.html, medicaid.html, affordable.html
