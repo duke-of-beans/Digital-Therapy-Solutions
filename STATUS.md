@@ -1,5 +1,5 @@
 # Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-03-20
+Last Updated: 2026-03-19
 
 ## Sprints
 
@@ -10,18 +10,28 @@ Last Updated: 2026-03-20
 | PS-HUB-01 | Hub pages + nav update + breadcrumbs | ✅ COMPLETE | e4a7211 |
 | PS-CONDITIONS-01 | 20 condition pages + conditions.html fully live (24 cards) | ✅ COMPLETE | 889f7dc |
 | PS-INSURANCE-01 | 17 insurer logos + 17 stub pages + insurance.html all live | ✅ COMPLETE | b90b345 |
-| PS-DESIGN-QA-01 | Design quality + visual consistency pass — icon system, logo audit, typography, layout variants | ✅ COMPLETE | 5f99e0c |
-| PS-CONDITIONS-02 | 4 remaining stub condition pages (slugs TBD) | ⬜ QUEUED | — |
+| PS-DESIGN-QA-01 | Design quality pass — icons, logos, typography, layout variants | ✅ COMPLETE | 682bb37 |
+| PS-CONDITIONS-02 | 4 remaining stub condition pages | ⬜ QUEUED | — |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-SEO-01 | Meta, schema, sitemap, internal links | ⬜ QUEUED | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
 
+## PS-DESIGN-QA-01 Notes
+- Emoji permanently banned sitewide — icons-ban.md in repo root as standing policy
+- 28 condition tile icons replaced with cohesive stroke SVGs
+- legal-hero class applied to privacy-policy.html and affiliate-disclosure.html
+- Verdict-box + pull-quote HTML on 6 pages (betterhelp, talkspace, online-therapy-com, aetna, bcbs, cigna)
+- Feature-list pros/cons applied to betterhelp and talkspace review pages
+- 10 new CSS component classes added to styles.css
+- Logo audit: 51 logos scanned, 23 flagged — LOGO_AUDIT.md + assets/regrab-logos.py ready
+- MANUAL STEP PENDING: run `python assets/regrab-logos.py` from host to pull 23 flagged logos
+  (Clearbit fetch blocked in sandbox, needs host network)
+
 ## Known Technical Patterns
-- Python inline commands via cmd fail at ~500+ chars (Windows arg length limit) — always write to file first
+- Python inline commands via cmd fail at ~500+ chars — always write to file first
 - sys.stdout.reconfigure(encoding='utf-8') is correct UTF-8 fix; PYTHONUTF8=1 via set does not persist
-- git commit -m with parens/dashes gets tokenized wrong by Desktop Commander shell — always write message to commit-msg.txt and use git commit -F commit-msg.txt
-- GREGORE hook intercepts stdout in PowerShell — Python scripts must write results to files; run via cmd shell for clean output
-- **EMOJI BAN (permanent):** No emoji anywhere on site. Use inline stroke-based SVGs. See icons-ban.md for standards. Origin: PS-DESIGN-QA-01.
+- git commit -m with parens/dashes gets tokenized wrong by Desktop Commander — always use commit-msg.txt + git commit -F
+- Emoji permanently banned — all icons must be cohesive inline SVG, stroke-based, humanist style (see icons-ban.md)
 
 ## Page Inventory
 
@@ -32,85 +42,39 @@ Last Updated: 2026-03-20
 - [ ] 31 pages — see PS-PLATFORMS-01
 
 ### Conditions (24 live + 4 stubs / 28 total)
-- [x] anxiety.html
-- [x] depression.html
-- [x] adhd.html
-- [x] couples.html
-- [x] ocd.html
-- [x] ptsd.html
-- [x] bipolar.html
-- [x] eating-disorders.html
-- [x] grief.html
-- [x] anger.html
-- [x] addiction.html
-- [x] stress.html
-- [x] burnout.html
-- [x] relationship.html
-- [x] lgbtq.html
-- [x] teen.html
-- [x] postpartum.html
-- [x] insomnia.html
-- [x] chronic-pain.html
-- [x] social-anxiety.html
-- [x] phobias.html
-- [x] panic.html
-- [x] loneliness.html
-- [x] self-esteem.html
-- [ ] mens-mental-health.html (stub on hub — slug TBD)
-- [ ] womens-mental-health.html (stub on hub — slug TBD)
-- [ ] life-transitions.html (stub on hub — slug TBD)
-- [ ] autism.html (stub on hub — slug TBD)
+- [x] anxiety.html, depression.html, adhd.html, couples.html
+- [x] ocd.html, ptsd.html, bipolar.html, eating-disorders.html
+- [x] grief.html, anger.html, addiction.html, stress.html, burnout.html
+- [x] relationship.html, lgbtq.html, teen.html, postpartum.html
+- [x] insomnia.html, chronic-pain.html, social-anxiety.html
+- [x] phobias.html, panic.html, loneliness.html, self-esteem.html
+- [ ] mens-mental-health.html (slug confirmed)
+- [ ] womens-mental-health.html (slug confirmed)
+- [ ] life-transitions.html (slug confirmed)
+- [ ] autism.html (slug confirmed)
 
 ### Insurance (23 live / 23 total) ✅ COMPLETE
-- [x] aetna.html
-- [x] bcbs.html
-- [x] cigna.html
-- [x] unitedhealthcare.html
-- [x] medicaid.html
-- [x] affordable.html
-- [x] humana.html
-- [x] kaiser.html
-- [x] anthem.html
-- [x] molina.html
-- [x] oscar.html
-- [x] ambetter.html
-- [x] wellcare.html
-- [x] tricare.html
-- [x] chip.html
-- [x] medicare.html
-- [x] beacon.html
-- [x] magellan.html
-- [x] centene.html
-- [x] highmark.html
-- [x] harvard-pilgrim.html
-- [x] tufts.html
-- [x] community-health.html
+- [x] aetna.html, bcbs.html, cigna.html, unitedhealthcare.html, medicaid.html, affordable.html
+- [x] humana.html, kaiser.html, anthem.html, molina.html, oscar.html, ambetter.html
+- [x] wellcare.html, tricare.html, chip.html, medicare.html, beacon.html
+- [x] magellan.html, centene.html, highmark.html, harvard-pilgrim.html, tufts.html, community-health.html
 
 ### Hub Pages (3 live / 3 total) ✅ COMPLETE
-- [x] reviews.html
-- [x] conditions.html
-- [x] insurance.html
+- [x] reviews.html, conditions.html, insurance.html
 
 ### Supporting Pages (8 live)
-- [x] index.html
-- [x] about.html
-- [x] editorial-policy.html
-- [x] affiliate-disclosure.html
-- [x] privacy-policy.html
-- [x] crisis-resources.html
-- [x] how-online-therapy-works.html
-- [x] do-i-need-therapy.html
+- [x] index.html, about.html, editorial-policy.html, affiliate-disclosure.html
+- [x] privacy-policy.html, crisis-resources.html, how-online-therapy-works.html, do-i-need-therapy.html
 
 ## Launch Blockers
 - [ ] Domain repurchase (Gavin)
 - [ ] Editorial reviewer onboarded
 - [ ] Affiliate applications submitted + accepted
-- [x] PS-HUB-01 complete ✅
-- [x] PS-CONDITIONS-01 complete ✅
-- [x] PS-INSURANCE-01 complete ✅
+- [ ] Run assets/regrab-logos.py from host (23 flagged logos need Clearbit fetch)
+- [x] PS-HUB-01 ✅ | PS-CONDITIONS-01 ✅ | PS-INSURANCE-01 ✅ | PS-DESIGN-QA-01 ✅
 
 ## Assets
-- Platform logos: 34 WebPs in assets/logos/ ✅
+- Platform logos: 34 WebPs in assets/logos/ (23 flagged for regrab — script ready)
 - Insurance logos: 17 WebPs in assets/logos/insurer-*.webp ✅
 - Hero images: 3 WebPs ✅
 - Branding: favicon, logo-icon, logo-wordmark ✅
