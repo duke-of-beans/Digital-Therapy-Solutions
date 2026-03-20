@@ -2615,3 +2615,9 @@ button:focus-visible,
   line-height: 1.65;
 }
 .cta-button--pending { opacity: 0.5; cursor: not-allowed; background: var(--text-muted); }
+
+/* --- Global Logo Sizing + Transparency Fix --- */
+/* Catches any logo image regardless of wrapper class — prevents runaway sizes */
+.logo { max-width: 64px; max-height: 64px; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: var(--bg-secondary); border-radius: 6px; }
+.logo img { max-width: 64px !important; max-height: 64px !important; width: auto !important; height: auto !important; object-fit: contain !important; background-color: var(--bg-secondary) !important; border-radius: 6px !important; display: block; }
+.card-logo { max-width: 64px; max-height: 64px; object-fit: contain; background-color: var(--bg-secondary); border-radius: 6px; display: block; }
