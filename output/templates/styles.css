@@ -2185,6 +2185,8 @@ button:focus-visible,
 .hub-card:hover { box-shadow: var(--shadow-md); }
 .hub-card--stub { opacity: 0.6; }
 .hub-card__logo { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; }
+.condition-tile__icon { width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; margin-bottom: var(--space-xs); }
+.condition-tile__icon svg { width: 40px; height: 40px; }
 .hub-card__logo img { width: 56px; height: 56px; object-fit: contain; background-color: var(--bg-secondary); border-radius: 6px; }
 .insurance-tile__logo { object-fit: contain; background-color: var(--bg-secondary); border-radius: 6px; }
 .insurance-tile__icon { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; margin-bottom: var(--space-xs); }

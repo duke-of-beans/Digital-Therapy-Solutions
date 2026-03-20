@@ -9,6 +9,19 @@ Last Updated: 2026-03-19
 
 ## Queued Sprints
 
+### PS-LOGO-REFRESH-01 — Insurance Logo Replacement (Solid BG Versions)
+**Status:** BLOCKED — waiting on asset sourcing by David
+**Problem:** Insurance logos grabbed as transparent PNG/SVG render poorly on warm parchment
+backgrounds. The transparent areas show through and look wrong against --bg-secondary fill.
+**Action needed:** Source solid-background versions of insurer logos (white or brand-color BG).
+Best sources: brand press kits, official media pages, or request directly from insurer.
+**Priority insurers to replace (transparent/rendering poorly):**
+All insurer-*.webp files should be audited visually once solid versions are available.
+**When assets are ready:** xcopy to output/assets/logos/, run logo_audit_summary.py, commit + push.
+**CSS note:** --bg-secondary fill rule stays — it handles edge cases. Solid logos just look better.
+
+---
+
 ### PS-PLATFORMS-01 — All 31 Remaining Platform Review Pages
 **Status:** READY — sprint prompt written at sprints/PS-PLATFORMS-01.md
 **Dependencies:** None — affiliate contracts NOT required. Pages built with pending CTAs.
