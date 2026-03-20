@@ -1,4 +1,4 @@
-# Digital Therapy Solutions — STATUS.md
+﻿# Digital Therapy Solutions — STATUS.md
 Last Updated: 2026-03-20
 
 ## Sprints
@@ -12,7 +12,7 @@ Last Updated: 2026-03-20
 | PS-INSURANCE-01 | 17 insurer logos + 17 stub pages + insurance.html all live | ✅ COMPLETE | b90b345 |
 | PS-DESIGN-QA-01 | Design quality pass — icons, logos, typography, layout variants | ✅ COMPLETE | 682bb37 |
 | PS-CONDITIONS-02 | 4 remaining condition pages — conditions vertical 28/28 | ✅ COMPLETE | 16ad1e8 |
-| PS-SEO-01 | Meta, schema, sitemap, robots, internal links | ✅ COMPLETE | TBD |
+| PS-SEO-01 | Meta, schema, sitemap, robots, internal links | ✅ COMPLETE | 1094e09 |
 | PS-PLATFORMS-01 | 31 remaining platform review pages | ⬜ QUEUED (blocked: affiliate apps) | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
 
