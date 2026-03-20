@@ -69,3 +69,74 @@ Also: grab inclusive-therapists.webp if not done manually before this sprint.
 - Submit sitemap.xml to GSC
 - Verify robots.txt accessible at live domain
 - Monitor first crawl and indexation
+
+---
+
+### PS-AFFILIATE-CTA-FIX-01 — Pending CTA Pattern on Condition/Insurance Pages
+**Status:** READY — P0, required before any affiliate contract activation
+**Dependencies:** None
+**Summary:**
+All 51 condition + insurance pages use bare `href="#"` CTAs instead of the pending pattern.
+activate-affiliate.py cannot activate these pages — it only targets `data-affiliate-status="pending"` attributes.
+When the first affiliate contract is signed, 81% of the site's revenue surface will remain dead.
+- Add `class="cta-button--pending"` + `data-affiliate-status="pending"` + `data-platform="[slug]"` to all platform card CTAs on 28 condition + 23 insurance pages
+- Update activate-affiliate.py to accept `--page-type all` or target by slug across all HTML files
+- Verify activation end-to-end on one condition page before bulk-running
+
+---
+
+### PS-CONTENT-ENRICH-01 — Enrich 10 Priority Review Pages to Flagship Depth
+**Status:** READY — P1, recommended pre-launch
+**Dependencies:** None (no new content generation needed — template enrichment only)
+**Summary:**
+The 31 new review pages from PS-PLATFORMS-01 are significantly thinner than the 3 flagship pages.
+Missing: full pricing section (split-section + stat-callout), session formats 2x2 grid, visual-break, comparison table, feature-list titles.
+Priority pages (by expected organic traffic): nocd, cerebral, grow-therapy, headway, open-path, brightside, psychology-today, talkiatry, klarity, our-relationship
+Note: nocd-review.html also has P0 blank pricing placeholders — fix those in FIX-3 first, then enrich.
+
+---
+
+### PS-REVIEWER-BIO-01 — Create Dr. Sarah Chen Bio Page/Anchor
+**Status:** READY — P1, required pre-launch
+**Dependencies:** Owner decision on reviewer persona (real vs. editorial persona with disclosure)
+**Summary:**
+"View full bio →" links to `href="#"` on all 97 pages. Visibly broken for users and fatal for affiliate partner due diligence.
+- Owner decision first: real LCSW contracted, fictional persona with disclosure, or other
+- Create /about-reviewer page or section anchor on about.html with full credentials, background, methodology
+- Update all 97 reviewer bio card hrefs to point to new target
+- Update editorial-policy.html if persona decision changes how methodology is described
+
+---
+
+### PS-CSS-CLEANUP-01 — Delete Stale root styles.css + CSS Duplicate Audit
+**Status:** READY — P1, run before PS-DESIGN-01
+**Dependencies:** Run before adding any new CSS rules
+**Summary:**
+- Delete or rename D:\Work\Digital-Therapy-Solutions\templates\styles.css to templates\styles.STALE.css
+- Document it in CLAUDE.md / known patterns: only output/templates/styles.css is authoritative
+- Run assets/find_all_dupes.py and document findings
+- Resolve top cascade conflicts before PS-DESIGN-01 adds new rules
+
+---
+
+### PS-AFFILIATE-OUTREACH-01 — Submit First Affiliate Program Applications
+**Status:** READY — P0, on critical path for launch revenue
+**Dependencies:** Reviewer bio link fixed (credibility), FTC disclosure added (compliance)
+**Timeline:** Apply immediately — approval takes 2–4 weeks
+**Programs (priority order):**
+1. Online-Therapy.com — direct affiliate program, no traffic minimum, apply at online-therapy.com/affiliates
+2. Calmerry — direct program, no traffic minimum
+3. Talkspace — Commission Junction network
+4. BetterHelp — Impact Radius network (may require traffic verification; apply anyway with content depth pitch)
+**Note:** Lead applications with editorial quality (97 pages, structured data, niche-specific) not traffic numbers.
+
+---
+
+### PS-CEREBRAL-REVIEW — Editorial Review of cerebral-review.html
+**Status:** READY — P1, required pre-launch
+**Risk:** Cerebral's 2022 DEA investigation around ADHD medication prescribing is public record. If mentioned in the review, Cerebral may decline affiliate partnership or request edits. The disclosure should remain if accurate — but confirm the language is factual, proportionate, and not sensationalized.
+**Summary:**
+- Read cerebral-review.html in full
+- Verify all factual claims (pricing, insurance, regulatory history)
+- Confirm tone is measured and accurate (not tabloid)
+- Note: SimplePractice-review and Psychology-Today-review also need lede audits — both are directories/tools, not consumer platforms. Ensure pages set correct user expectations.
