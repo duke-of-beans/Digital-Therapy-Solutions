@@ -59,6 +59,8 @@ Last Updated: 2026-03-20
 - git commit -m with parens/dashes gets tokenized wrong by Desktop Commander — always use commit-msg.txt + git commit -F
 - Emoji permanently banned — all icons must be cohesive inline SVG, stroke-based (see icons-ban.md)
 - Clearbit logo.clearbit.com blocked by DNS on host — use browser save or alternative source
+- CSS CRITICAL: templates/styles.css and output/templates/styles.css are DIVERGED. Always edit output/templates/styles.css directly. Never copy from templates/styles.css — it will overwrite with stale rules. Use Desktop Commander:edit_block on output/templates/styles.css only.
+- CSS CRITICAL: Multiple duplicate CSS rules in output/templates/styles.css from sprint history — run assets/find_dupes.py before adding new rules to check for conflicts.
 
 ## Page Inventory
 
