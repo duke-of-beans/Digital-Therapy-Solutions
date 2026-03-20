@@ -2051,10 +2051,8 @@ button:focus-visible,
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
-.condition-tile__icon {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
-}
+.condition-tile__icon { width: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: var(--space-sm); }
+.condition-tile__icon svg { width: 64px; height: 64px; }
 .condition-tile__label {
     font-family: 'Fraunces', Georgia, serif;
     font-size: 1.25rem;
