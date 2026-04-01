@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "slug": "digital-therapy-solutions",
+  "name": "Digital Therapy Solutions",
+  "brain_entity_id": "NEEDS_BRAIN_ENTITY_SEED",
+  "type": "venture",
+  "owner": "borrowed_light_group",
+  "environment": "business",
+  "display_register": "venture",
+  "tier": 2,
+  "description": "Digital Therapy Solutions (DTS) is Proper Sluice Property #1 — a 21-page affiliate therapy site, structurally complete. Deployed at digital-therapy-solutions.vercel.app. Typography: Fraunces/Instrument Serif/DM Sans/DM Mono.",
+  "purpose": "Generate affiliate commission revenue by connecting users to licensed therapy services.",
+  "success_criteria": [
+    "Domain active and DNS configured",
+    "Affiliate apps approved (BetterHelp, Talkspace)",
+    "First commission earned"
+  ],
+  "upstream": [],
+  "downstream": [],
+  "peers": [],
+  "repo": "https://github.com/duke-of-beans/Digital-Therapy-Solutions",
+  "local_url": null,
+  "vercel_url": "https://digital-therapy-solutions.vercel.app",
+  "tech_stack": [
+    "Next.js",
+    "Tailwind"
+  ],
+  "language": "TypeScript",
+  "tagline": "Affiliate therapy site. Proper Sluice Property #1.",
+  "philosophy": [],
+  "notes": "21 pages structurally complete. Vercel auto-deploy active. Launch blockers: domain, reviewer, affiliate apps.",
+  "key_decisions": [],
+  "created_date": "2026-03-31",
+  "last_updated": "2026-03-31",
+  "author": "dk-001"
+}

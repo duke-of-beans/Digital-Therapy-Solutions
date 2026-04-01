@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "slug": "digital-therapy-solutions",
+  "brain_entity_id": "NEEDS_BRAIN_ENTITY_SEED",
+  "status": "blocked",
+  "phase": "structurally complete",
+  "version": null,
+  "completion_pct": 80,
+  "last_session": "2026-03-31",
+  "last_updated": "2026-03-31",
+  "blockers": [
+    {
+      "id": "BLOCK-001",
+      "description": "Domain pending repurchase by Gavin Muirhead",
+      "severity": "p0",
+      "blocks_what": "Launch, DNS configuration, affiliate apps"
+    },
+    {
+      "id": "BLOCK-002",
+      "description": "Affiliate apps not yet submitted (need live domain)",
+      "severity": "p1",
+      "blocks_what": "Revenue generation"
+    }
+  ],
+  "next_action": "Gavin to repurchase domain — then A record → 216.198.79.1, CNAME → 957d71437b66227c.vercel-dns-017.com",
+  "open_tasks": [],
+  "quality": {
+    "test_count": null,
+    "tests_passing": null,
+    "tsc_errors": null,
+    "eos_health": null,
+    "last_scan": null
+  },
+  "signals": {
+    "vercel_url": "https://digital-therapy-solutions.vercel.app",
+    "last_deploy": null,
+    "last_deploy_status": null,
+    "last_commit": null,
+    "last_commit_message": null,
+    "last_commit_date": null,
+    "anthropic_credits_ok": null,
+    "domain_active": null
+  },
+  "metrics": {},
+  "changelog": [
+    {
+      "date": "2026-03-31",
+      "version": null,
+      "sprint": "META-INFRA-DNA-SEED",
+      "summary": "Initial PROJECT_STATE.json created from PRODUCT_GRAPH.yaml and session context during META-INFRA DNA schema migration.",
+      "shipped": [
+        "PROJECT_STATE.json created",
+        "PROJECT_DNA.json created"
+      ]
+    }
+  ],
+  "open_questions": [],
+  "integrations": []
+}
