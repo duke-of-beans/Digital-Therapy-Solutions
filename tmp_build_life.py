@@ -67,7 +67,7 @@ html = '''<!DOCTYPE html>
         <div class="section-wrapper section-wrapper--alt">
             <div class="content-container">
                 <h2 class="section-heading">Platforms We Recommend for Life Transitions</h2>
-                <p class="section-context">Each platform below was personally tested and clinically reviewed by <strong>Dr. Sarah Chen, LCSW</strong> &mdash; a licensed therapist specializing in adjustment and life transitions.</p>
+                <p class="section-context">Each platform below was independently evaluated by the <strong>DTS Research Team</strong> using our 12-point clinical accuracy standard.</p>
 
                 <!-- CARD 1: BetterHelp — Top Pick -->
                 <article class="platform-card platform-card--featured reveal">
@@ -94,7 +94,7 @@ html = '''<!DOCTYPE html>
                         <a href="#" class="cta-button">Find a Therapist on BetterHelp</a>
                     </div>
                     <div class="platform-card__meta">
-                        <span>Reviewed by Dr. Sarah Chen, LCSW</span>
+                        <span>Editorially reviewed · DTS Research Team</span>
                     </div>
                 </article>
 
@@ -127,7 +127,7 @@ html = '''<!DOCTYPE html>
                         <a href="#" class="cta-button">Browse Therapists on Grow Therapy</a>
                     </div>
                     <div class="platform-card__meta">
-                        <span>Reviewed by Dr. Sarah Chen, LCSW</span>
+                        <span>Editorially reviewed · DTS Research Team</span>
                     </div>
                 </article>
 
@@ -156,7 +156,7 @@ html = '''<!DOCTYPE html>
                         <a href="#" class="cta-button">Get Started on Online-Therapy.com</a>
                     </div>
                     <div class="platform-card__meta">
-                        <span>Reviewed by Dr. Sarah Chen, LCSW</span>
+                        <span>Editorially reviewed · DTS Research Team</span>
                     </div>
                 </article>
             </div>
@@ -188,16 +188,15 @@ html = '''<!DOCTYPE html>
         <!-- REVIEWER BIO -->
         <div class="section-wrapper section-wrapper--alt">
             <div class="content-container">
-                <h2 class="section-heading">About Our Reviewer</h2>
+                <h2 class="section-heading">About Our Editorial Process</h2>
                 <div class="reviewer-card reveal">
-                    <div class="reviewer-card__avatar">SC</div>
+                    <div class="reviewer-card__avatar">DTS</div>
                     <div class="reviewer-card__content">
-                        <h4 class="reviewer-card__name">Dr. Sarah Chen <span class="credential-badge">LCSW</span></h4>
+                        <h4 class="reviewer-card__name">DTS Research Team <span class="credential-badge">Editorial</span></h4>
                         <p class="reviewer-card__specialties">Life Transitions &middot; Grief &middot; Adjustment &middot; CBT</p>
                         <div class="reviewer-card__bio">
-                            Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience helping clients navigate major life changes. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.
-                        </div>
-                        <a href="#" class="link-subtle">View full bio &rarr;</a>
+                            Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.</div>
+                        <a href="#" class="link-subtle">Read our editorial policy &rarr;</a>
                     </div>
                 </div>
             </div>

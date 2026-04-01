@@ -130,8 +130,8 @@ Note: nocd-review.html also has P0 blank pricing placeholders — fix those in F
 
 ---
 
-### PS-AFFILIATE-OUTREACH-01 — Submit First Affiliate Program Applications
-**Status:** READY — P0, on critical path for launch revenue
+### PS-AFFILIATE-OUTREACH-01 — Submit First Affiliate Program Applications [P0 — TOMORROW]
+**Status:** READY — P0, on critical path for launch revenue. Cash received from Gavin. Apply en masse tomorrow — do not wait for domain or reviewer bio. Lead with content depth.
 **Dependencies:** Reviewer bio link fixed (credibility), FTC disclosure added (compliance)
 **Timeline:** Apply immediately — approval takes 2–4 weeks
 **Programs (priority order):**

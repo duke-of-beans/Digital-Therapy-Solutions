@@ -1,0 +1,13 @@
+Replace all Sarah Chen/Dr. Chen placeholder reviewer references with DTS Research Team editorial framing
+
+- Replaced fake reviewer "Dr. Sarah Chen, LCSW" across all pages
+- New attribution: "DTS Research Team" with "Editorial" credential badge
+- Card-level: "Editorially reviewed · DTS Research Team"
+- Section intro: "independently evaluated by the DTS Research Team using our 12-point clinical accuracy standard"
+- Reviewer bio card → "About Our Editorial Process" with methodology description
+- "View full bio" → "Read our editorial policy"
+- Avatar: SC → DTS
+- Updated build_pages.py source (templates + all 20 condition page data)
+- Updated all 75 output HTML files
+- Updated 4 tmp_build_*.py scripts
+- Zero Sarah Chen/Dr. Chen references remain in codebase

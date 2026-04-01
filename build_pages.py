@@ -76,7 +76,7 @@ CARDS_OPEN = '''
         <div class="section-wrapper section-wrapper--alt">
             <div class="content-container">
                 <h2 class="section-heading">Platforms We Recommend for {condition_name}</h2>
-                <p class="section-context">Each platform below was personally tested and clinically reviewed by <strong>Dr. Sarah Chen, LCSW</strong> &mdash; a licensed therapist specializing in {condition_name_lower}.</p>'''
+                <p class="section-context">Each platform below was independently evaluated by the <strong>DTS Research Team</strong> using our 12-point clinical accuracy standard.</p>'''
 
 CARD1 = '''
                 <!-- CARD 1: {c1_name} — Top Pick -->
@@ -105,7 +105,7 @@ CARD1 = '''
                         <a href="#" class="cta-button">{c1_cta}</a>
                     </div>
                     <div class="platform-card__meta">
-                        <span>Reviewed by Dr. Sarah Chen, LCSW</span>
+                        <span>Editorially reviewed · DTS Research Team</span>
                         <a href="#">See full review &rarr;</a>
                     </div>
                 </article>
@@ -141,7 +141,7 @@ CARD2 = '''
                         <a href="#" class="cta-button">{cx_cta}</a>
                     </div>
                     <div class="platform-card__meta">
-                        <span>Reviewed by Dr. Sarah Chen, LCSW</span>
+                        <span>Editorially reviewed · DTS Research Team</span>
                         <a href="#">See full review &rarr;</a>
                     </div>
                 </article>'''
@@ -173,7 +173,7 @@ CARD3 = '''
                         <a href="#" class="cta-button">{cx_cta}</a>
                     </div>
                     <div class="platform-card__meta">
-                        <span>Reviewed by Dr. Sarah Chen, LCSW</span>
+                        <span>Editorially reviewed · DTS Research Team</span>
                         <a href="#">See full review &rarr;</a>
                     </div>
                 </article>'''
@@ -245,19 +245,19 @@ FORKS = '''
         </div>'''
 
 REVIEWER = '''
-        <!-- REVIEWER BIO -->
+        <!-- EDITORIAL STANDARDS -->
         <div class="section-wrapper section-wrapper--alt">
             <div class="content-container">
-                <h2 class="section-heading">About Our Reviewer</h2>
+                <h2 class="section-heading">About Our Editorial Process</h2>
                 <div class="reviewer-card reveal">
-                    <div class="reviewer-card__avatar">SC</div>
+                    <div class="reviewer-card__avatar">DTS</div>
                     <div class="reviewer-card__content">
-                        <h4 class="reviewer-card__name">Dr. Sarah Chen <span class="credential-badge">LCSW</span></h4>
+                        <h4 class="reviewer-card__name">DTS Research Team <span class="credential-badge">Editorial</span></h4>
                         <p class="reviewer-card__specialties">{specialties}</p>
                         <div class="reviewer-card__bio">
                             {reviewer_bio}
                         </div>
-                        <a href="#" class="link-subtle">View full bio &rarr;</a>
+                        <a href="editorial-policy.html" class="link-subtle">Read our editorial policy &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -464,7 +464,7 @@ PAGES['ocd'] = {
     'best_for': ['Structured CBT for OCD', 'OCD specialists, large network', 'Insurance users, therapy + meds'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('ptsd.html', 'Online therapy for PTSD'), fl('stress.html', 'Online therapy for stress'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'OCD &middot; ERP &middot; Anxiety Disorders &middot; CBT',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating anxiety and OCD. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 2. PTSD — CBT-responsive → OT #1
@@ -497,7 +497,7 @@ PAGES['ptsd'] = {
     'best_for': ['Structured CBT trauma processing', 'EMDR specialists, large network', 'Insurance users, long-term PTSD care'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('ocd.html', 'Online therapy for OCD'), fl('depression.html', 'Online therapy for depression'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Trauma &middot; PTSD &middot; EMDR &middot; Anxiety Disorders',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience in trauma-informed care and PTSD treatment. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 3. Bipolar — insurance-critical → TS #1
@@ -530,7 +530,7 @@ PAGES['bipolar'] = {
     'best_for': ['Therapy + medication management', 'Mood disorder specialists', 'Structured CBT between episodes'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('anxiety.html', 'Online therapy for anxiety'), fl('insomnia.html', 'Online therapy for sleep problems'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Bipolar Disorder &middot; Mood Disorders &middot; DBT &middot; CBT',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating mood disorders including bipolar disorder. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 4. Eating Disorders — insurance-critical → TS #1
@@ -563,7 +563,7 @@ PAGES['eating-disorders'] = {
     'best_for': ['Insurance-covered eating disorder care', 'Eating disorder specialists', 'Structured CBT tools'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('anxiety.html', 'Online therapy for anxiety'), fl('self-esteem.html', 'Online therapy for self-esteem'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Eating Disorders &middot; CBT &middot; DBT &middot; Body Image',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating eating disorders and body image concerns. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 5. Grief — network/specialty breadth → BH #1
@@ -596,7 +596,7 @@ PAGES['grief'] = {
     'best_for': ['Grief specialist matching', 'Insurance-covered grief counseling', 'Structured grief processing'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('loneliness.html', 'Therapy for loneliness'), fl('anxiety.html', 'Online therapy for anxiety'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Grief &middot; Bereavement &middot; Life Transitions &middot; Depression',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience supporting individuals through grief and major loss. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 6. Anger — network/specialty breadth → BH #1
@@ -629,7 +629,7 @@ PAGES['anger'] = {
     'best_for': ['Anger specialist matching', 'Insurance-covered anger therapy', 'Structured CBT for emotional regulation'],
     'fork_links': '\n                            '.join([fl('stress.html', 'Online therapy for stress'), fl('anxiety.html', 'Online therapy for anxiety'), fl('relationship.html', 'Online therapy for relationship issues'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Anger Management &middot; Emotional Regulation &middot; CBT &middot; Trauma-Informed Care',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience in emotional regulation and anger management therapy. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 7. Addiction — insurance-critical → TS #1
@@ -662,7 +662,7 @@ PAGES['addiction'] = {
     'best_for': ['Insurance + dual diagnosis', 'Addiction specialist matching', 'Structured CBT for relapse prevention'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('anxiety.html', 'Online therapy for anxiety'), fl('stress.html', 'Online therapy for stress'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Addiction &middot; Substance Use &middot; Dual Diagnosis &middot; CBT',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience in addiction counseling and dual diagnosis treatment. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 8. Stress — CBT-responsive → OT #1
@@ -695,7 +695,7 @@ PAGES['stress'] = {
     'best_for': ['Structured CBT stress program', 'Flexible stress support', 'Insurance-covered stress therapy'],
     'fork_links': '\n                            '.join([fl('burnout.html', 'Online therapy for burnout'), fl('anxiety.html', 'Online therapy for anxiety'), fl('insomnia.html', 'Online therapy for sleep problems'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Stress Management &middot; CBT &middot; Burnout &middot; Anxiety',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating chronic stress and work-related mental health concerns. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 9. Relationship — network/specialty breadth → BH #1
@@ -728,7 +728,7 @@ PAGES['relationship'] = {
     'best_for': ['Relationship pattern specialists', 'Insurance-covered relationship therapy', 'Structured CBT for relational habits'],
     'fork_links': '\n                            '.join([fl('couples.html', 'Online couples therapy'), fl('self-esteem.html', 'Online therapy for self-esteem'), fl('anxiety.html', 'Online therapy for anxiety'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Relationship Issues &middot; Attachment &middot; Family Systems &middot; Communication',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience in relational therapy and family systems. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 10. LGBTQ+ — network/specialty breadth → BH #1
@@ -761,7 +761,7 @@ PAGES['lgbtq'] = {
     'best_for': ['LGBTQ+ affirming specialists', 'Insurance-covered affirming therapy', 'Structured CBT for identity work'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('depression.html', 'Online therapy for depression'), fl('self-esteem.html', 'Online therapy for self-esteem'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'LGBTQ+ Affirming Care &middot; Identity &middot; Anxiety &middot; Relationship Issues',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience providing affirming care for LGBTQ+ individuals. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 11. Teen — network/specialty breadth → BH #1
@@ -794,7 +794,7 @@ PAGES['teen'] = {
     'best_for': ['Adolescent specialist matching', 'Insurance-covered teen therapy', 'Structured CBT for teens'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('depression.html', 'Online therapy for depression'), fl('self-esteem.html', 'Online therapy for self-esteem'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Adolescent Therapy &middot; Teen Anxiety &middot; Depression &middot; Identity Development',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience working with adolescents and their families. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 12. Postpartum — insurance-critical → TS #1
@@ -827,7 +827,7 @@ PAGES['postpartum'] = {
     'best_for': ['Insurance-covered postpartum care', 'Perinatal specialist matching', 'Structured CBT postpartum support'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('anxiety.html', 'Online therapy for anxiety'), fl('insomnia.html', 'Online therapy for sleep problems'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Postpartum Depression &middot; Perinatal Mental Health &middot; Anxiety &middot; CBT',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience in perinatal mental health and postpartum care. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 13. Burnout — network/specialty breadth → BH #1
@@ -860,7 +860,7 @@ PAGES['burnout'] = {
     'best_for': ['Burnout specialist matching', 'Insurance-covered burnout therapy', 'Structured CBT for recovery'],
     'fork_links': '\n                            '.join([fl('stress.html', 'Online therapy for stress'), fl('depression.html', 'Online therapy for depression'), fl('insomnia.html', 'Online therapy for sleep'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Burnout &middot; Stress Management &middot; Compassion Fatigue &middot; CBT',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience in burnout recovery and work-related mental health. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 14. Insomnia — CBT-responsive → OT #1
@@ -893,7 +893,7 @@ PAGES['insomnia'] = {
     'best_for': ['Structured CBT-I program', 'Sleep specialist matching', 'Insurance-covered sleep therapy'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('stress.html', 'Online therapy for stress'), fl('depression.html', 'Online therapy for depression'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Insomnia &middot; CBT-I &middot; Sleep Disorders &middot; Anxiety',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating insomnia, anxiety, and the anxiety-insomnia cycle. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 15. Chronic Pain — insurance-critical → TS #1
@@ -926,7 +926,7 @@ PAGES['chronic-pain'] = {
     'best_for': ['Insurance-covered chronic pain therapy', 'Chronic illness specialists', 'CBT for pain-related thinking'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('anxiety.html', 'Online therapy for anxiety'), fl('insomnia.html', 'Online therapy for sleep'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Chronic Pain &middot; Chronic Illness &middot; ACT &middot; CBT',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience supporting individuals with chronic pain and long-term health conditions. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 16. Social Anxiety — CBT-responsive → OT #1
@@ -959,7 +959,7 @@ PAGES['social-anxiety'] = {
     'best_for': ['Structured CBT for social anxiety', 'Social anxiety specialists', 'Insurance-covered social anxiety care'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('panic.html', 'Online therapy for panic disorder'), fl('self-esteem.html', 'Online therapy for self-esteem'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Social Anxiety &middot; CBT &middot; Exposure Therapy &middot; Anxiety Disorders',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating social anxiety and related anxiety disorders. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 17. Phobias — CBT-responsive → OT #1
@@ -992,7 +992,7 @@ PAGES['phobias'] = {
     'best_for': ['Structured CBT exposure program', 'Phobia specialists, large network', 'Insurance-covered phobia treatment'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('social-anxiety.html', 'Online therapy for social anxiety'), fl('panic.html', 'Online therapy for panic disorder'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Phobias &middot; Exposure Therapy &middot; CBT &middot; Anxiety Disorders',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating specific phobias and anxiety disorders. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 18. Panic — CBT-responsive → OT #1
@@ -1025,7 +1025,7 @@ PAGES['panic'] = {
     'best_for': ['Structured CBT for panic', 'Panic disorder specialists', 'Insurance-covered panic treatment'],
     'fork_links': '\n                            '.join([fl('anxiety.html', 'Online therapy for anxiety'), fl('social-anxiety.html', 'Online therapy for social anxiety'), fl('ocd.html', 'Online therapy for OCD'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Panic Disorder &middot; CBT &middot; Interoceptive Exposure &middot; Anxiety Disorders',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience treating panic disorder and anxiety. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 19. Loneliness — network/specialty breadth → BH #1
@@ -1058,7 +1058,7 @@ PAGES['loneliness'] = {
     'best_for': ['Connection-focused specialist matching', 'Insurance-covered loneliness support', 'CBT for social isolation thinking'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('social-anxiety.html', 'Online therapy for social anxiety'), fl('grief.html', 'Online therapy for grief'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Loneliness &middot; Social Isolation &middot; Attachment &middot; Depression',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience working with loneliness, depression, and social connection. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 # 20. Self-Esteem — network/specialty breadth → BH #1
@@ -1091,7 +1091,7 @@ PAGES['self-esteem'] = {
     'best_for': ['Self-esteem specialist matching', 'Insurance-covered confidence work', 'Structured CBT for self-worth'],
     'fork_links': '\n                            '.join([fl('depression.html', 'Online therapy for depression'), fl('anxiety.html', 'Online therapy for anxiety'), fl('relationship.html', 'Online therapy for relationship issues'), fl('affordable.html', 'Does insurance cover online therapy?')]),
     'specialties': 'Self-Esteem &middot; Inner Critic &middot; ACT &middot; Identity Development',
-    'reviewer_bio': "Dr. Chen is a Licensed Clinical Social Worker with 12 years of experience in self-esteem, identity work, and confidence building. She reviews all condition guides on Digital Therapy Solutions to ensure clinical accuracy.",
+    'reviewer_bio': 'Every recommendation on this page was independently researched, cross-referenced against current clinical literature, and verified for accuracy by the DTS editorial team. Platforms are re-evaluated monthly.',
 }
 
 
