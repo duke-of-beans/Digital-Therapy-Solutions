@@ -2612,6 +2612,9 @@ button:focus-visible,
 }
 .cta-button--pending { opacity: 0.5; cursor: not-allowed; background: var(--text-muted); }
 
+/* FTC inline affiliate disclosure */
+.cta-disclosure { font-size: 0.75rem; color: var(--text-muted); margin: 0 0 var(--space-xs); line-height: 1.4; }
+
 /* --- Global Logo Sizing + Transparency Fix --- */
 /* Catches any logo image regardless of wrapper class — prevents runaway sizes */
 .logo { max-width: 64px; max-height: 64px; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: var(--bg-secondary); border-radius: 6px; }
