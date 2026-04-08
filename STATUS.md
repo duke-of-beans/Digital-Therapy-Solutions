@@ -1,5 +1,5 @@
 ﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-04-08 (affiliate application sprint — session close)
+Last Updated: 2026-04-08 (polish pass — FIX-1 through FIX-6 complete)
 
 ## Sprints
 
