@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+PAGE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -232,4 +235,9 @@ window.addEventListener('scroll',()=>btt.classList.toggle('visible',window.scrol
 btt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
 </script>
 </body>
-</html>
+</html>"""
+
+with open(r'D:\Work\Digital-Therapy-Solutions\output\nocd-review.html', 'w', encoding='utf-8') as f:
+    f.write(PAGE)
+
+print('nocd-review.html written.')

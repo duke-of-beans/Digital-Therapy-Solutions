@@ -73,8 +73,8 @@ Last Updated: 2026-04-08 (polish pass — FIX-1 through FIX-6 complete)
 - ✅ P1: ~~Reviewer bio "View full bio" links to href="#"~~ → DONE: all 34 review pages → editorial-policy.html#editorial-team (2026-04-08)
 - ✅ P2: ~~Fraunces dead font load~~ → DONE: removed from all 97 pages (2026-04-08)
 - ✅ P2: ~~Duplicate favicon tags on condition/insurance pages~~ → DONE: 52 tags removed from 26 pages (2026-04-08)
-- P1: 31 new review pages thin vs flagship — needs content enrichment (PS-CONTENT-ENRICH-01)
-- Next code sprint: PS-CONTENT-ENRICH-01 (10 priority review pages) → then PS-DESIGN-01 (MORPH-26)
+- ✅ P1: ~~PS-CONTENT-ENRICH-01~~ → DONE: Our Relationship, Cerebral, NOCD all enriched to flagship depth (2026-04-08). All 10 priority review pages complete.
+- Next: PS-DESIGN-01 (MORPH-26 design intelligence pass)
 
 ## PS-CSKY Session Improvements (2026-04-03) — Principles to apply
 The following design and UX improvements were established in the Clear Sky Travel Planning
