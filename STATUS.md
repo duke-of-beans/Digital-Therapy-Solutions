@@ -1,5 +1,5 @@
 ﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-04-08 (polish pass — FIX-1 through FIX-6 complete)
+Last Updated: 2026-04-08 (session close — PS-DESIGN-01 complete, GSC submitted, hero images replaced)
 
 ## Sprints
 
@@ -19,7 +19,9 @@ Last Updated: 2026-04-08 (polish pass — FIX-1 through FIX-6 complete)
 | PS-AUDIT-01 | Full multi-hat site audit — Designer/Engineer/Owner/Affiliate | ✅ COMPLETE | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ✅ COMPLETE | 573bfad |
 | PS-AFFILIATE-CTA-FIX-01 | CTA direct links + CSS fix — 93 CTAs live, 0 dead | ✅ COMPLETE | — |
-| PS-IMAGE-01 | Unsplash image enhancement — hero differentiation + emotional rhythm injection | 🔄 IN PROGRESS | 1fe83dd |
+| PS-CONTENT-ENRICH-01 | 10 priority review pages enriched to flagship depth | ✅ COMPLETE | 1584ae5 |
+| PS-IMAGE-01 | Hero image replacement + 6-image variation system | ✅ COMPLETE | faafe00 |
+| PS-SEO-GSC-01 | Sitemap updated (96 URLs, 2026-04-08) + submitted to GSC | ✅ COMPLETE | 8609018 |
 
 
 ## PS-AUDIT-01 Notes
@@ -63,18 +65,14 @@ Last Updated: 2026-04-08 (polish pass — FIX-1 through FIX-6 complete)
 - Quality gate: 0 failures
 
 ## Open Items
-- ✅ P0: ~~nocd-review.html — blank pricing placeholders~~ → DONE: $280/mo stat callout, $20-40 copay / $260-300/mo self-pay copy (2026-04-08)
-- ✅ P0: ~~51 condition/insurance pages — CTAs need pending pattern~~ → DONE: 93 direct CTAs live (PS-AFFILIATE-CTA-FIX-01)
-- P0: Affiliate applications — apply to all 32 programs with affiliate programs (assets/platform-registry.json); activate with: py assets/activate-affiliate.py --platform [slug] --url [url]
-- ✅ P0: ~~--clr-primary broken CSS variable~~ → DONE: confirmed clean across all 97 pages
-- ✅ P1: ~~ADHD Online wrong href in reviews.html~~ → DONE: fixed to adhd-online-review.html (2026-04-08)
-- ✅ P1: ~~Footer Quick Links missing Conditions entry on non-hub pages~~ → DONE: added to 94 pages (2026-04-08)
-- ✅ P1: ~~FTC inline disclosure missing near CTA buttons~~ → DONE: 126 insertions across 65 pages (2026-04-08)
-- ✅ P1: ~~Reviewer bio "View full bio" links to href="#"~~ → DONE: all 34 review pages → editorial-policy.html#editorial-team (2026-04-08)
-- ✅ P2: ~~Fraunces dead font load~~ → DONE: removed from all 97 pages (2026-04-08)
-- ✅ P2: ~~Duplicate favicon tags on condition/insurance pages~~ → DONE: 52 tags removed from 26 pages (2026-04-08)
-- ✅ P1: ~~PS-CONTENT-ENRICH-01~~ → DONE: Our Relationship, Cerebral, NOCD all enriched to flagship depth (2026-04-08). All 10 priority review pages complete.
-- Next: PS-DESIGN-01 (MORPH-26 design intelligence pass)
+- P0: Affiliate applications — direct programs first (no traffic minimum): Online-Therapy.com, Calmerry, NOCD, Grow Therapy, Headway, Brightside, Talkiatry, Klarity, Open Path, Inclusive Therapists, ADHD Online, Circle Medical, Done, Lunajoy, Our Ritual, OurRelationship, TherapyDen, Gay Therapy Center
+- P0: Impact Radius — awaiting approval (BetterHelp, ReGain, Teen Counseling, Pride Counseling, Faithful Counseling)
+- P1: FlexOffers — declined (new domain, no traffic yet). Reapply in 90 days with GSC data.
+- P1: Commission Junction — not yet started (Talkspace, Amwell, Doctor on Demand, Headspace)
+- P1: Bing Webmaster Tools — submit sitemap at bing.com/webmasters (feeds DuckDuckGo + Yahoo)
+- P1: GSC manual indexing — request indexing on top 10-15 priority pages via URL Inspection tool
+- P2: PS-MOBILE-01 — comparison table overflow on mobile (queued)
+- P2: PS-DTS-EQUITABLE-01 — image slots in all section templates (deferred)
 
 ## PS-CSKY Session Improvements (2026-04-03) — Principles applied in PS-DESIGN-01
 
@@ -140,14 +138,18 @@ Last Updated: 2026-04-08 (polish pass — FIX-1 through FIX-6 complete)
 - [ ] Affiliate applications — in progress (see below)
 
 ## Affiliate Application Status (as of 2026-04-08)
-Registry: assets/platform-registry.json — 32 programs with affiliate programs (SimplePractice + Psychology Today excluded)
-Tracker: assets/activate-affiliate.py --status (run to see live vs direct CTA counts)
+Registry: assets/platform-registry.json — 32 programs with affiliate programs
 Activate: py assets/activate-affiliate.py --platform [slug] --url [affiliate-url]
 
-### Network Verification
-- [x] Impact Radius — ✅ meta tag verified (index.html head)
-- [ ] FlexOffers — verification submitted (meta tag + fo-verify.html in output root), pending confirmation
+### Network Status
+- [x] Impact Radius — ✅ meta tag verified. Application submitted. Awaiting approval.
+- [ ] FlexOffers — DECLINED (new domain/no traffic). Reapply in 90 days with GSC data.
 - [ ] Commission Junction — not yet started
+
+### GSC / Indexing Status
+- [x] Google Search Console — ✅ property verified, sitemap submitted (2026-04-08)
+- [ ] Bing Webmaster Tools — not yet started
+- [ ] Manual URL indexing requests — top priority pages (do via GSC URL Inspection)
 
 ### Applications In Progress
 Priority 1 (direct programs, no traffic minimum):
