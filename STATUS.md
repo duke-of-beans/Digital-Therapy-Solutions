@@ -1,5 +1,5 @@
 ﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-04-07 (PS-AFFILIATE-CTA-FIX-01 complete)
+Last Updated: 2026-04-08 (affiliate application sprint — session close)
 
 ## Sprints
 
@@ -159,8 +159,33 @@ build and must be applied to DTS before launch. Each is a named principle with s
 
 ## Launch Blockers
 - [x] Domain — ✅ purchased and live (digitaltherapysolutions.com)
-- [x] Editorial reviewer — ✅ Dr. Sarah Chen replaced with DTS Research Team branding
-- [ ] Affiliate applications — 32 programs to apply to (see assets/platform-registry.json)
-- [x] inclusive-therapists.webp ✅ converted and committed
-- [x] All content sprints complete ✅
-- [x] SEO hardening complete ✅
+- [x] Editorial reviewer — ✅ DTS Research Team branding (Dr./LCSW/Licensed credentials scrubbed 2026-04-08)
+- [x] Hero images — ✅ fixed 2026-04-08 (were missing from output/assets/)
+- [ ] Affiliate applications — in progress (see below)
+
+## Affiliate Application Status (as of 2026-04-08)
+Registry: assets/platform-registry.json — 32 programs with affiliate programs (SimplePractice + Psychology Today excluded)
+Tracker: assets/activate-affiliate.py --status (run to see live vs direct CTA counts)
+Activate: py assets/activate-affiliate.py --platform [slug] --url [affiliate-url]
+
+### Network Verification
+- [x] Impact Radius — ✅ meta tag verified (index.html head)
+- [ ] FlexOffers — verification submitted (meta tag + fo-verify.html in output root), pending confirmation
+- [ ] Commission Junction — not yet started
+
+### Applications In Progress
+Priority 1 (direct programs, no traffic minimum):
+- Online-Therapy.com, Calmerry, Grow Therapy, Headway, Brightside, NOCD, Talkiatry,
+  Klarity, Open Path Collective, Inclusive Therapists, ADHD Online, Circle Medical,
+  Done, Lunajoy, Our Ritual, OurRelationship, TherapyDen, Gay Therapy Center
+
+Priority 2 (network programs, may require traffic verification):
+- BetterHelp (Impact Radius), Talkspace (CJ), ReGain (IR), Teen Counseling (IR),
+  Pride Counseling (IR), Faithful Counseling (IR), Cerebral (direct),
+  Amwell (CJ), Headspace (IR), Doctor on Demand (CJ),
+  Brightline, Bend Health, Manatee, Mindful Care
+
+### W-9 Notes
+- Entity: Borrowed Light Group LLC
+- Box 2: Borrowed Light Group LLC | Box 3: LLC → D (disregarded) | Part I: BLG EIN
+- E-sign acceptable, no wet ink required
