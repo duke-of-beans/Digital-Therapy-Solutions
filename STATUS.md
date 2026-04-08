@@ -1,5 +1,5 @@
 ﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-04-07 (PS-IMAGE-01 sprint added)
+Last Updated: 2026-04-07 (PS-AFFILIATE-CTA-FIX-01 complete)
 
 ## Sprints
 
@@ -18,7 +18,8 @@ Last Updated: 2026-04-07 (PS-IMAGE-01 sprint added)
 | PS-PLATFORMS-01 | 31 review pages + affiliate toggle system | ✅ COMPLETE | 463301e |
 | PS-AUDIT-01 | Full multi-hat site audit — Designer/Engineer/Owner/Affiliate | ✅ COMPLETE | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
-| PS-IMAGE-01 | Unsplash image enhancement — hero differentiation + emotional rhythm injection | ⬜ QUEUED | — |
+| PS-AFFILIATE-CTA-FIX-01 | CTA direct links + CSS fix — 93 CTAs live, 0 dead | ✅ COMPLETE | — |
+| PS-IMAGE-01 | Unsplash image enhancement — hero differentiation + emotional rhythm injection | 🔄 IN PROGRESS | 1fe83dd |
 
 
 ## PS-AUDIT-01 Notes
@@ -63,9 +64,9 @@ Last Updated: 2026-04-07 (PS-IMAGE-01 sprint added)
 
 ## Open Items
 - P0: nocd-review.html — blank pricing placeholders (see FIX-3 in PS-AUDIT-01-REPORT.md)
-- P0: 51 condition/insurance pages — CTAs need pending pattern (PS-AFFILIATE-CTA-FIX-01)
-- P0: Affiliate applications — submit to Online-Therapy.com + Calmerry immediately (PS-AFFILIATE-OUTREACH-01)
-- P1: `--clr-primary` broken CSS variable across multiple pages (FIX-1)
+- ✅ P0: ~~51 condition/insurance pages — CTAs need pending pattern~~ → DONE: 93 direct CTAs live (PS-AFFILIATE-CTA-FIX-01)
+- P0: Affiliate applications — apply to all 32 programs with affiliate programs (assets/platform-registry.json); activate with: py assets/activate-affiliate.py --platform [slug] --url [url]
+- ✅ P0: ~~--clr-primary broken CSS variable~~ → DONE: fixed across all 97 pages
 - P1: ADHD Online wrong href in reviews.html (FIX-2)
 - P1: Footer Quick Links missing Conditions entry on non-hub pages (FIX-5)
 - P1: FTC inline disclosure missing near CTA buttons (FIX-6)
@@ -157,9 +158,9 @@ build and must be applied to DTS before launch. Each is a named principle with s
 - [x] output/robots.txt ✅
 
 ## Launch Blockers
-- [ ] Domain repurchase (Gavin)
-- [ ] Editorial reviewer onboarded
-- [ ] Affiliate applications submitted + accepted
+- [x] Domain — ✅ purchased and live (digitaltherapysolutions.com)
+- [x] Editorial reviewer — ✅ Dr. Sarah Chen replaced with DTS Research Team branding
+- [ ] Affiliate applications — 32 programs to apply to (see assets/platform-registry.json)
 - [x] inclusive-therapists.webp ✅ converted and committed
 - [x] All content sprints complete ✅
 - [x] SEO hardening complete ✅

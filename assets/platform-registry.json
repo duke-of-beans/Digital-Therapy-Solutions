@@ -1,0 +1,317 @@
+{
+  "platforms": {
+    "betterhelp": {
+      "name": "BetterHelp",
+      "direct_url": "https://www.betterhelp.com/",
+      "review_page": "betterhelp-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Impact Radius",
+      "affiliate_url": null
+    },
+    "talkspace": {
+      "name": "Talkspace",
+      "direct_url": "https://www.talkspace.com/",
+      "review_page": "talkspace-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Commission Junction",
+      "affiliate_url": null
+    },
+    "online-therapy-com": {
+      "name": "Online-Therapy.com",
+      "direct_url": "https://www.online-therapy.com/",
+      "review_page": "online-therapy-com-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "calmerry": {
+      "name": "Calmerry",
+      "direct_url": "https://www.calmerry.com/",
+      "review_page": "calmerry-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "brightside": {
+      "name": "Brightside",
+      "direct_url": "https://www.brightside.com/",
+      "review_page": "brightside-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "grow-therapy": {
+      "name": "Grow Therapy",
+      "direct_url": "https://www.growtherapy.com/",
+      "review_page": "grow-therapy-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "headway": {
+      "name": "Headway",
+      "direct_url": "https://www.headway.co/",
+      "review_page": "headway-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "adhd-online": {
+      "name": "ADHD Online",
+      "direct_url": "https://www.adhdonline.com/",
+      "review_page": "adhd-online-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "amwell": {
+      "name": "Amwell",
+      "direct_url": "https://www.amwell.com/",
+      "review_page": "amwell-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "bend-health": {
+      "name": "Bend Health",
+      "direct_url": "https://www.bendhealth.com/",
+      "review_page": "bend-health-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "brightline": {
+      "name": "Brightline",
+      "direct_url": "https://www.brightline.com/",
+      "review_page": "brightline-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "cerebral": {
+      "name": "Cerebral",
+      "direct_url": "https://cerebral.com/",
+      "review_page": "cerebral-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "circle-medical": {
+      "name": "Circle Medical",
+      "direct_url": "https://www.circlemedical.com/",
+      "review_page": "circle-medical-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "doctor-on-demand": {
+      "name": "Doctor on Demand",
+      "direct_url": "https://www.teladochealth.com/",
+      "review_page": "doctor-on-demand-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "done-adhd": {
+      "name": "Done",
+      "direct_url": "https://www.donefirst.com/",
+      "review_page": "done-adhd-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "faithful-counseling": {
+      "name": "Faithful Counseling",
+      "direct_url": "https://www.faithfulcounseling.com/",
+      "review_page": "faithful-counseling-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "gay-therapy-center": {
+      "name": "Gay Therapy Center",
+      "direct_url": "https://www.gaytherapycenter.com/",
+      "review_page": "gay-therapy-center-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "headspace": {
+      "name": "Headspace",
+      "direct_url": "https://www.headspace.com/",
+      "review_page": "headspace-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "inclusive-therapists": {
+      "name": "Inclusive Therapists",
+      "direct_url": "https://www.inclusivetherapists.com/",
+      "review_page": "inclusive-therapists-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "klarity": {
+      "name": "Klarity",
+      "direct_url": "https://www.klarityhealth.com/",
+      "review_page": "klarity-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "lunajoy": {
+      "name": "Lunajoy",
+      "direct_url": "https://www.lunajoy.com/",
+      "review_page": "lunajoy-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "manatee-health": {
+      "name": "Manatee",
+      "direct_url": "https://www.meetmanatee.com/",
+      "review_page": "manatee-health-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "mindful-care": {
+      "name": "Mindful Care",
+      "direct_url": "https://www.mindful.care/",
+      "review_page": "mindful-care-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "nocd": {
+      "name": "NOCD",
+      "direct_url": "https://www.treatmyocd.com/",
+      "review_page": "nocd-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "open-path": {
+      "name": "Open Path Collective",
+      "direct_url": "https://openpathcollective.org/",
+      "review_page": "open-path-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "our-relationship": {
+      "name": "OurRelationship",
+      "direct_url": "https://www.ourrelationship.com/",
+      "review_page": "our-relationship-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "our-ritual": {
+      "name": "Our Ritual",
+      "direct_url": "https://www.ourritual.com/",
+      "review_page": "our-ritual-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "pride-counseling": {
+      "name": "Pride Counseling",
+      "direct_url": "https://www.pridecounseling.com/",
+      "review_page": "pride-counseling-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "psychology-today": {
+      "name": "Psychology Today",
+      "direct_url": "https://www.psychologytoday.com/us/therapists",
+      "review_page": "psychology-today-review.html",
+      "has_affiliate_program": false,
+      "affiliate_network": null,
+      "affiliate_url": null,
+      "notes": "Therapist directory - no consumer affiliate program. Direct link only."
+    },
+    "regain": {
+      "name": "ReGain",
+      "direct_url": "https://www.regain.us/",
+      "review_page": "regain-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "simplepractice": {
+      "name": "SimplePractice",
+      "direct_url": "https://www.simplepractice.com/",
+      "review_page": "simplepractice-review.html",
+      "has_affiliate_program": false,
+      "affiliate_network": null,
+      "affiliate_url": null,
+      "notes": "Practice management SaaS for therapists - no consumer affiliate program. Direct link only."
+    },
+    "talkiatry": {
+      "name": "Talkiatry",
+      "direct_url": "https://www.talkiatry.com/",
+      "review_page": "talkiatry-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "teen-counseling": {
+      "name": "Teen Counseling",
+      "direct_url": "https://www.teencounseling.com/",
+      "review_page": "teen-counseling-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    },
+    "therapyden": {
+      "name": "TherapyDen",
+      "direct_url": "https://www.therapyden.com/",
+      "review_page": "therapyden-review.html",
+      "has_affiliate_program": true,
+      "affiliate_network": "Direct",
+      "affiliate_url": null
+    }
+  },
+  "name_to_slug": {
+    "BetterHelp": "betterhelp",
+    "Talkspace": "talkspace",
+    "Online-Therapy.com": "online-therapy-com",
+    "Calmerry": "calmerry",
+    "Brightside": "brightside",
+    "Grow Therapy": "grow-therapy",
+    "Headway": "headway",
+    "ADHD Online": "adhd-online",
+    "Amwell": "amwell",
+    "Bend Health": "bend-health",
+    "Brightline": "brightline",
+    "Cerebral": "cerebral",
+    "Circle Medical": "circle-medical",
+    "Doctor on Demand": "doctor-on-demand",
+    "Done": "done-adhd",
+    "Faithful Counseling": "faithful-counseling",
+    "Gay Therapy Center": "gay-therapy-center",
+    "Headspace": "headspace",
+    "Inclusive Therapists": "inclusive-therapists",
+    "Klarity": "klarity",
+    "Lunajoy": "lunajoy",
+    "Manatee": "manatee-health",
+    "Mindful Care": "mindful-care",
+    "NOCD": "nocd",
+    "Open Path Collective": "open-path",
+    "OurRelationship": "our-relationship",
+    "Our Ritual": "our-ritual",
+    "OurRitual": "our-ritual",
+    "Regain": "regain",
+    "ReGain": "regain",
+    "Pride Counseling": "pride-counseling",
+    "Psychology Today": "psychology-today",
+    "ReGain": "regain",
+    "SimplePractice": "simplepractice",
+    "Talkiatry": "talkiatry",
+    "Teen Counseling": "teen-counseling",
+    "TherapyDen": "therapyden"
+  }
+}
