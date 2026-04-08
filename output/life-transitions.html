@@ -211,6 +211,18 @@
 <!-- SECTION DIVIDER -->
 <svg aria-hidden="true" class="section-divider section-divider--flip" preserveaspectratio="none" viewbox="0 0 1440 48"><path d="M0 0h1440v24C1200 6 960 40 720 24S240 6 0 24V0z" fill="#F5F0E8"></path></svg>
 <!-- GENTLE FORKS -->
+<!-- VISUAL BREAK -->
+<div class="section-wrapper section-wrapper--visual-break">
+<div class="visual-break reveal">
+<img alt="Person looking out a window, contemplative" class="visual-break__image" src="../assets/hero-emotional.webp"/>
+<div class="visual-break__overlay">
+<div class="visual-break__text">
+<p class="visual-break__quote">&ldquo;Transitions feel disorienting because they are &mdash; you&rsquo;re not broken, you&rsquo;re between two versions of yourself. Therapy helps with the in-between.&rdquo;</p>
+<p class="visual-break__attribution">&mdash; Digital Therapy Solutions editorial team</p>
+</div>
+</div>
+</div>
+</div>
 <div class="section-wrapper section-wrapper--accent">
 <div class="content-container forks-section">
 <div class="forks-layout reveal">
@@ -300,6 +312,26 @@
         btt.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
-    </script>
+    
+// PS-DTS-ANIM-01: Visual break parallax
+(function() {
+  var vb = document.querySelectorAll('.visual-break__image');
+  if (!vb.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var ticking = false;
+  window.addEventListener('scroll', function() {
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        vb.forEach(function(img) {
+          var rect = img.closest('.visual-break').getBoundingClientRect();
+          var center = rect.top + rect.height / 2 - window.innerHeight / 2;
+          img.style.transform = 'translateY(' + (center * 0.18).toFixed(1) + 'px)';
+        });
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+})();
+</script>
 </body>
 </html>
