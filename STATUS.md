@@ -1,5 +1,5 @@
 ﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-03-20 (PS-AUDIT-01)
+Last Updated: 2026-04-07 (PS-IMAGE-01 sprint added)
 
 ## Sprints
 
@@ -18,6 +18,7 @@ Last Updated: 2026-03-20 (PS-AUDIT-01)
 | PS-PLATFORMS-01 | 31 review pages + affiliate toggle system | ✅ COMPLETE | 463301e |
 | PS-AUDIT-01 | Full multi-hat site audit — Designer/Engineer/Owner/Affiliate | ✅ COMPLETE | — |
 | PS-DESIGN-01 | MORPH-26 design intelligence pass | ⬜ QUEUED | — |
+| PS-IMAGE-01 | Unsplash image enhancement — hero differentiation + emotional rhythm injection | ⬜ QUEUED | — |
 
 
 ## PS-AUDIT-01 Notes
@@ -71,6 +72,43 @@ Last Updated: 2026-03-20 (PS-AUDIT-01)
 - P1: Reviewer bio "View full bio" links to href="#" on all 97 pages (PS-REVIEWER-BIO-01)
 - P1: 31 new review pages thin vs flagship — needs content enrichment (PS-CONTENT-ENRICH-01)
 - Next code sprint: PS-DESIGN-01 (MORPH-26) — hold until FIX NOW queue is resolved
+
+## PS-CSKY Session Improvements (2026-04-03) — Principles to apply
+The following design and UX improvements were established in the Clear Sky Travel Planning
+build and must be applied to DTS before launch. Each is a named principle with spec docs.
+
+- [ ] **PS-DTS-ICON-01** — Icon system audit: replace any emoji with inline SVG. Apply
+  two-color token system: `--color-icon` (lighter, brand mark) vs `--color-sky` (interactive).
+  All icon containers use `background: var(--color-icon-light)`. Spec: DESIGN_SYSTEM_SPEC.md
+
+- [ ] **PS-DTS-WCAG-01** — WCAG photo surface pass: any white text over images needs
+  text-shadow, strengthened gradient overlays (min 0.88 at bottom), and dark glass tags
+  (NOT white glass). Critical for healthcare site accessibility. Spec: DESIGN_SYSTEM_SPEC.md §5
+
+- [ ] **PS-DTS-RHYTHM-01** — Emotional rhythm image injection audit: DTS copy is deeply
+  emotional (people in distress seeking help). Every section that evokes relief, hope, or
+  trust needs visual follow-through within 2-3 scrolls. Run image rhythm audit per
+  IMAGE_INJECTION_STRATEGY.md emotional rhythm rule.
+
+- [ ] **PS-DTS-BUTTON-01** — Button shape consistency: all primary CTAs use pill shape
+  (border-radius: 100px). Secondary/functional buttons use soft corner (8px). No exceptions.
+
+- [ ] **PS-DTS-FONT-01** — Typography warmth: any data values shown to users (prices, session
+  counts, platform ratings) must use Inter/primary font, NOT monospace. Mono is tabular data
+  only. Spec: DESIGN_SYSTEM_SPEC.md §2.2
+
+- [ ] **PS-DTS-REINFORCE-01** — Decision reinforcement system: picking a therapy platform is
+  anxiety-inducing. Add specific, data-backed validation copy after each major decision point
+  (platform chosen, insurance verified, appointment booked). This is the highest-value UX
+  addition for a healthcare affiliate site. Spec: UX_PATTERNS.md §2
+
+- [ ] **PS-DTS-ANIM-01** — Smart animations: JS parallax on full-bleed image breaks, stat
+  value spring animation on scroll-in, staggered card reveals in grids, hero entrance stagger.
+  Spec pattern: PS-CSKY-12 implementation in Clear Sky japan.html.
+
+- [ ] **PS-DTS-EQUITABLE-01** — Equitable visuals audit: every component, widget, or data
+  point added going forward needs visual representation from day one. Image slots required
+  in all section templates. Spec: DESIGN_SYSTEM_SPEC.md §8
 
 ## Known Technical Patterns
 - Python inline commands via cmd fail at ~500+ chars — always write to file first
