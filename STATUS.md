@@ -63,16 +63,18 @@ Last Updated: 2026-04-08 (polish pass — FIX-1 through FIX-6 complete)
 - Quality gate: 0 failures
 
 ## Open Items
-- P0: nocd-review.html — blank pricing placeholders (see FIX-3 in PS-AUDIT-01-REPORT.md)
+- ✅ P0: ~~nocd-review.html — blank pricing placeholders~~ → DONE: $280/mo stat callout, $20-40 copay / $260-300/mo self-pay copy (2026-04-08)
 - ✅ P0: ~~51 condition/insurance pages — CTAs need pending pattern~~ → DONE: 93 direct CTAs live (PS-AFFILIATE-CTA-FIX-01)
 - P0: Affiliate applications — apply to all 32 programs with affiliate programs (assets/platform-registry.json); activate with: py assets/activate-affiliate.py --platform [slug] --url [url]
-- ✅ P0: ~~--clr-primary broken CSS variable~~ → DONE: fixed across all 97 pages
-- P1: ADHD Online wrong href in reviews.html (FIX-2)
-- P1: Footer Quick Links missing Conditions entry on non-hub pages (FIX-5)
-- P1: FTC inline disclosure missing near CTA buttons (FIX-6)
-- P1: Reviewer bio "View full bio" links to href="#" on all 97 pages (PS-REVIEWER-BIO-01)
+- ✅ P0: ~~--clr-primary broken CSS variable~~ → DONE: confirmed clean across all 97 pages
+- ✅ P1: ~~ADHD Online wrong href in reviews.html~~ → DONE: fixed to adhd-online-review.html (2026-04-08)
+- ✅ P1: ~~Footer Quick Links missing Conditions entry on non-hub pages~~ → DONE: added to 94 pages (2026-04-08)
+- ✅ P1: ~~FTC inline disclosure missing near CTA buttons~~ → DONE: 126 insertions across 65 pages (2026-04-08)
+- ✅ P1: ~~Reviewer bio "View full bio" links to href="#"~~ → DONE: all 34 review pages → editorial-policy.html#editorial-team (2026-04-08)
+- ✅ P2: ~~Fraunces dead font load~~ → DONE: removed from all 97 pages (2026-04-08)
+- ✅ P2: ~~Duplicate favicon tags on condition/insurance pages~~ → DONE: 52 tags removed from 26 pages (2026-04-08)
 - P1: 31 new review pages thin vs flagship — needs content enrichment (PS-CONTENT-ENRICH-01)
-- Next code sprint: PS-DESIGN-01 (MORPH-26) — hold until FIX NOW queue is resolved
+- Next code sprint: PS-CONTENT-ENRICH-01 (10 priority review pages) → then PS-DESIGN-01 (MORPH-26)
 
 ## PS-CSKY Session Improvements (2026-04-03) — Principles to apply
 The following design and UX improvements were established in the Clear Sky Travel Planning
