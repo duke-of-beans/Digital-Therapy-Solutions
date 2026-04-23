@@ -1,86 +1,80 @@
 # DTS — MORNING BRIEFING
-Date: 2026-04-08
+Date: 2026-04-23
+Sprint: DTS-POLISH-REAPPLY-01 — COMPLETE
 Project: Digital Therapy Solutions (Proper Sluice Property #1)
 Repo: duke-of-beans/Digital-Therapy-Solutions
 Live: https://digitaltherapysolutions.com
-Last commit: 889ab00 (FlexOffers verification)
 
 ---
 
-## Session Summary
+## What shipped tonight
 
-Long affiliate sprint. Site went from broken/unready to genuinely application-ready.
+**Indexing:**
+- Fixed the Vercel apex/www redirect error blocking 5 pages from Google indexing (depression, anxiety, betterhelp-review, nocd-review, reviews). Apex is now Production; www redirects to apex. All 5 pages resubmitted to GSC priority crawl queue.
+- Bing Webmaster Tools: site added, verified (msvalidate meta tag on index.html), sitemap submitted 2026-04-23.
 
-### What shipped today (4 commits)
+**Polish fixes (3 pages):**
+- affordable.html: 3 dead `btn btn-primary` CTAs replaced with proper `cta-button--pending` pattern (FTC compliant)
+- eating-disorders.html: crisis resource block inserted before reviewer bio (Alliance 1-866-662-1235, Crisis Text Line, 988)
+- index.html: Bing WMT msvalidate meta tag added
 
-| Commit | What |
-|--------|------|
-| 64d1b3c | PS-AFFILIATE-CTA-FIX-01 — 93 dead CTAs replaced with direct links across 31 condition/insurance pages. activate-affiliate.py rebuilt site-wide. platform-registry.json created (32 programs). --clr-primary CSS bug fixed all 97 pages. |
-| 69308aa | Hero images fixed — 7 images missing from output/assets/ (hero-home, hero-emotional, hero-couples, hero-focus, hero-practical, hero-review, forks-reading). All heroes now load. |
-| 51de217 | False credential scrub — Dr. prefix, LCSW, Licensed Clinical Social Worker removed from 5 pages (adhd, cigna, couples, depression, do-i-need-therapy). SC initials → DTS on 2 pages. |
-| d88234e | Impact Radius site verification meta tag added to index.html head. |
-| 889ab00 | FlexOffers verification — fo-verify.html added to output root + meta tag in index.html. |
+**Docs created:**
+- _audit-notes/polish-audit-2026-04-23.md — full three-hat audit (Engineer/Designer/Customer)
+- _audit-notes/affiliate-applications-2026-04-23.md — research log for 16 affiliate programs with pitch text
+- AFFILIATE_STATUS.md — network/program tracking doc with revenue forecast
 
----
-
-## Affiliate Application Status
-
-**Networks verified:**
-- Impact Radius ✅ (meta tag live)
-- FlexOffers — pending (meta tag + HTML file submitted, awaiting confirmation)
-- Commission Junction — not started
-
-**Programs:** 32 total eligible
-- Priority 1 (direct, no traffic minimum): 18 programs
-- Priority 2 (network, may require traffic): 14 programs
-
-**Application answers (use for every program):**
-1. Site: https://www.digitaltherapysolutions.com — 97-page independent editorial review site covering platforms, conditions, insurance
-2. Traffic: Early organic indexing, projecting 500–2,000/mo within 90 days as pages index. Content-first model.
-3. Purpose: Independent editorial resource. "We don't generate curiosity clicks, we generate decided buyers."
-
-**W-9 ready:**
-- BLG EIN active
-- Box 3: LLC → D (disregarded entity)
-- E-sign acceptable
-
-**To activate an approved affiliate:**
-```
-py assets\activate-affiliate.py --platform [slug] --url [your-affiliate-url]
-py assets\activate-affiliate.py --status   # see live vs direct counts
-py assets\activate-affiliate.py --list     # see all 32 programs
-```
+**Portfolio updated:** STATUS.md, BACKLOG.md, PRODUCT_GRAPH.yaml, REVENUE_TRACKER.md
 
 ---
 
-## Open Items
+## What needs David's hands today (20 min total)
 
-**P0 — do next:**
-- [ ] Continue affiliate applications across 32 programs (tracker in assets/platform-registry.json)
-- [ ] Confirm FlexOffers verification passed
-- [ ] Start Commission Junction registration
-- [ ] nocd-review.html — blank pricing placeholders still unfilled
+### [A] FlexOffers reapplication — 10 min
+URL: https://publisherprobeta.flexoffers.com/login
+90-day cooldown from Jan decline is CLEARED. Reapply + apply for:
+  - Talkspace ($170/sale)
+  - Brightside (~$50/sale)
+Pitch text ready: _audit-notes/affiliate-applications-2026-04-23.md §FLEXOFFERS
 
-**P1 — before meaningful traffic:**
-- [ ] PS-CONTENT-ENRICH-01 — 10 thin review pages need flagship depth
-- [ ] PS-DTS-* improvements from Clear Sky session (WCAG, icons, rhythm, buttons, fonts, animations)
-- [ ] ADHD Online wrong href in reviews.html (links to betterhelp-review)
-- [ ] Footer Quick Links missing Conditions on non-hub pages
-- [ ] FTC inline disclosure missing adjacent to CTA buttons
-- [ ] Reviewer bio "View full bio" links to href=# on all 97 pages
+### [A] Impact Radius — 5 min
+URL: https://app.impact.com
+Check BetterHelp / ReGain / Teen Counseling / Pride Counseling / Faithful Counseling status (applied ~Jan 2026).
+If still pending: escalation note ready in affiliate log.
+If approved: run `py assets/activate-affiliate.py --platform [slug] --url [url]` for each.
 
-**Future:**
-- [ ] PS-DESIGN-01 (MORPH-26 design intelligence pass) — queued
-- [ ] GSC setup for traffic visibility once indexing begins
-- [ ] datePublished JSON-LD bulk update (all pages hardcoded 2026-01-01)
+### [B] Online-Therapy.com affiliate — 3 min
+URL: https://www.online-therapy.com/affiliate.php
+$150/conversion, self-serve, instant approval. Create account.
+
+### [B] Calmerry affiliate — 3 min
+URL: https://calmerry.com/affiliate/
+$150/signup, 45-day cookie, self-serve. Click "Affiliate sign up".
 
 ---
 
-## Key Files
-- Registry: D:\Work\Digital-Therapy-Solutions\assets\platform-registry.json
-- Activate script: D:\Work\Digital-Therapy-Solutions\assets\activate-affiliate.py
-- Patch script: D:\Work\Digital-Therapy-Solutions\assets\patch-cta-direct.py
-- Verification section: output/index.html <head> — labeled block for future network tags
-- Vercel project: davids-projects-b0509900 (Hobby, deploy via git push only)
-- CSS canonical: output/templates/styles.css ONLY (root templates/styles.css is stale)
-- New images must go to output/assets/ NOT root assets/
+## What's next after approvals
+
+1. Run activate-affiliate.py for each approved platform → CTAs go live site-wide
+2. Resubmit sitemap (GSC) after CTA text changes
+3. DTS-CONDITION-DEEPEN-01 — deepen the 28 condition pages (currently comparison-only)
+4. DTS-MOBILE-01 — comparison table overflow on mobile
+5. Commission Junction account — Headspace, Amwell, Doctor on Demand
+
+---
+
+## Revenue outlook
+Conservative (500 visitors/mo): ~$585/mo once approvals land
+Gate: affiliate approvals + Google indexing recovery
+Indexing timeline: Google typically re-crawls priority queue within 1-7 days
+
+---
+
+## Audit findings backlogged (not blocking)
+- 28 condition pages comparison-only — no first-person symptom descriptions (DTS-CONDITION-DEEPEN-01)
+- Reviewer persona still generic placeholder — needs David decision (name/credentials or editorial policy link only)
+- Mobile comparison table overflow still present (DTS-MOBILE-01)
+
+---
+
+## Commit: 8201e1a (2026-04-23)
+Files: affordable.html, eating-disorders.html, index.html, _audit-notes/polish-audit-2026-04-23.md

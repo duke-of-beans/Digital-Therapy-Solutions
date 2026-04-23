@@ -1,5 +1,5 @@
 ﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-04-08 (session close — PS-DESIGN-01 complete, GSC submitted, hero images replaced)
+Last Updated: 2026-04-23 (DTS-POLISH-REAPPLY-01 — polish audit + indexing fixes + affiliate research)
 
 ## Sprints
 
@@ -22,6 +22,7 @@ Last Updated: 2026-04-08 (session close — PS-DESIGN-01 complete, GSC submitted
 | PS-CONTENT-ENRICH-01 | 10 priority review pages enriched to flagship depth | ✅ COMPLETE | 1584ae5 |
 | PS-IMAGE-01 | Hero image replacement + 6-image variation system | ✅ COMPLETE | faafe00 |
 | PS-SEO-GSC-01 | Sitemap updated (96 URLs, 2026-04-08) + submitted to GSC | ✅ COMPLETE | 8609018 |
+| DTS-POLISH-REAPPLY-01 | Three-hat polish audit + indexing fixes + affiliate reapplication research | ✅ COMPLETE | 8201e1a |
 
 
 ## PS-AUDIT-01 Notes
@@ -65,14 +66,18 @@ Last Updated: 2026-04-08 (session close — PS-DESIGN-01 complete, GSC submitted
 - Quality gate: 0 failures
 
 ## Open Items
-- P0: Affiliate applications — direct programs first (no traffic minimum): Online-Therapy.com, Calmerry, NOCD, Grow Therapy, Headway, Brightside, Talkiatry, Klarity, Open Path, Inclusive Therapists, ADHD Online, Circle Medical, Done, Lunajoy, Our Ritual, OurRelationship, TherapyDen, Gay Therapy Center
-- P0: Impact Radius — awaiting approval (BetterHelp, ReGain, Teen Counseling, Pride Counseling, Faithful Counseling)
-- P1: FlexOffers — declined (new domain, no traffic yet). Reapply in 90 days with GSC data.
-- P1: Commission Junction — not yet started (Talkspace, Amwell, Doctor on Demand, Headspace)
-- P1: Bing Webmaster Tools — submit sitemap at bing.com/webmasters (feeds DuckDuckGo + Yahoo)
-- P1: GSC manual indexing — request indexing on top 10-15 priority pages via URL Inspection tool
+- P0: FlexOffers reapply — David must login to publisherprobeta.flexoffers.com and reapply. 90-day cooldown CLEARED. Apply for Talkspace + Brightside programs while there. Pitch text ready in _audit-notes/affiliate-applications-2026-04-23.md
+- P0: Impact Radius — David must login to app.impact.com to check BetterHelp cluster status (applied ~2026-01). Escalation note ready in affiliate applications log.
+- P0: Online-Therapy.com affiliate signup — Direct, $150/conv, 5 min: online-therapy.com/affiliate.php
+- P0: Calmerry affiliate signup — Direct, $150/signup, 45-day cookie: calmerry.com/affiliate/
+- P1: Commission Junction — not yet started (Headspace, Amwell, Doctor on Demand): cj.com
 - P2: PS-MOBILE-01 — comparison table overflow on mobile (queued)
 - P2: PS-DTS-EQUITABLE-01 — image slots in all section templates (deferred)
+- ✅ CLOSED: Bing Webmaster Tools — verified + sitemap submitted 2026-04-23
+- ✅ CLOSED: GSC redirect error — Vercel apex/www fixed 2026-04-23, 5 pages resubmitted
+- ✅ CLOSED: Backlog reviewer bio link — fixed in DTS-POLISH-REAPPLY-01
+- ✅ CLOSED: eating-disorders.html missing crisis hotline — fixed in DTS-POLISH-REAPPLY-01
+- ✅ CLOSED: affordable.html dead CTAs — converted to pending pattern in DTS-POLISH-REAPPLY-01
 
 ## PS-CSKY Session Improvements (2026-04-03) — Principles applied in PS-DESIGN-01
 

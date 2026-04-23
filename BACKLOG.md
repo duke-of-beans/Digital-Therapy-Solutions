@@ -1,13 +1,42 @@
 # Digital Therapy Solutions — BACKLOG.md
-Last Updated: 2026-03-19
+Last Updated: 2026-04-23
 
 ## Completed Sprints
 - PS-PROP-01 ✅ | PS-PROP-01-FIX ✅ | PS-HUB-01 ✅ | PS-CONDITIONS-01 ✅
 - PS-INSURANCE-01 ✅ | PS-DESIGN-QA-01 ✅ | PS-CONDITIONS-02 ✅ | PS-SEO-01 ✅
+- PS-DESIGN-QA-02 ✅ | PS-ROUTING-FIX ✅ | PS-PLATFORMS-01 ✅ | PS-AUDIT-01 ✅
+- PS-DESIGN-01 ✅ | PS-AFFILIATE-CTA-FIX-01 ✅ | PS-CONTENT-ENRICH-01 ✅ | PS-IMAGE-01 ✅
+- PS-SEO-GSC-01 ✅ | DTS-POLISH-REAPPLY-01 ✅
 
 ---
 
 ## Queued Sprints
+
+### DTS-AFFILIATE-ACTIVATE-01 — Activate Approved Partners + First Revenue
+**Status:** BLOCKED on approvals
+**Trigger:** When BetterHelp (Impact) or any direct program approves
+**Actions:**
+- Run activate-affiliate.py for each approved platform
+- Verify CTA links live on review + condition pages
+- Resubmit sitemap to GSC after activation (canonicals unchanged, just CTA text)
+**P0 platforms in queue:** BetterHelp, Online-Therapy.com, Calmerry, Talkspace, Brightside
+**Commission log:** See AFFILIATE_STATUS.md
+
+### DTS-CONDITION-DEEPEN-01 — Condition Page Depth Pass
+**Status:** READY
+**Backlog from polish audit:**
+- 28 condition pages currently comparison-only (no first-person "what it feels like", no treatment sections)
+- Priority: depression.html, anxiety.html, ptsd.html, adhd.html (highest search volume)
+- Add: symptom list, treatment options section, "when to seek help" CTA, 988/Crisis Text Line visible
+- Pattern: editorial-quality prose per MORPH-26 empathetic_authority archetype
+
+### DTS-REVIEWER-BIO-01 — Reviewer Persona Decision
+**Status:** WAITING on David decision
+**Issue:** All 34 review pages show a reviewer bio section with placeholder name/credentials
+**Options:** (A) Create real editorial persona with photo + credentials; (B) Replace with editorial policy link only; (C) Add multiple reviewer names from the actual content process
+**Backlog from polish audit:** Reviewer bio href fixed to editorial-policy.html#editorial-team in DTS-POLISH-REAPPLY-01 but persona is still generic placeholder
+
+---
 
 ### PS-MOBILE-01 — Mobile Responsiveness Audit + Comparison Table Fix
 **Status:** READY

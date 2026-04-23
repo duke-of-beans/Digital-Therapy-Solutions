@@ -1,0 +1,7 @@
+DTS-POLISH-REAPPLY-01: session close — docs + affiliate research + portfolio compliance
+
+- STATUS.md: sprint log row + open items updated (5 items closed, 4 new P0/P1)
+- BACKLOG.md: completed sprints list + 3 new queued items (ACTIVATE-01, CONDITION-DEEPEN-01, REVIEWER-BIO-01)
+- AFFILIATE_STATUS.md: network/program tracking doc (created)
+- _audit-notes/affiliate-applications-2026-04-23.md: research log for 16 programs with pitch text + revenue forecast
+- MORNING_BRIEFING.md: session close briefing with David's action items

@@ -1,0 +1,6 @@
+DTS-POLISH-REAPPLY-01: polish fixes + Bing WMT verification tag
+
+- affordable.html: 3 dead CTAs converted to cta-button--pending pattern
+- eating-disorders.html: crisis resource block added before reviewer bio
+- index.html: msvalidate.01 meta tag for Bing WMT verification
+- _audit-notes/polish-audit-2026-04-23.md: three-hat audit report
