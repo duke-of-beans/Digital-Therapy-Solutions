@@ -2,3 +2,15 @@ commit-msg.txt
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# Throwaway audit/debug scripts (DTS-CLEANUP-01)
+assets/audit2.py
+assets/audit3.py
+assets/audit4.py
+assets/audit5.py
+assets/customer_audit.py
+assets/designer_audit.py
+assets/fix_affordable_ct*.py
+assets/fix_ed_hotline.py
+assets/polish_audit.py
+assets/polish_audit_results.json

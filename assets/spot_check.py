@@ -1,30 +1,30 @@
-﻿import sys
-from pathlib import Path
+import sys, re
 sys.stdout.reconfigure(encoding='utf-8')
+from pathlib import Path
 
-output_dir = Path(r'D:\Work\Digital-Therapy-Solutions\output')
-checks = [
-    ('nocd-review.html', ['nocd', 'data-platform="nocd"', 'cta-button--pending', 'BreadcrumbList', 'Review']),
-    ('grow-therapy-review.html', ['grow-therapy', 'data-platform="grow-therapy"', 'cta-button--pending', 'BreadcrumbList', 'Review']),
-    ('reviews.html', ['betterhelp-review.html', 'talkspace-review.html', 'nocd-review.html', 'grow-therapy-review.html', 'therapyden-review.html', 'Read Review']),
-]
+html = Path(r'D:\Work\Digital-Therapy-Solutions\output\anxiety.html').read_text(encoding='utf-8', errors='replace')
 
-all_pass = True
-for filename, required in checks:
-    html = (output_dir / filename).read_text(encoding='utf-8')
-    for term in required:
-        if term not in html:
-            print(f'FAIL [{filename}] missing: {term}')
-            all_pass = False
-        else:
-            print(f'  OK [{filename}] {term}')
+# Find canonical
+canonical = re.findall(r'<link[^>]+canonical[^>]+>', html, re.IGNORECASE)
+print('CANONICAL:', canonical[:2])
 
-reviews = (output_dir / 'reviews.html').read_text(encoding='utf-8')
-stubs = reviews.count('hub-card--stub')
-live_ctas = reviews.count('hub-card__cta" href=')
-print(f'\nreviews.html: {live_ctas} live CTAs, {stubs} stubs remaining')
+# Find meta description
+meta_desc = re.findall(r'<meta[^>]+description[^>]+>', html, re.IGNORECASE)
+print('META DESC:', meta_desc[:2])
 
-pages = list(output_dir.glob('*-review.html'))
-pending_count = sum(p.read_text(encoding='utf-8').count('cta-button--pending') for p in pages)
-print(f'Total pending CTAs across {len(pages)} review pages: {pending_count}')
-print(f'\nSpot-check: {"ALL PASS" if all_pass else "FAILURES FOUND"}')
+# Find schema
+schema = re.findall(r'"@type"\s*:\s*"([^"]+)"', html)
+print('SCHEMA TYPES:', schema[:5])
+
+# Instrument Serif
+serif_refs = re.findall(r'[Ii]nstrument.{0,5}[Ss]erif', html)
+print('INSTRUMENT SERIF REFS:', serif_refs[:5])
+
+# Check CSS for font-family on stat elements
+css_stat = re.findall(r'\.score-number[^{]*\{[^}]+\}', html)
+print('SCORE CSS:', css_stat[:2])
+
+# Show sitemap excerpt
+sm = Path(r'D:\Work\Digital-Therapy-Solutions\output\sitemap.xml').read_text(encoding='utf-8', errors='replace')
+print('\nSITEMAP (first 800 chars):')
+print(sm[:800])
