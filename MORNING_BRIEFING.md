@@ -65,4 +65,4 @@ Gate: affiliate approvals (site is technically ready end-to-end)
 
 ---
 
-## Commit: pending
+## Commit: bdce63e (2026-04-24)

@@ -23,7 +23,7 @@ Last Updated: 2026-04-24 (DTS-BUG-01 — CSS alias + affiliate activation robust
 | PS-IMAGE-01 | Hero image replacement + 6-image variation system | ✅ COMPLETE | faafe00 |
 | PS-SEO-GSC-01 | Sitemap updated (96 URLs, 2026-04-08) + submitted to GSC | ✅ COMPLETE | 8609018 |
 | DTS-POLISH-REAPPLY-01 | Three-hat polish audit + indexing fixes + affiliate reapplication research | ✅ COMPLETE | 8201e1a |
-| DTS-BUG-01 | CSS --clr-primary alias + activate-affiliate.py Pattern 3 robustness | ✅ COMPLETE | pending |
+| DTS-BUG-01 | CSS --clr-primary alias + activate-affiliate.py Pattern 3 robustness | ✅ COMPLETE | bdce63e |
 
 
 ## PS-AUDIT-01 Notes
