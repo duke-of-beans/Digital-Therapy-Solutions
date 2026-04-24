@@ -22,6 +22,7 @@
   --accent-primary: #2D7A6F;
   --accent-primary-hover: #245F57;
   --accent-primary-light: #E8F2F0;
+  --clr-primary: var(--accent-primary); /* alias — resolves inline-style references */
   --accent-warm: #C4956A;
   --accent-warm-light: #F5EDE4;
 

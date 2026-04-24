@@ -57,11 +57,11 @@ def activate(platform, url, dry_run=False):
             r'<a([^>]*)data-affiliate-status="direct"([^>]*)data-platform="' + re.escape(platform) + r'"([^>]*)>(.*?)</a>',
             re.IGNORECASE | re.DOTALL
         ),
-        # Legacy pending pattern (review pages)
+        # Legacy pending pattern — order-independent attribute matching
         re.compile(
-            r'<a\s+href="#"\s+class="cta-button cta-button--pending"\s+data-affiliate-status="pending"\s+data-platform="'
+            r'<a\b(?=[^>]*href="#")(?=[^>]*class="cta-button cta-button--pending")(?=[^>]*data-affiliate-status="pending")(?=[^>]*data-platform="'
             + re.escape(platform) +
-            r'">[^<]*</a>',
+            r'")[^>]*>[^<]*</a>',
             re.IGNORECASE | re.DOTALL
         ),
     ]

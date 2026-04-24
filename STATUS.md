@@ -1,5 +1,5 @@
 ﻿# Digital Therapy Solutions — STATUS.md
-Last Updated: 2026-04-23 (DTS-POLISH-REAPPLY-01 — polish audit + indexing fixes + affiliate research)
+Last Updated: 2026-04-24 (DTS-BUG-01 — CSS alias + affiliate activation robustness)
 
 ## Sprints
 
@@ -23,6 +23,7 @@ Last Updated: 2026-04-23 (DTS-POLISH-REAPPLY-01 — polish audit + indexing fixe
 | PS-IMAGE-01 | Hero image replacement + 6-image variation system | ✅ COMPLETE | faafe00 |
 | PS-SEO-GSC-01 | Sitemap updated (96 URLs, 2026-04-08) + submitted to GSC | ✅ COMPLETE | 8609018 |
 | DTS-POLISH-REAPPLY-01 | Three-hat polish audit + indexing fixes + affiliate reapplication research | ✅ COMPLETE | 8201e1a |
+| DTS-BUG-01 | CSS --clr-primary alias + activate-affiliate.py Pattern 3 robustness | ✅ COMPLETE | pending |
 
 
 ## PS-AUDIT-01 Notes
@@ -98,8 +99,8 @@ Last Updated: 2026-04-23 (DTS-POLISH-REAPPLY-01 — polish audit + indexing fixe
 - Clearbit logo.clearbit.com blocked by DNS on host — use browser save or alternative source
 - CSS CRITICAL: templates/styles.css and output/templates/styles.css are DIVERGED. Always edit output/templates/styles.css directly. Never copy from templates/styles.css — it will overwrite with stale rules. Use Desktop Commander:edit_block on output/templates/styles.css only.
 - CSS CRITICAL: Multiple duplicate CSS rules in output/templates/styles.css from sprint history — run assets/find_dupes.py before adding new rules to check for conflicts.
-- CSS BUG: `--clr-primary` is used in inline styles across multiple HTML files but NOT defined in :root. Correct variable is `--accent-primary`. Affects link colors on review and condition pages (renders as browser default blue). Fix via bulk replace before launch.
-- AFFILIATE BUG: activate-affiliate.py only targets data-affiliate-status="pending" on review pages. Condition/insurance pages use bare href="#" CTAs — they will NOT activate when affiliate contracts are signed. Fix: add pending pattern to 51 pages + update script.
+- ✅ RESOLVED (DTS-BUG-01): `--clr-primary` alias added to :root in output/templates/styles.css → `--clr-primary: var(--accent-primary)`. Variable was not present in any current HTML (already clean), alias added as defensive CSS.
+- ✅ RESOLVED (DTS-BUG-01): activate-affiliate.py Pattern 3 (legacy pending) updated to use order-independent attribute matching via lookaheads. Condition/insurance pages already converted to data-affiliate-status="direct" by PS-AFFILIATE-CTA-FIX-01 (handled by Patterns 1+2). affordable.html's 3 pending CTAs now matched by fixed Pattern 3. assets/prepare-condition-ctas.py added for ongoing audit.
 
 ## Page Inventory
 
